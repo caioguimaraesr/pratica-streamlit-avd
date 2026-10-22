@@ -1,0 +1,1729 @@
+buying,maint,doors,persons,lug_boot,safety,avaliacao_4,avaliacao,buying_cod,maint_cod,doors_cod,persons_cod,lug_boot_cod,safety_cod,buying_grupo
+vhigh,vhigh,2,2,small,low,unacc,Não Aceitável,3,3,0,0,0,0,high/vhigh
+vhigh,vhigh,2,2,small,med,unacc,Não Aceitável,3,3,0,0,0,1,high/vhigh
+vhigh,vhigh,2,2,small,high,unacc,Não Aceitável,3,3,0,0,0,2,high/vhigh
+vhigh,vhigh,2,2,med,low,unacc,Não Aceitável,3,3,0,0,1,0,high/vhigh
+vhigh,vhigh,2,2,med,med,unacc,Não Aceitável,3,3,0,0,1,1,high/vhigh
+vhigh,vhigh,2,2,med,high,unacc,Não Aceitável,3,3,0,0,1,2,high/vhigh
+vhigh,vhigh,2,2,big,low,unacc,Não Aceitável,3,3,0,0,2,0,high/vhigh
+vhigh,vhigh,2,2,big,med,unacc,Não Aceitável,3,3,0,0,2,1,high/vhigh
+vhigh,vhigh,2,2,big,high,unacc,Não Aceitável,3,3,0,0,2,2,high/vhigh
+vhigh,vhigh,2,4,small,low,unacc,Não Aceitável,3,3,0,1,0,0,high/vhigh
+vhigh,vhigh,2,4,small,med,unacc,Não Aceitável,3,3,0,1,0,1,high/vhigh
+vhigh,vhigh,2,4,small,high,unacc,Não Aceitável,3,3,0,1,0,2,high/vhigh
+vhigh,vhigh,2,4,med,low,unacc,Não Aceitável,3,3,0,1,1,0,high/vhigh
+vhigh,vhigh,2,4,med,med,unacc,Não Aceitável,3,3,0,1,1,1,high/vhigh
+vhigh,vhigh,2,4,med,high,unacc,Não Aceitável,3,3,0,1,1,2,high/vhigh
+vhigh,vhigh,2,4,big,low,unacc,Não Aceitável,3,3,0,1,2,0,high/vhigh
+vhigh,vhigh,2,4,big,med,unacc,Não Aceitável,3,3,0,1,2,1,high/vhigh
+vhigh,vhigh,2,4,big,high,unacc,Não Aceitável,3,3,0,1,2,2,high/vhigh
+vhigh,vhigh,2,more,small,low,unacc,Não Aceitável,3,3,0,2,0,0,high/vhigh
+vhigh,vhigh,2,more,small,med,unacc,Não Aceitável,3,3,0,2,0,1,high/vhigh
+vhigh,vhigh,2,more,small,high,unacc,Não Aceitável,3,3,0,2,0,2,high/vhigh
+vhigh,vhigh,2,more,med,low,unacc,Não Aceitável,3,3,0,2,1,0,high/vhigh
+vhigh,vhigh,2,more,med,med,unacc,Não Aceitável,3,3,0,2,1,1,high/vhigh
+vhigh,vhigh,2,more,med,high,unacc,Não Aceitável,3,3,0,2,1,2,high/vhigh
+vhigh,vhigh,2,more,big,low,unacc,Não Aceitável,3,3,0,2,2,0,high/vhigh
+vhigh,vhigh,2,more,big,med,unacc,Não Aceitável,3,3,0,2,2,1,high/vhigh
+vhigh,vhigh,2,more,big,high,unacc,Não Aceitável,3,3,0,2,2,2,high/vhigh
+vhigh,vhigh,3,2,small,low,unacc,Não Aceitável,3,3,1,0,0,0,high/vhigh
+vhigh,vhigh,3,2,small,med,unacc,Não Aceitável,3,3,1,0,0,1,high/vhigh
+vhigh,vhigh,3,2,small,high,unacc,Não Aceitável,3,3,1,0,0,2,high/vhigh
+vhigh,vhigh,3,2,med,low,unacc,Não Aceitável,3,3,1,0,1,0,high/vhigh
+vhigh,vhigh,3,2,med,med,unacc,Não Aceitável,3,3,1,0,1,1,high/vhigh
+vhigh,vhigh,3,2,med,high,unacc,Não Aceitável,3,3,1,0,1,2,high/vhigh
+vhigh,vhigh,3,2,big,low,unacc,Não Aceitável,3,3,1,0,2,0,high/vhigh
+vhigh,vhigh,3,2,big,med,unacc,Não Aceitável,3,3,1,0,2,1,high/vhigh
+vhigh,vhigh,3,2,big,high,unacc,Não Aceitável,3,3,1,0,2,2,high/vhigh
+vhigh,vhigh,3,4,small,low,unacc,Não Aceitável,3,3,1,1,0,0,high/vhigh
+vhigh,vhigh,3,4,small,med,unacc,Não Aceitável,3,3,1,1,0,1,high/vhigh
+vhigh,vhigh,3,4,small,high,unacc,Não Aceitável,3,3,1,1,0,2,high/vhigh
+vhigh,vhigh,3,4,med,low,unacc,Não Aceitável,3,3,1,1,1,0,high/vhigh
+vhigh,vhigh,3,4,med,med,unacc,Não Aceitável,3,3,1,1,1,1,high/vhigh
+vhigh,vhigh,3,4,med,high,unacc,Não Aceitável,3,3,1,1,1,2,high/vhigh
+vhigh,vhigh,3,4,big,low,unacc,Não Aceitável,3,3,1,1,2,0,high/vhigh
+vhigh,vhigh,3,4,big,med,unacc,Não Aceitável,3,3,1,1,2,1,high/vhigh
+vhigh,vhigh,3,4,big,high,unacc,Não Aceitável,3,3,1,1,2,2,high/vhigh
+vhigh,vhigh,3,more,small,low,unacc,Não Aceitável,3,3,1,2,0,0,high/vhigh
+vhigh,vhigh,3,more,small,med,unacc,Não Aceitável,3,3,1,2,0,1,high/vhigh
+vhigh,vhigh,3,more,small,high,unacc,Não Aceitável,3,3,1,2,0,2,high/vhigh
+vhigh,vhigh,3,more,med,low,unacc,Não Aceitável,3,3,1,2,1,0,high/vhigh
+vhigh,vhigh,3,more,med,med,unacc,Não Aceitável,3,3,1,2,1,1,high/vhigh
+vhigh,vhigh,3,more,med,high,unacc,Não Aceitável,3,3,1,2,1,2,high/vhigh
+vhigh,vhigh,3,more,big,low,unacc,Não Aceitável,3,3,1,2,2,0,high/vhigh
+vhigh,vhigh,3,more,big,med,unacc,Não Aceitável,3,3,1,2,2,1,high/vhigh
+vhigh,vhigh,3,more,big,high,unacc,Não Aceitável,3,3,1,2,2,2,high/vhigh
+vhigh,vhigh,4,2,small,low,unacc,Não Aceitável,3,3,2,0,0,0,high/vhigh
+vhigh,vhigh,4,2,small,med,unacc,Não Aceitável,3,3,2,0,0,1,high/vhigh
+vhigh,vhigh,4,2,small,high,unacc,Não Aceitável,3,3,2,0,0,2,high/vhigh
+vhigh,vhigh,4,2,med,low,unacc,Não Aceitável,3,3,2,0,1,0,high/vhigh
+vhigh,vhigh,4,2,med,med,unacc,Não Aceitável,3,3,2,0,1,1,high/vhigh
+vhigh,vhigh,4,2,med,high,unacc,Não Aceitável,3,3,2,0,1,2,high/vhigh
+vhigh,vhigh,4,2,big,low,unacc,Não Aceitável,3,3,2,0,2,0,high/vhigh
+vhigh,vhigh,4,2,big,med,unacc,Não Aceitável,3,3,2,0,2,1,high/vhigh
+vhigh,vhigh,4,2,big,high,unacc,Não Aceitável,3,3,2,0,2,2,high/vhigh
+vhigh,vhigh,4,4,small,low,unacc,Não Aceitável,3,3,2,1,0,0,high/vhigh
+vhigh,vhigh,4,4,small,med,unacc,Não Aceitável,3,3,2,1,0,1,high/vhigh
+vhigh,vhigh,4,4,small,high,unacc,Não Aceitável,3,3,2,1,0,2,high/vhigh
+vhigh,vhigh,4,4,med,low,unacc,Não Aceitável,3,3,2,1,1,0,high/vhigh
+vhigh,vhigh,4,4,med,med,unacc,Não Aceitável,3,3,2,1,1,1,high/vhigh
+vhigh,vhigh,4,4,med,high,unacc,Não Aceitável,3,3,2,1,1,2,high/vhigh
+vhigh,vhigh,4,4,big,low,unacc,Não Aceitável,3,3,2,1,2,0,high/vhigh
+vhigh,vhigh,4,4,big,med,unacc,Não Aceitável,3,3,2,1,2,1,high/vhigh
+vhigh,vhigh,4,4,big,high,unacc,Não Aceitável,3,3,2,1,2,2,high/vhigh
+vhigh,vhigh,4,more,small,low,unacc,Não Aceitável,3,3,2,2,0,0,high/vhigh
+vhigh,vhigh,4,more,small,med,unacc,Não Aceitável,3,3,2,2,0,1,high/vhigh
+vhigh,vhigh,4,more,small,high,unacc,Não Aceitável,3,3,2,2,0,2,high/vhigh
+vhigh,vhigh,4,more,med,low,unacc,Não Aceitável,3,3,2,2,1,0,high/vhigh
+vhigh,vhigh,4,more,med,med,unacc,Não Aceitável,3,3,2,2,1,1,high/vhigh
+vhigh,vhigh,4,more,med,high,unacc,Não Aceitável,3,3,2,2,1,2,high/vhigh
+vhigh,vhigh,4,more,big,low,unacc,Não Aceitável,3,3,2,2,2,0,high/vhigh
+vhigh,vhigh,4,more,big,med,unacc,Não Aceitável,3,3,2,2,2,1,high/vhigh
+vhigh,vhigh,4,more,big,high,unacc,Não Aceitável,3,3,2,2,2,2,high/vhigh
+vhigh,vhigh,5more,2,small,low,unacc,Não Aceitável,3,3,3,0,0,0,high/vhigh
+vhigh,vhigh,5more,2,small,med,unacc,Não Aceitável,3,3,3,0,0,1,high/vhigh
+vhigh,vhigh,5more,2,small,high,unacc,Não Aceitável,3,3,3,0,0,2,high/vhigh
+vhigh,vhigh,5more,2,med,low,unacc,Não Aceitável,3,3,3,0,1,0,high/vhigh
+vhigh,vhigh,5more,2,med,med,unacc,Não Aceitável,3,3,3,0,1,1,high/vhigh
+vhigh,vhigh,5more,2,med,high,unacc,Não Aceitável,3,3,3,0,1,2,high/vhigh
+vhigh,vhigh,5more,2,big,low,unacc,Não Aceitável,3,3,3,0,2,0,high/vhigh
+vhigh,vhigh,5more,2,big,med,unacc,Não Aceitável,3,3,3,0,2,1,high/vhigh
+vhigh,vhigh,5more,2,big,high,unacc,Não Aceitável,3,3,3,0,2,2,high/vhigh
+vhigh,vhigh,5more,4,small,low,unacc,Não Aceitável,3,3,3,1,0,0,high/vhigh
+vhigh,vhigh,5more,4,small,med,unacc,Não Aceitável,3,3,3,1,0,1,high/vhigh
+vhigh,vhigh,5more,4,small,high,unacc,Não Aceitável,3,3,3,1,0,2,high/vhigh
+vhigh,vhigh,5more,4,med,low,unacc,Não Aceitável,3,3,3,1,1,0,high/vhigh
+vhigh,vhigh,5more,4,med,med,unacc,Não Aceitável,3,3,3,1,1,1,high/vhigh
+vhigh,vhigh,5more,4,med,high,unacc,Não Aceitável,3,3,3,1,1,2,high/vhigh
+vhigh,vhigh,5more,4,big,low,unacc,Não Aceitável,3,3,3,1,2,0,high/vhigh
+vhigh,vhigh,5more,4,big,med,unacc,Não Aceitável,3,3,3,1,2,1,high/vhigh
+vhigh,vhigh,5more,4,big,high,unacc,Não Aceitável,3,3,3,1,2,2,high/vhigh
+vhigh,vhigh,5more,more,small,low,unacc,Não Aceitável,3,3,3,2,0,0,high/vhigh
+vhigh,vhigh,5more,more,small,med,unacc,Não Aceitável,3,3,3,2,0,1,high/vhigh
+vhigh,vhigh,5more,more,small,high,unacc,Não Aceitável,3,3,3,2,0,2,high/vhigh
+vhigh,vhigh,5more,more,med,low,unacc,Não Aceitável,3,3,3,2,1,0,high/vhigh
+vhigh,vhigh,5more,more,med,med,unacc,Não Aceitável,3,3,3,2,1,1,high/vhigh
+vhigh,vhigh,5more,more,med,high,unacc,Não Aceitável,3,3,3,2,1,2,high/vhigh
+vhigh,vhigh,5more,more,big,low,unacc,Não Aceitável,3,3,3,2,2,0,high/vhigh
+vhigh,vhigh,5more,more,big,med,unacc,Não Aceitável,3,3,3,2,2,1,high/vhigh
+vhigh,vhigh,5more,more,big,high,unacc,Não Aceitável,3,3,3,2,2,2,high/vhigh
+vhigh,high,2,2,small,low,unacc,Não Aceitável,3,2,0,0,0,0,high/vhigh
+vhigh,high,2,2,small,med,unacc,Não Aceitável,3,2,0,0,0,1,high/vhigh
+vhigh,high,2,2,small,high,unacc,Não Aceitável,3,2,0,0,0,2,high/vhigh
+vhigh,high,2,2,med,low,unacc,Não Aceitável,3,2,0,0,1,0,high/vhigh
+vhigh,high,2,2,med,med,unacc,Não Aceitável,3,2,0,0,1,1,high/vhigh
+vhigh,high,2,2,med,high,unacc,Não Aceitável,3,2,0,0,1,2,high/vhigh
+vhigh,high,2,2,big,low,unacc,Não Aceitável,3,2,0,0,2,0,high/vhigh
+vhigh,high,2,2,big,med,unacc,Não Aceitável,3,2,0,0,2,1,high/vhigh
+vhigh,high,2,2,big,high,unacc,Não Aceitável,3,2,0,0,2,2,high/vhigh
+vhigh,high,2,4,small,low,unacc,Não Aceitável,3,2,0,1,0,0,high/vhigh
+vhigh,high,2,4,small,med,unacc,Não Aceitável,3,2,0,1,0,1,high/vhigh
+vhigh,high,2,4,small,high,unacc,Não Aceitável,3,2,0,1,0,2,high/vhigh
+vhigh,high,2,4,med,low,unacc,Não Aceitável,3,2,0,1,1,0,high/vhigh
+vhigh,high,2,4,med,med,unacc,Não Aceitável,3,2,0,1,1,1,high/vhigh
+vhigh,high,2,4,med,high,unacc,Não Aceitável,3,2,0,1,1,2,high/vhigh
+vhigh,high,2,4,big,low,unacc,Não Aceitável,3,2,0,1,2,0,high/vhigh
+vhigh,high,2,4,big,med,unacc,Não Aceitável,3,2,0,1,2,1,high/vhigh
+vhigh,high,2,4,big,high,unacc,Não Aceitável,3,2,0,1,2,2,high/vhigh
+vhigh,high,2,more,small,low,unacc,Não Aceitável,3,2,0,2,0,0,high/vhigh
+vhigh,high,2,more,small,med,unacc,Não Aceitável,3,2,0,2,0,1,high/vhigh
+vhigh,high,2,more,small,high,unacc,Não Aceitável,3,2,0,2,0,2,high/vhigh
+vhigh,high,2,more,med,low,unacc,Não Aceitável,3,2,0,2,1,0,high/vhigh
+vhigh,high,2,more,med,med,unacc,Não Aceitável,3,2,0,2,1,1,high/vhigh
+vhigh,high,2,more,med,high,unacc,Não Aceitável,3,2,0,2,1,2,high/vhigh
+vhigh,high,2,more,big,low,unacc,Não Aceitável,3,2,0,2,2,0,high/vhigh
+vhigh,high,2,more,big,med,unacc,Não Aceitável,3,2,0,2,2,1,high/vhigh
+vhigh,high,2,more,big,high,unacc,Não Aceitável,3,2,0,2,2,2,high/vhigh
+vhigh,high,3,2,small,low,unacc,Não Aceitável,3,2,1,0,0,0,high/vhigh
+vhigh,high,3,2,small,med,unacc,Não Aceitável,3,2,1,0,0,1,high/vhigh
+vhigh,high,3,2,small,high,unacc,Não Aceitável,3,2,1,0,0,2,high/vhigh
+vhigh,high,3,2,med,low,unacc,Não Aceitável,3,2,1,0,1,0,high/vhigh
+vhigh,high,3,2,med,med,unacc,Não Aceitável,3,2,1,0,1,1,high/vhigh
+vhigh,high,3,2,med,high,unacc,Não Aceitável,3,2,1,0,1,2,high/vhigh
+vhigh,high,3,2,big,low,unacc,Não Aceitável,3,2,1,0,2,0,high/vhigh
+vhigh,high,3,2,big,med,unacc,Não Aceitável,3,2,1,0,2,1,high/vhigh
+vhigh,high,3,2,big,high,unacc,Não Aceitável,3,2,1,0,2,2,high/vhigh
+vhigh,high,3,4,small,low,unacc,Não Aceitável,3,2,1,1,0,0,high/vhigh
+vhigh,high,3,4,small,med,unacc,Não Aceitável,3,2,1,1,0,1,high/vhigh
+vhigh,high,3,4,small,high,unacc,Não Aceitável,3,2,1,1,0,2,high/vhigh
+vhigh,high,3,4,med,low,unacc,Não Aceitável,3,2,1,1,1,0,high/vhigh
+vhigh,high,3,4,med,med,unacc,Não Aceitável,3,2,1,1,1,1,high/vhigh
+vhigh,high,3,4,med,high,unacc,Não Aceitável,3,2,1,1,1,2,high/vhigh
+vhigh,high,3,4,big,low,unacc,Não Aceitável,3,2,1,1,2,0,high/vhigh
+vhigh,high,3,4,big,med,unacc,Não Aceitável,3,2,1,1,2,1,high/vhigh
+vhigh,high,3,4,big,high,unacc,Não Aceitável,3,2,1,1,2,2,high/vhigh
+vhigh,high,3,more,small,low,unacc,Não Aceitável,3,2,1,2,0,0,high/vhigh
+vhigh,high,3,more,small,med,unacc,Não Aceitável,3,2,1,2,0,1,high/vhigh
+vhigh,high,3,more,small,high,unacc,Não Aceitável,3,2,1,2,0,2,high/vhigh
+vhigh,high,3,more,med,low,unacc,Não Aceitável,3,2,1,2,1,0,high/vhigh
+vhigh,high,3,more,med,med,unacc,Não Aceitável,3,2,1,2,1,1,high/vhigh
+vhigh,high,3,more,med,high,unacc,Não Aceitável,3,2,1,2,1,2,high/vhigh
+vhigh,high,3,more,big,low,unacc,Não Aceitável,3,2,1,2,2,0,high/vhigh
+vhigh,high,3,more,big,med,unacc,Não Aceitável,3,2,1,2,2,1,high/vhigh
+vhigh,high,3,more,big,high,unacc,Não Aceitável,3,2,1,2,2,2,high/vhigh
+vhigh,high,4,2,small,low,unacc,Não Aceitável,3,2,2,0,0,0,high/vhigh
+vhigh,high,4,2,small,med,unacc,Não Aceitável,3,2,2,0,0,1,high/vhigh
+vhigh,high,4,2,small,high,unacc,Não Aceitável,3,2,2,0,0,2,high/vhigh
+vhigh,high,4,2,med,low,unacc,Não Aceitável,3,2,2,0,1,0,high/vhigh
+vhigh,high,4,2,med,med,unacc,Não Aceitável,3,2,2,0,1,1,high/vhigh
+vhigh,high,4,2,med,high,unacc,Não Aceitável,3,2,2,0,1,2,high/vhigh
+vhigh,high,4,2,big,low,unacc,Não Aceitável,3,2,2,0,2,0,high/vhigh
+vhigh,high,4,2,big,med,unacc,Não Aceitável,3,2,2,0,2,1,high/vhigh
+vhigh,high,4,2,big,high,unacc,Não Aceitável,3,2,2,0,2,2,high/vhigh
+vhigh,high,4,4,small,low,unacc,Não Aceitável,3,2,2,1,0,0,high/vhigh
+vhigh,high,4,4,small,med,unacc,Não Aceitável,3,2,2,1,0,1,high/vhigh
+vhigh,high,4,4,small,high,unacc,Não Aceitável,3,2,2,1,0,2,high/vhigh
+vhigh,high,4,4,med,low,unacc,Não Aceitável,3,2,2,1,1,0,high/vhigh
+vhigh,high,4,4,med,med,unacc,Não Aceitável,3,2,2,1,1,1,high/vhigh
+vhigh,high,4,4,med,high,unacc,Não Aceitável,3,2,2,1,1,2,high/vhigh
+vhigh,high,4,4,big,low,unacc,Não Aceitável,3,2,2,1,2,0,high/vhigh
+vhigh,high,4,4,big,med,unacc,Não Aceitável,3,2,2,1,2,1,high/vhigh
+vhigh,high,4,4,big,high,unacc,Não Aceitável,3,2,2,1,2,2,high/vhigh
+vhigh,high,4,more,small,low,unacc,Não Aceitável,3,2,2,2,0,0,high/vhigh
+vhigh,high,4,more,small,med,unacc,Não Aceitável,3,2,2,2,0,1,high/vhigh
+vhigh,high,4,more,small,high,unacc,Não Aceitável,3,2,2,2,0,2,high/vhigh
+vhigh,high,4,more,med,low,unacc,Não Aceitável,3,2,2,2,1,0,high/vhigh
+vhigh,high,4,more,med,med,unacc,Não Aceitável,3,2,2,2,1,1,high/vhigh
+vhigh,high,4,more,med,high,unacc,Não Aceitável,3,2,2,2,1,2,high/vhigh
+vhigh,high,4,more,big,low,unacc,Não Aceitável,3,2,2,2,2,0,high/vhigh
+vhigh,high,4,more,big,med,unacc,Não Aceitável,3,2,2,2,2,1,high/vhigh
+vhigh,high,4,more,big,high,unacc,Não Aceitável,3,2,2,2,2,2,high/vhigh
+vhigh,high,5more,2,small,low,unacc,Não Aceitável,3,2,3,0,0,0,high/vhigh
+vhigh,high,5more,2,small,med,unacc,Não Aceitável,3,2,3,0,0,1,high/vhigh
+vhigh,high,5more,2,small,high,unacc,Não Aceitável,3,2,3,0,0,2,high/vhigh
+vhigh,high,5more,2,med,low,unacc,Não Aceitável,3,2,3,0,1,0,high/vhigh
+vhigh,high,5more,2,med,med,unacc,Não Aceitável,3,2,3,0,1,1,high/vhigh
+vhigh,high,5more,2,med,high,unacc,Não Aceitável,3,2,3,0,1,2,high/vhigh
+vhigh,high,5more,2,big,low,unacc,Não Aceitável,3,2,3,0,2,0,high/vhigh
+vhigh,high,5more,2,big,med,unacc,Não Aceitável,3,2,3,0,2,1,high/vhigh
+vhigh,high,5more,2,big,high,unacc,Não Aceitável,3,2,3,0,2,2,high/vhigh
+vhigh,high,5more,4,small,low,unacc,Não Aceitável,3,2,3,1,0,0,high/vhigh
+vhigh,high,5more,4,small,med,unacc,Não Aceitável,3,2,3,1,0,1,high/vhigh
+vhigh,high,5more,4,small,high,unacc,Não Aceitável,3,2,3,1,0,2,high/vhigh
+vhigh,high,5more,4,med,low,unacc,Não Aceitável,3,2,3,1,1,0,high/vhigh
+vhigh,high,5more,4,med,med,unacc,Não Aceitável,3,2,3,1,1,1,high/vhigh
+vhigh,high,5more,4,med,high,unacc,Não Aceitável,3,2,3,1,1,2,high/vhigh
+vhigh,high,5more,4,big,low,unacc,Não Aceitável,3,2,3,1,2,0,high/vhigh
+vhigh,high,5more,4,big,med,unacc,Não Aceitável,3,2,3,1,2,1,high/vhigh
+vhigh,high,5more,4,big,high,unacc,Não Aceitável,3,2,3,1,2,2,high/vhigh
+vhigh,high,5more,more,small,low,unacc,Não Aceitável,3,2,3,2,0,0,high/vhigh
+vhigh,high,5more,more,small,med,unacc,Não Aceitável,3,2,3,2,0,1,high/vhigh
+vhigh,high,5more,more,small,high,unacc,Não Aceitável,3,2,3,2,0,2,high/vhigh
+vhigh,high,5more,more,med,low,unacc,Não Aceitável,3,2,3,2,1,0,high/vhigh
+vhigh,high,5more,more,med,med,unacc,Não Aceitável,3,2,3,2,1,1,high/vhigh
+vhigh,high,5more,more,med,high,unacc,Não Aceitável,3,2,3,2,1,2,high/vhigh
+vhigh,high,5more,more,big,low,unacc,Não Aceitável,3,2,3,2,2,0,high/vhigh
+vhigh,high,5more,more,big,med,unacc,Não Aceitável,3,2,3,2,2,1,high/vhigh
+vhigh,high,5more,more,big,high,unacc,Não Aceitável,3,2,3,2,2,2,high/vhigh
+vhigh,med,2,2,small,low,unacc,Não Aceitável,3,1,0,0,0,0,high/vhigh
+vhigh,med,2,2,small,med,unacc,Não Aceitável,3,1,0,0,0,1,high/vhigh
+vhigh,med,2,2,small,high,unacc,Não Aceitável,3,1,0,0,0,2,high/vhigh
+vhigh,med,2,2,med,low,unacc,Não Aceitável,3,1,0,0,1,0,high/vhigh
+vhigh,med,2,2,med,med,unacc,Não Aceitável,3,1,0,0,1,1,high/vhigh
+vhigh,med,2,2,med,high,unacc,Não Aceitável,3,1,0,0,1,2,high/vhigh
+vhigh,med,2,2,big,low,unacc,Não Aceitável,3,1,0,0,2,0,high/vhigh
+vhigh,med,2,2,big,med,unacc,Não Aceitável,3,1,0,0,2,1,high/vhigh
+vhigh,med,2,2,big,high,unacc,Não Aceitável,3,1,0,0,2,2,high/vhigh
+vhigh,med,2,4,small,low,unacc,Não Aceitável,3,1,0,1,0,0,high/vhigh
+vhigh,med,2,4,small,med,unacc,Não Aceitável,3,1,0,1,0,1,high/vhigh
+vhigh,med,2,4,small,high,acc,Aceitável,3,1,0,1,0,2,high/vhigh
+vhigh,med,2,4,med,low,unacc,Não Aceitável,3,1,0,1,1,0,high/vhigh
+vhigh,med,2,4,med,med,unacc,Não Aceitável,3,1,0,1,1,1,high/vhigh
+vhigh,med,2,4,med,high,acc,Aceitável,3,1,0,1,1,2,high/vhigh
+vhigh,med,2,4,big,low,unacc,Não Aceitável,3,1,0,1,2,0,high/vhigh
+vhigh,med,2,4,big,med,acc,Aceitável,3,1,0,1,2,1,high/vhigh
+vhigh,med,2,4,big,high,acc,Aceitável,3,1,0,1,2,2,high/vhigh
+vhigh,med,2,more,small,low,unacc,Não Aceitável,3,1,0,2,0,0,high/vhigh
+vhigh,med,2,more,small,med,unacc,Não Aceitável,3,1,0,2,0,1,high/vhigh
+vhigh,med,2,more,small,high,unacc,Não Aceitável,3,1,0,2,0,2,high/vhigh
+vhigh,med,2,more,med,low,unacc,Não Aceitável,3,1,0,2,1,0,high/vhigh
+vhigh,med,2,more,med,med,unacc,Não Aceitável,3,1,0,2,1,1,high/vhigh
+vhigh,med,2,more,med,high,acc,Aceitável,3,1,0,2,1,2,high/vhigh
+vhigh,med,2,more,big,low,unacc,Não Aceitável,3,1,0,2,2,0,high/vhigh
+vhigh,med,2,more,big,med,acc,Aceitável,3,1,0,2,2,1,high/vhigh
+vhigh,med,2,more,big,high,acc,Aceitável,3,1,0,2,2,2,high/vhigh
+vhigh,med,3,2,small,low,unacc,Não Aceitável,3,1,1,0,0,0,high/vhigh
+vhigh,med,3,2,small,med,unacc,Não Aceitável,3,1,1,0,0,1,high/vhigh
+vhigh,med,3,2,small,high,unacc,Não Aceitável,3,1,1,0,0,2,high/vhigh
+vhigh,med,3,2,med,low,unacc,Não Aceitável,3,1,1,0,1,0,high/vhigh
+vhigh,med,3,2,med,med,unacc,Não Aceitável,3,1,1,0,1,1,high/vhigh
+vhigh,med,3,2,med,high,unacc,Não Aceitável,3,1,1,0,1,2,high/vhigh
+vhigh,med,3,2,big,low,unacc,Não Aceitável,3,1,1,0,2,0,high/vhigh
+vhigh,med,3,2,big,med,unacc,Não Aceitável,3,1,1,0,2,1,high/vhigh
+vhigh,med,3,2,big,high,unacc,Não Aceitável,3,1,1,0,2,2,high/vhigh
+vhigh,med,3,4,small,low,unacc,Não Aceitável,3,1,1,1,0,0,high/vhigh
+vhigh,med,3,4,small,med,unacc,Não Aceitável,3,1,1,1,0,1,high/vhigh
+vhigh,med,3,4,small,high,acc,Aceitável,3,1,1,1,0,2,high/vhigh
+vhigh,med,3,4,med,low,unacc,Não Aceitável,3,1,1,1,1,0,high/vhigh
+vhigh,med,3,4,med,med,unacc,Não Aceitável,3,1,1,1,1,1,high/vhigh
+vhigh,med,3,4,med,high,acc,Aceitável,3,1,1,1,1,2,high/vhigh
+vhigh,med,3,4,big,low,unacc,Não Aceitável,3,1,1,1,2,0,high/vhigh
+vhigh,med,3,4,big,med,acc,Aceitável,3,1,1,1,2,1,high/vhigh
+vhigh,med,3,4,big,high,acc,Aceitável,3,1,1,1,2,2,high/vhigh
+vhigh,med,3,more,small,low,unacc,Não Aceitável,3,1,1,2,0,0,high/vhigh
+vhigh,med,3,more,small,med,unacc,Não Aceitável,3,1,1,2,0,1,high/vhigh
+vhigh,med,3,more,small,high,acc,Aceitável,3,1,1,2,0,2,high/vhigh
+vhigh,med,3,more,med,low,unacc,Não Aceitável,3,1,1,2,1,0,high/vhigh
+vhigh,med,3,more,med,med,acc,Aceitável,3,1,1,2,1,1,high/vhigh
+vhigh,med,3,more,med,high,acc,Aceitável,3,1,1,2,1,2,high/vhigh
+vhigh,med,3,more,big,low,unacc,Não Aceitável,3,1,1,2,2,0,high/vhigh
+vhigh,med,3,more,big,med,acc,Aceitável,3,1,1,2,2,1,high/vhigh
+vhigh,med,3,more,big,high,acc,Aceitável,3,1,1,2,2,2,high/vhigh
+vhigh,med,4,2,small,low,unacc,Não Aceitável,3,1,2,0,0,0,high/vhigh
+vhigh,med,4,2,small,med,unacc,Não Aceitável,3,1,2,0,0,1,high/vhigh
+vhigh,med,4,2,small,high,unacc,Não Aceitável,3,1,2,0,0,2,high/vhigh
+vhigh,med,4,2,med,low,unacc,Não Aceitável,3,1,2,0,1,0,high/vhigh
+vhigh,med,4,2,med,med,unacc,Não Aceitável,3,1,2,0,1,1,high/vhigh
+vhigh,med,4,2,med,high,unacc,Não Aceitável,3,1,2,0,1,2,high/vhigh
+vhigh,med,4,2,big,low,unacc,Não Aceitável,3,1,2,0,2,0,high/vhigh
+vhigh,med,4,2,big,med,unacc,Não Aceitável,3,1,2,0,2,1,high/vhigh
+vhigh,med,4,2,big,high,unacc,Não Aceitável,3,1,2,0,2,2,high/vhigh
+vhigh,med,4,4,small,low,unacc,Não Aceitável,3,1,2,1,0,0,high/vhigh
+vhigh,med,4,4,small,med,unacc,Não Aceitável,3,1,2,1,0,1,high/vhigh
+vhigh,med,4,4,small,high,acc,Aceitável,3,1,2,1,0,2,high/vhigh
+vhigh,med,4,4,med,low,unacc,Não Aceitável,3,1,2,1,1,0,high/vhigh
+vhigh,med,4,4,med,med,acc,Aceitável,3,1,2,1,1,1,high/vhigh
+vhigh,med,4,4,med,high,acc,Aceitável,3,1,2,1,1,2,high/vhigh
+vhigh,med,4,4,big,low,unacc,Não Aceitável,3,1,2,1,2,0,high/vhigh
+vhigh,med,4,4,big,med,acc,Aceitável,3,1,2,1,2,1,high/vhigh
+vhigh,med,4,4,big,high,acc,Aceitável,3,1,2,1,2,2,high/vhigh
+vhigh,med,4,more,small,low,unacc,Não Aceitável,3,1,2,2,0,0,high/vhigh
+vhigh,med,4,more,small,med,unacc,Não Aceitável,3,1,2,2,0,1,high/vhigh
+vhigh,med,4,more,small,high,acc,Aceitável,3,1,2,2,0,2,high/vhigh
+vhigh,med,4,more,med,low,unacc,Não Aceitável,3,1,2,2,1,0,high/vhigh
+vhigh,med,4,more,med,med,acc,Aceitável,3,1,2,2,1,1,high/vhigh
+vhigh,med,4,more,med,high,acc,Aceitável,3,1,2,2,1,2,high/vhigh
+vhigh,med,4,more,big,low,unacc,Não Aceitável,3,1,2,2,2,0,high/vhigh
+vhigh,med,4,more,big,med,acc,Aceitável,3,1,2,2,2,1,high/vhigh
+vhigh,med,4,more,big,high,acc,Aceitável,3,1,2,2,2,2,high/vhigh
+vhigh,med,5more,2,small,low,unacc,Não Aceitável,3,1,3,0,0,0,high/vhigh
+vhigh,med,5more,2,small,med,unacc,Não Aceitável,3,1,3,0,0,1,high/vhigh
+vhigh,med,5more,2,small,high,unacc,Não Aceitável,3,1,3,0,0,2,high/vhigh
+vhigh,med,5more,2,med,low,unacc,Não Aceitável,3,1,3,0,1,0,high/vhigh
+vhigh,med,5more,2,med,med,unacc,Não Aceitável,3,1,3,0,1,1,high/vhigh
+vhigh,med,5more,2,med,high,unacc,Não Aceitável,3,1,3,0,1,2,high/vhigh
+vhigh,med,5more,2,big,low,unacc,Não Aceitável,3,1,3,0,2,0,high/vhigh
+vhigh,med,5more,2,big,med,unacc,Não Aceitável,3,1,3,0,2,1,high/vhigh
+vhigh,med,5more,2,big,high,unacc,Não Aceitável,3,1,3,0,2,2,high/vhigh
+vhigh,med,5more,4,small,low,unacc,Não Aceitável,3,1,3,1,0,0,high/vhigh
+vhigh,med,5more,4,small,med,unacc,Não Aceitável,3,1,3,1,0,1,high/vhigh
+vhigh,med,5more,4,small,high,acc,Aceitável,3,1,3,1,0,2,high/vhigh
+vhigh,med,5more,4,med,low,unacc,Não Aceitável,3,1,3,1,1,0,high/vhigh
+vhigh,med,5more,4,med,med,acc,Aceitável,3,1,3,1,1,1,high/vhigh
+vhigh,med,5more,4,med,high,acc,Aceitável,3,1,3,1,1,2,high/vhigh
+vhigh,med,5more,4,big,low,unacc,Não Aceitável,3,1,3,1,2,0,high/vhigh
+vhigh,med,5more,4,big,med,acc,Aceitável,3,1,3,1,2,1,high/vhigh
+vhigh,med,5more,4,big,high,acc,Aceitável,3,1,3,1,2,2,high/vhigh
+vhigh,med,5more,more,small,low,unacc,Não Aceitável,3,1,3,2,0,0,high/vhigh
+vhigh,med,5more,more,small,med,unacc,Não Aceitável,3,1,3,2,0,1,high/vhigh
+vhigh,med,5more,more,small,high,acc,Aceitável,3,1,3,2,0,2,high/vhigh
+vhigh,med,5more,more,med,low,unacc,Não Aceitável,3,1,3,2,1,0,high/vhigh
+vhigh,med,5more,more,med,med,acc,Aceitável,3,1,3,2,1,1,high/vhigh
+vhigh,med,5more,more,med,high,acc,Aceitável,3,1,3,2,1,2,high/vhigh
+vhigh,med,5more,more,big,low,unacc,Não Aceitável,3,1,3,2,2,0,high/vhigh
+vhigh,med,5more,more,big,med,acc,Aceitável,3,1,3,2,2,1,high/vhigh
+vhigh,med,5more,more,big,high,acc,Aceitável,3,1,3,2,2,2,high/vhigh
+vhigh,low,2,2,small,low,unacc,Não Aceitável,3,0,0,0,0,0,high/vhigh
+vhigh,low,2,2,small,med,unacc,Não Aceitável,3,0,0,0,0,1,high/vhigh
+vhigh,low,2,2,small,high,unacc,Não Aceitável,3,0,0,0,0,2,high/vhigh
+vhigh,low,2,2,med,low,unacc,Não Aceitável,3,0,0,0,1,0,high/vhigh
+vhigh,low,2,2,med,med,unacc,Não Aceitável,3,0,0,0,1,1,high/vhigh
+vhigh,low,2,2,med,high,unacc,Não Aceitável,3,0,0,0,1,2,high/vhigh
+vhigh,low,2,2,big,low,unacc,Não Aceitável,3,0,0,0,2,0,high/vhigh
+vhigh,low,2,2,big,med,unacc,Não Aceitável,3,0,0,0,2,1,high/vhigh
+vhigh,low,2,2,big,high,unacc,Não Aceitável,3,0,0,0,2,2,high/vhigh
+vhigh,low,2,4,small,low,unacc,Não Aceitável,3,0,0,1,0,0,high/vhigh
+vhigh,low,2,4,small,med,unacc,Não Aceitável,3,0,0,1,0,1,high/vhigh
+vhigh,low,2,4,small,high,acc,Aceitável,3,0,0,1,0,2,high/vhigh
+vhigh,low,2,4,med,low,unacc,Não Aceitável,3,0,0,1,1,0,high/vhigh
+vhigh,low,2,4,med,med,unacc,Não Aceitável,3,0,0,1,1,1,high/vhigh
+vhigh,low,2,4,med,high,acc,Aceitável,3,0,0,1,1,2,high/vhigh
+vhigh,low,2,4,big,low,unacc,Não Aceitável,3,0,0,1,2,0,high/vhigh
+vhigh,low,2,4,big,med,acc,Aceitável,3,0,0,1,2,1,high/vhigh
+vhigh,low,2,4,big,high,acc,Aceitável,3,0,0,1,2,2,high/vhigh
+vhigh,low,2,more,small,low,unacc,Não Aceitável,3,0,0,2,0,0,high/vhigh
+vhigh,low,2,more,small,med,unacc,Não Aceitável,3,0,0,2,0,1,high/vhigh
+vhigh,low,2,more,small,high,unacc,Não Aceitável,3,0,0,2,0,2,high/vhigh
+vhigh,low,2,more,med,low,unacc,Não Aceitável,3,0,0,2,1,0,high/vhigh
+vhigh,low,2,more,med,med,unacc,Não Aceitável,3,0,0,2,1,1,high/vhigh
+vhigh,low,2,more,med,high,acc,Aceitável,3,0,0,2,1,2,high/vhigh
+vhigh,low,2,more,big,low,unacc,Não Aceitável,3,0,0,2,2,0,high/vhigh
+vhigh,low,2,more,big,med,acc,Aceitável,3,0,0,2,2,1,high/vhigh
+vhigh,low,2,more,big,high,acc,Aceitável,3,0,0,2,2,2,high/vhigh
+vhigh,low,3,2,small,low,unacc,Não Aceitável,3,0,1,0,0,0,high/vhigh
+vhigh,low,3,2,small,med,unacc,Não Aceitável,3,0,1,0,0,1,high/vhigh
+vhigh,low,3,2,small,high,unacc,Não Aceitável,3,0,1,0,0,2,high/vhigh
+vhigh,low,3,2,med,low,unacc,Não Aceitável,3,0,1,0,1,0,high/vhigh
+vhigh,low,3,2,med,med,unacc,Não Aceitável,3,0,1,0,1,1,high/vhigh
+vhigh,low,3,2,med,high,unacc,Não Aceitável,3,0,1,0,1,2,high/vhigh
+vhigh,low,3,2,big,low,unacc,Não Aceitável,3,0,1,0,2,0,high/vhigh
+vhigh,low,3,2,big,med,unacc,Não Aceitável,3,0,1,0,2,1,high/vhigh
+vhigh,low,3,2,big,high,unacc,Não Aceitável,3,0,1,0,2,2,high/vhigh
+vhigh,low,3,4,small,low,unacc,Não Aceitável,3,0,1,1,0,0,high/vhigh
+vhigh,low,3,4,small,med,unacc,Não Aceitável,3,0,1,1,0,1,high/vhigh
+vhigh,low,3,4,small,high,acc,Aceitável,3,0,1,1,0,2,high/vhigh
+vhigh,low,3,4,med,low,unacc,Não Aceitável,3,0,1,1,1,0,high/vhigh
+vhigh,low,3,4,med,med,unacc,Não Aceitável,3,0,1,1,1,1,high/vhigh
+vhigh,low,3,4,med,high,acc,Aceitável,3,0,1,1,1,2,high/vhigh
+vhigh,low,3,4,big,low,unacc,Não Aceitável,3,0,1,1,2,0,high/vhigh
+vhigh,low,3,4,big,med,acc,Aceitável,3,0,1,1,2,1,high/vhigh
+vhigh,low,3,4,big,high,acc,Aceitável,3,0,1,1,2,2,high/vhigh
+vhigh,low,3,more,small,low,unacc,Não Aceitável,3,0,1,2,0,0,high/vhigh
+vhigh,low,3,more,small,med,unacc,Não Aceitável,3,0,1,2,0,1,high/vhigh
+vhigh,low,3,more,small,high,acc,Aceitável,3,0,1,2,0,2,high/vhigh
+vhigh,low,3,more,med,low,unacc,Não Aceitável,3,0,1,2,1,0,high/vhigh
+vhigh,low,3,more,med,med,acc,Aceitável,3,0,1,2,1,1,high/vhigh
+vhigh,low,3,more,med,high,acc,Aceitável,3,0,1,2,1,2,high/vhigh
+vhigh,low,3,more,big,low,unacc,Não Aceitável,3,0,1,2,2,0,high/vhigh
+vhigh,low,3,more,big,med,acc,Aceitável,3,0,1,2,2,1,high/vhigh
+vhigh,low,3,more,big,high,acc,Aceitável,3,0,1,2,2,2,high/vhigh
+vhigh,low,4,2,small,low,unacc,Não Aceitável,3,0,2,0,0,0,high/vhigh
+vhigh,low,4,2,small,med,unacc,Não Aceitável,3,0,2,0,0,1,high/vhigh
+vhigh,low,4,2,small,high,unacc,Não Aceitável,3,0,2,0,0,2,high/vhigh
+vhigh,low,4,2,med,low,unacc,Não Aceitável,3,0,2,0,1,0,high/vhigh
+vhigh,low,4,2,med,med,unacc,Não Aceitável,3,0,2,0,1,1,high/vhigh
+vhigh,low,4,2,med,high,unacc,Não Aceitável,3,0,2,0,1,2,high/vhigh
+vhigh,low,4,2,big,low,unacc,Não Aceitável,3,0,2,0,2,0,high/vhigh
+vhigh,low,4,2,big,med,unacc,Não Aceitável,3,0,2,0,2,1,high/vhigh
+vhigh,low,4,2,big,high,unacc,Não Aceitável,3,0,2,0,2,2,high/vhigh
+vhigh,low,4,4,small,low,unacc,Não Aceitável,3,0,2,1,0,0,high/vhigh
+vhigh,low,4,4,small,med,unacc,Não Aceitável,3,0,2,1,0,1,high/vhigh
+vhigh,low,4,4,small,high,acc,Aceitável,3,0,2,1,0,2,high/vhigh
+vhigh,low,4,4,med,low,unacc,Não Aceitável,3,0,2,1,1,0,high/vhigh
+vhigh,low,4,4,med,med,acc,Aceitável,3,0,2,1,1,1,high/vhigh
+vhigh,low,4,4,med,high,acc,Aceitável,3,0,2,1,1,2,high/vhigh
+vhigh,low,4,4,big,low,unacc,Não Aceitável,3,0,2,1,2,0,high/vhigh
+vhigh,low,4,4,big,med,acc,Aceitável,3,0,2,1,2,1,high/vhigh
+vhigh,low,4,4,big,high,acc,Aceitável,3,0,2,1,2,2,high/vhigh
+vhigh,low,4,more,small,low,unacc,Não Aceitável,3,0,2,2,0,0,high/vhigh
+vhigh,low,4,more,small,med,unacc,Não Aceitável,3,0,2,2,0,1,high/vhigh
+vhigh,low,4,more,small,high,acc,Aceitável,3,0,2,2,0,2,high/vhigh
+vhigh,low,4,more,med,low,unacc,Não Aceitável,3,0,2,2,1,0,high/vhigh
+vhigh,low,4,more,med,med,acc,Aceitável,3,0,2,2,1,1,high/vhigh
+vhigh,low,4,more,med,high,acc,Aceitável,3,0,2,2,1,2,high/vhigh
+vhigh,low,4,more,big,low,unacc,Não Aceitável,3,0,2,2,2,0,high/vhigh
+vhigh,low,4,more,big,med,acc,Aceitável,3,0,2,2,2,1,high/vhigh
+vhigh,low,4,more,big,high,acc,Aceitável,3,0,2,2,2,2,high/vhigh
+vhigh,low,5more,2,small,low,unacc,Não Aceitável,3,0,3,0,0,0,high/vhigh
+vhigh,low,5more,2,small,med,unacc,Não Aceitável,3,0,3,0,0,1,high/vhigh
+vhigh,low,5more,2,small,high,unacc,Não Aceitável,3,0,3,0,0,2,high/vhigh
+vhigh,low,5more,2,med,low,unacc,Não Aceitável,3,0,3,0,1,0,high/vhigh
+vhigh,low,5more,2,med,med,unacc,Não Aceitável,3,0,3,0,1,1,high/vhigh
+vhigh,low,5more,2,med,high,unacc,Não Aceitável,3,0,3,0,1,2,high/vhigh
+vhigh,low,5more,2,big,low,unacc,Não Aceitável,3,0,3,0,2,0,high/vhigh
+vhigh,low,5more,2,big,med,unacc,Não Aceitável,3,0,3,0,2,1,high/vhigh
+vhigh,low,5more,2,big,high,unacc,Não Aceitável,3,0,3,0,2,2,high/vhigh
+vhigh,low,5more,4,small,low,unacc,Não Aceitável,3,0,3,1,0,0,high/vhigh
+vhigh,low,5more,4,small,med,unacc,Não Aceitável,3,0,3,1,0,1,high/vhigh
+vhigh,low,5more,4,small,high,acc,Aceitável,3,0,3,1,0,2,high/vhigh
+vhigh,low,5more,4,med,low,unacc,Não Aceitável,3,0,3,1,1,0,high/vhigh
+vhigh,low,5more,4,med,med,acc,Aceitável,3,0,3,1,1,1,high/vhigh
+vhigh,low,5more,4,med,high,acc,Aceitável,3,0,3,1,1,2,high/vhigh
+vhigh,low,5more,4,big,low,unacc,Não Aceitável,3,0,3,1,2,0,high/vhigh
+vhigh,low,5more,4,big,med,acc,Aceitável,3,0,3,1,2,1,high/vhigh
+vhigh,low,5more,4,big,high,acc,Aceitável,3,0,3,1,2,2,high/vhigh
+vhigh,low,5more,more,small,low,unacc,Não Aceitável,3,0,3,2,0,0,high/vhigh
+vhigh,low,5more,more,small,med,unacc,Não Aceitável,3,0,3,2,0,1,high/vhigh
+vhigh,low,5more,more,small,high,acc,Aceitável,3,0,3,2,0,2,high/vhigh
+vhigh,low,5more,more,med,low,unacc,Não Aceitável,3,0,3,2,1,0,high/vhigh
+vhigh,low,5more,more,med,med,acc,Aceitável,3,0,3,2,1,1,high/vhigh
+vhigh,low,5more,more,med,high,acc,Aceitável,3,0,3,2,1,2,high/vhigh
+vhigh,low,5more,more,big,low,unacc,Não Aceitável,3,0,3,2,2,0,high/vhigh
+vhigh,low,5more,more,big,med,acc,Aceitável,3,0,3,2,2,1,high/vhigh
+vhigh,low,5more,more,big,high,acc,Aceitável,3,0,3,2,2,2,high/vhigh
+high,vhigh,2,2,small,low,unacc,Não Aceitável,2,3,0,0,0,0,high/vhigh
+high,vhigh,2,2,small,med,unacc,Não Aceitável,2,3,0,0,0,1,high/vhigh
+high,vhigh,2,2,small,high,unacc,Não Aceitável,2,3,0,0,0,2,high/vhigh
+high,vhigh,2,2,med,low,unacc,Não Aceitável,2,3,0,0,1,0,high/vhigh
+high,vhigh,2,2,med,med,unacc,Não Aceitável,2,3,0,0,1,1,high/vhigh
+high,vhigh,2,2,med,high,unacc,Não Aceitável,2,3,0,0,1,2,high/vhigh
+high,vhigh,2,2,big,low,unacc,Não Aceitável,2,3,0,0,2,0,high/vhigh
+high,vhigh,2,2,big,med,unacc,Não Aceitável,2,3,0,0,2,1,high/vhigh
+high,vhigh,2,2,big,high,unacc,Não Aceitável,2,3,0,0,2,2,high/vhigh
+high,vhigh,2,4,small,low,unacc,Não Aceitável,2,3,0,1,0,0,high/vhigh
+high,vhigh,2,4,small,med,unacc,Não Aceitável,2,3,0,1,0,1,high/vhigh
+high,vhigh,2,4,small,high,unacc,Não Aceitável,2,3,0,1,0,2,high/vhigh
+high,vhigh,2,4,med,low,unacc,Não Aceitável,2,3,0,1,1,0,high/vhigh
+high,vhigh,2,4,med,med,unacc,Não Aceitável,2,3,0,1,1,1,high/vhigh
+high,vhigh,2,4,med,high,unacc,Não Aceitável,2,3,0,1,1,2,high/vhigh
+high,vhigh,2,4,big,low,unacc,Não Aceitável,2,3,0,1,2,0,high/vhigh
+high,vhigh,2,4,big,med,unacc,Não Aceitável,2,3,0,1,2,1,high/vhigh
+high,vhigh,2,4,big,high,unacc,Não Aceitável,2,3,0,1,2,2,high/vhigh
+high,vhigh,2,more,small,low,unacc,Não Aceitável,2,3,0,2,0,0,high/vhigh
+high,vhigh,2,more,small,med,unacc,Não Aceitável,2,3,0,2,0,1,high/vhigh
+high,vhigh,2,more,small,high,unacc,Não Aceitável,2,3,0,2,0,2,high/vhigh
+high,vhigh,2,more,med,low,unacc,Não Aceitável,2,3,0,2,1,0,high/vhigh
+high,vhigh,2,more,med,med,unacc,Não Aceitável,2,3,0,2,1,1,high/vhigh
+high,vhigh,2,more,med,high,unacc,Não Aceitável,2,3,0,2,1,2,high/vhigh
+high,vhigh,2,more,big,low,unacc,Não Aceitável,2,3,0,2,2,0,high/vhigh
+high,vhigh,2,more,big,med,unacc,Não Aceitável,2,3,0,2,2,1,high/vhigh
+high,vhigh,2,more,big,high,unacc,Não Aceitável,2,3,0,2,2,2,high/vhigh
+high,vhigh,3,2,small,low,unacc,Não Aceitável,2,3,1,0,0,0,high/vhigh
+high,vhigh,3,2,small,med,unacc,Não Aceitável,2,3,1,0,0,1,high/vhigh
+high,vhigh,3,2,small,high,unacc,Não Aceitável,2,3,1,0,0,2,high/vhigh
+high,vhigh,3,2,med,low,unacc,Não Aceitável,2,3,1,0,1,0,high/vhigh
+high,vhigh,3,2,med,med,unacc,Não Aceitável,2,3,1,0,1,1,high/vhigh
+high,vhigh,3,2,med,high,unacc,Não Aceitável,2,3,1,0,1,2,high/vhigh
+high,vhigh,3,2,big,low,unacc,Não Aceitável,2,3,1,0,2,0,high/vhigh
+high,vhigh,3,2,big,med,unacc,Não Aceitável,2,3,1,0,2,1,high/vhigh
+high,vhigh,3,2,big,high,unacc,Não Aceitável,2,3,1,0,2,2,high/vhigh
+high,vhigh,3,4,small,low,unacc,Não Aceitável,2,3,1,1,0,0,high/vhigh
+high,vhigh,3,4,small,med,unacc,Não Aceitável,2,3,1,1,0,1,high/vhigh
+high,vhigh,3,4,small,high,unacc,Não Aceitável,2,3,1,1,0,2,high/vhigh
+high,vhigh,3,4,med,low,unacc,Não Aceitável,2,3,1,1,1,0,high/vhigh
+high,vhigh,3,4,med,med,unacc,Não Aceitável,2,3,1,1,1,1,high/vhigh
+high,vhigh,3,4,med,high,unacc,Não Aceitável,2,3,1,1,1,2,high/vhigh
+high,vhigh,3,4,big,low,unacc,Não Aceitável,2,3,1,1,2,0,high/vhigh
+high,vhigh,3,4,big,med,unacc,Não Aceitável,2,3,1,1,2,1,high/vhigh
+high,vhigh,3,4,big,high,unacc,Não Aceitável,2,3,1,1,2,2,high/vhigh
+high,vhigh,3,more,small,low,unacc,Não Aceitável,2,3,1,2,0,0,high/vhigh
+high,vhigh,3,more,small,med,unacc,Não Aceitável,2,3,1,2,0,1,high/vhigh
+high,vhigh,3,more,small,high,unacc,Não Aceitável,2,3,1,2,0,2,high/vhigh
+high,vhigh,3,more,med,low,unacc,Não Aceitável,2,3,1,2,1,0,high/vhigh
+high,vhigh,3,more,med,med,unacc,Não Aceitável,2,3,1,2,1,1,high/vhigh
+high,vhigh,3,more,med,high,unacc,Não Aceitável,2,3,1,2,1,2,high/vhigh
+high,vhigh,3,more,big,low,unacc,Não Aceitável,2,3,1,2,2,0,high/vhigh
+high,vhigh,3,more,big,med,unacc,Não Aceitável,2,3,1,2,2,1,high/vhigh
+high,vhigh,3,more,big,high,unacc,Não Aceitável,2,3,1,2,2,2,high/vhigh
+high,vhigh,4,2,small,low,unacc,Não Aceitável,2,3,2,0,0,0,high/vhigh
+high,vhigh,4,2,small,med,unacc,Não Aceitável,2,3,2,0,0,1,high/vhigh
+high,vhigh,4,2,small,high,unacc,Não Aceitável,2,3,2,0,0,2,high/vhigh
+high,vhigh,4,2,med,low,unacc,Não Aceitável,2,3,2,0,1,0,high/vhigh
+high,vhigh,4,2,med,med,unacc,Não Aceitável,2,3,2,0,1,1,high/vhigh
+high,vhigh,4,2,med,high,unacc,Não Aceitável,2,3,2,0,1,2,high/vhigh
+high,vhigh,4,2,big,low,unacc,Não Aceitável,2,3,2,0,2,0,high/vhigh
+high,vhigh,4,2,big,med,unacc,Não Aceitável,2,3,2,0,2,1,high/vhigh
+high,vhigh,4,2,big,high,unacc,Não Aceitável,2,3,2,0,2,2,high/vhigh
+high,vhigh,4,4,small,low,unacc,Não Aceitável,2,3,2,1,0,0,high/vhigh
+high,vhigh,4,4,small,med,unacc,Não Aceitável,2,3,2,1,0,1,high/vhigh
+high,vhigh,4,4,small,high,unacc,Não Aceitável,2,3,2,1,0,2,high/vhigh
+high,vhigh,4,4,med,low,unacc,Não Aceitável,2,3,2,1,1,0,high/vhigh
+high,vhigh,4,4,med,med,unacc,Não Aceitável,2,3,2,1,1,1,high/vhigh
+high,vhigh,4,4,med,high,unacc,Não Aceitável,2,3,2,1,1,2,high/vhigh
+high,vhigh,4,4,big,low,unacc,Não Aceitável,2,3,2,1,2,0,high/vhigh
+high,vhigh,4,4,big,med,unacc,Não Aceitável,2,3,2,1,2,1,high/vhigh
+high,vhigh,4,4,big,high,unacc,Não Aceitável,2,3,2,1,2,2,high/vhigh
+high,vhigh,4,more,small,low,unacc,Não Aceitável,2,3,2,2,0,0,high/vhigh
+high,vhigh,4,more,small,med,unacc,Não Aceitável,2,3,2,2,0,1,high/vhigh
+high,vhigh,4,more,small,high,unacc,Não Aceitável,2,3,2,2,0,2,high/vhigh
+high,vhigh,4,more,med,low,unacc,Não Aceitável,2,3,2,2,1,0,high/vhigh
+high,vhigh,4,more,med,med,unacc,Não Aceitável,2,3,2,2,1,1,high/vhigh
+high,vhigh,4,more,med,high,unacc,Não Aceitável,2,3,2,2,1,2,high/vhigh
+high,vhigh,4,more,big,low,unacc,Não Aceitável,2,3,2,2,2,0,high/vhigh
+high,vhigh,4,more,big,med,unacc,Não Aceitável,2,3,2,2,2,1,high/vhigh
+high,vhigh,4,more,big,high,unacc,Não Aceitável,2,3,2,2,2,2,high/vhigh
+high,vhigh,5more,2,small,low,unacc,Não Aceitável,2,3,3,0,0,0,high/vhigh
+high,vhigh,5more,2,small,med,unacc,Não Aceitável,2,3,3,0,0,1,high/vhigh
+high,vhigh,5more,2,small,high,unacc,Não Aceitável,2,3,3,0,0,2,high/vhigh
+high,vhigh,5more,2,med,low,unacc,Não Aceitável,2,3,3,0,1,0,high/vhigh
+high,vhigh,5more,2,med,med,unacc,Não Aceitável,2,3,3,0,1,1,high/vhigh
+high,vhigh,5more,2,med,high,unacc,Não Aceitável,2,3,3,0,1,2,high/vhigh
+high,vhigh,5more,2,big,low,unacc,Não Aceitável,2,3,3,0,2,0,high/vhigh
+high,vhigh,5more,2,big,med,unacc,Não Aceitável,2,3,3,0,2,1,high/vhigh
+high,vhigh,5more,2,big,high,unacc,Não Aceitável,2,3,3,0,2,2,high/vhigh
+high,vhigh,5more,4,small,low,unacc,Não Aceitável,2,3,3,1,0,0,high/vhigh
+high,vhigh,5more,4,small,med,unacc,Não Aceitável,2,3,3,1,0,1,high/vhigh
+high,vhigh,5more,4,small,high,unacc,Não Aceitável,2,3,3,1,0,2,high/vhigh
+high,vhigh,5more,4,med,low,unacc,Não Aceitável,2,3,3,1,1,0,high/vhigh
+high,vhigh,5more,4,med,med,unacc,Não Aceitável,2,3,3,1,1,1,high/vhigh
+high,vhigh,5more,4,med,high,unacc,Não Aceitável,2,3,3,1,1,2,high/vhigh
+high,vhigh,5more,4,big,low,unacc,Não Aceitável,2,3,3,1,2,0,high/vhigh
+high,vhigh,5more,4,big,med,unacc,Não Aceitável,2,3,3,1,2,1,high/vhigh
+high,vhigh,5more,4,big,high,unacc,Não Aceitável,2,3,3,1,2,2,high/vhigh
+high,vhigh,5more,more,small,low,unacc,Não Aceitável,2,3,3,2,0,0,high/vhigh
+high,vhigh,5more,more,small,med,unacc,Não Aceitável,2,3,3,2,0,1,high/vhigh
+high,vhigh,5more,more,small,high,unacc,Não Aceitável,2,3,3,2,0,2,high/vhigh
+high,vhigh,5more,more,med,low,unacc,Não Aceitável,2,3,3,2,1,0,high/vhigh
+high,vhigh,5more,more,med,med,unacc,Não Aceitável,2,3,3,2,1,1,high/vhigh
+high,vhigh,5more,more,med,high,unacc,Não Aceitável,2,3,3,2,1,2,high/vhigh
+high,vhigh,5more,more,big,low,unacc,Não Aceitável,2,3,3,2,2,0,high/vhigh
+high,vhigh,5more,more,big,med,unacc,Não Aceitável,2,3,3,2,2,1,high/vhigh
+high,vhigh,5more,more,big,high,unacc,Não Aceitável,2,3,3,2,2,2,high/vhigh
+high,high,2,2,small,low,unacc,Não Aceitável,2,2,0,0,0,0,high/vhigh
+high,high,2,2,small,med,unacc,Não Aceitável,2,2,0,0,0,1,high/vhigh
+high,high,2,2,small,high,unacc,Não Aceitável,2,2,0,0,0,2,high/vhigh
+high,high,2,2,med,low,unacc,Não Aceitável,2,2,0,0,1,0,high/vhigh
+high,high,2,2,med,med,unacc,Não Aceitável,2,2,0,0,1,1,high/vhigh
+high,high,2,2,med,high,unacc,Não Aceitável,2,2,0,0,1,2,high/vhigh
+high,high,2,2,big,low,unacc,Não Aceitável,2,2,0,0,2,0,high/vhigh
+high,high,2,2,big,med,unacc,Não Aceitável,2,2,0,0,2,1,high/vhigh
+high,high,2,2,big,high,unacc,Não Aceitável,2,2,0,0,2,2,high/vhigh
+high,high,2,4,small,low,unacc,Não Aceitável,2,2,0,1,0,0,high/vhigh
+high,high,2,4,small,med,unacc,Não Aceitável,2,2,0,1,0,1,high/vhigh
+high,high,2,4,small,high,acc,Aceitável,2,2,0,1,0,2,high/vhigh
+high,high,2,4,med,low,unacc,Não Aceitável,2,2,0,1,1,0,high/vhigh
+high,high,2,4,med,med,unacc,Não Aceitável,2,2,0,1,1,1,high/vhigh
+high,high,2,4,med,high,acc,Aceitável,2,2,0,1,1,2,high/vhigh
+high,high,2,4,big,low,unacc,Não Aceitável,2,2,0,1,2,0,high/vhigh
+high,high,2,4,big,med,acc,Aceitável,2,2,0,1,2,1,high/vhigh
+high,high,2,4,big,high,acc,Aceitável,2,2,0,1,2,2,high/vhigh
+high,high,2,more,small,low,unacc,Não Aceitável,2,2,0,2,0,0,high/vhigh
+high,high,2,more,small,med,unacc,Não Aceitável,2,2,0,2,0,1,high/vhigh
+high,high,2,more,small,high,unacc,Não Aceitável,2,2,0,2,0,2,high/vhigh
+high,high,2,more,med,low,unacc,Não Aceitável,2,2,0,2,1,0,high/vhigh
+high,high,2,more,med,med,unacc,Não Aceitável,2,2,0,2,1,1,high/vhigh
+high,high,2,more,med,high,acc,Aceitável,2,2,0,2,1,2,high/vhigh
+high,high,2,more,big,low,unacc,Não Aceitável,2,2,0,2,2,0,high/vhigh
+high,high,2,more,big,med,acc,Aceitável,2,2,0,2,2,1,high/vhigh
+high,high,2,more,big,high,acc,Aceitável,2,2,0,2,2,2,high/vhigh
+high,high,3,2,small,low,unacc,Não Aceitável,2,2,1,0,0,0,high/vhigh
+high,high,3,2,small,med,unacc,Não Aceitável,2,2,1,0,0,1,high/vhigh
+high,high,3,2,small,high,unacc,Não Aceitável,2,2,1,0,0,2,high/vhigh
+high,high,3,2,med,low,unacc,Não Aceitável,2,2,1,0,1,0,high/vhigh
+high,high,3,2,med,med,unacc,Não Aceitável,2,2,1,0,1,1,high/vhigh
+high,high,3,2,med,high,unacc,Não Aceitável,2,2,1,0,1,2,high/vhigh
+high,high,3,2,big,low,unacc,Não Aceitável,2,2,1,0,2,0,high/vhigh
+high,high,3,2,big,med,unacc,Não Aceitável,2,2,1,0,2,1,high/vhigh
+high,high,3,2,big,high,unacc,Não Aceitável,2,2,1,0,2,2,high/vhigh
+high,high,3,4,small,low,unacc,Não Aceitável,2,2,1,1,0,0,high/vhigh
+high,high,3,4,small,med,unacc,Não Aceitável,2,2,1,1,0,1,high/vhigh
+high,high,3,4,small,high,acc,Aceitável,2,2,1,1,0,2,high/vhigh
+high,high,3,4,med,low,unacc,Não Aceitável,2,2,1,1,1,0,high/vhigh
+high,high,3,4,med,med,unacc,Não Aceitável,2,2,1,1,1,1,high/vhigh
+high,high,3,4,med,high,acc,Aceitável,2,2,1,1,1,2,high/vhigh
+high,high,3,4,big,low,unacc,Não Aceitável,2,2,1,1,2,0,high/vhigh
+high,high,3,4,big,med,acc,Aceitável,2,2,1,1,2,1,high/vhigh
+high,high,3,4,big,high,acc,Aceitável,2,2,1,1,2,2,high/vhigh
+high,high,3,more,small,low,unacc,Não Aceitável,2,2,1,2,0,0,high/vhigh
+high,high,3,more,small,med,unacc,Não Aceitável,2,2,1,2,0,1,high/vhigh
+high,high,3,more,small,high,acc,Aceitável,2,2,1,2,0,2,high/vhigh
+high,high,3,more,med,low,unacc,Não Aceitável,2,2,1,2,1,0,high/vhigh
+high,high,3,more,med,med,acc,Aceitável,2,2,1,2,1,1,high/vhigh
+high,high,3,more,med,high,acc,Aceitável,2,2,1,2,1,2,high/vhigh
+high,high,3,more,big,low,unacc,Não Aceitável,2,2,1,2,2,0,high/vhigh
+high,high,3,more,big,med,acc,Aceitável,2,2,1,2,2,1,high/vhigh
+high,high,3,more,big,high,acc,Aceitável,2,2,1,2,2,2,high/vhigh
+high,high,4,2,small,low,unacc,Não Aceitável,2,2,2,0,0,0,high/vhigh
+high,high,4,2,small,med,unacc,Não Aceitável,2,2,2,0,0,1,high/vhigh
+high,high,4,2,small,high,unacc,Não Aceitável,2,2,2,0,0,2,high/vhigh
+high,high,4,2,med,low,unacc,Não Aceitável,2,2,2,0,1,0,high/vhigh
+high,high,4,2,med,med,unacc,Não Aceitável,2,2,2,0,1,1,high/vhigh
+high,high,4,2,med,high,unacc,Não Aceitável,2,2,2,0,1,2,high/vhigh
+high,high,4,2,big,low,unacc,Não Aceitável,2,2,2,0,2,0,high/vhigh
+high,high,4,2,big,med,unacc,Não Aceitável,2,2,2,0,2,1,high/vhigh
+high,high,4,2,big,high,unacc,Não Aceitável,2,2,2,0,2,2,high/vhigh
+high,high,4,4,small,low,unacc,Não Aceitável,2,2,2,1,0,0,high/vhigh
+high,high,4,4,small,med,unacc,Não Aceitável,2,2,2,1,0,1,high/vhigh
+high,high,4,4,small,high,acc,Aceitável,2,2,2,1,0,2,high/vhigh
+high,high,4,4,med,low,unacc,Não Aceitável,2,2,2,1,1,0,high/vhigh
+high,high,4,4,med,med,acc,Aceitável,2,2,2,1,1,1,high/vhigh
+high,high,4,4,med,high,acc,Aceitável,2,2,2,1,1,2,high/vhigh
+high,high,4,4,big,low,unacc,Não Aceitável,2,2,2,1,2,0,high/vhigh
+high,high,4,4,big,med,acc,Aceitável,2,2,2,1,2,1,high/vhigh
+high,high,4,4,big,high,acc,Aceitável,2,2,2,1,2,2,high/vhigh
+high,high,4,more,small,low,unacc,Não Aceitável,2,2,2,2,0,0,high/vhigh
+high,high,4,more,small,med,unacc,Não Aceitável,2,2,2,2,0,1,high/vhigh
+high,high,4,more,small,high,acc,Aceitável,2,2,2,2,0,2,high/vhigh
+high,high,4,more,med,low,unacc,Não Aceitável,2,2,2,2,1,0,high/vhigh
+high,high,4,more,med,med,acc,Aceitável,2,2,2,2,1,1,high/vhigh
+high,high,4,more,med,high,acc,Aceitável,2,2,2,2,1,2,high/vhigh
+high,high,4,more,big,low,unacc,Não Aceitável,2,2,2,2,2,0,high/vhigh
+high,high,4,more,big,med,acc,Aceitável,2,2,2,2,2,1,high/vhigh
+high,high,4,more,big,high,acc,Aceitável,2,2,2,2,2,2,high/vhigh
+high,high,5more,2,small,low,unacc,Não Aceitável,2,2,3,0,0,0,high/vhigh
+high,high,5more,2,small,med,unacc,Não Aceitável,2,2,3,0,0,1,high/vhigh
+high,high,5more,2,small,high,unacc,Não Aceitável,2,2,3,0,0,2,high/vhigh
+high,high,5more,2,med,low,unacc,Não Aceitável,2,2,3,0,1,0,high/vhigh
+high,high,5more,2,med,med,unacc,Não Aceitável,2,2,3,0,1,1,high/vhigh
+high,high,5more,2,med,high,unacc,Não Aceitável,2,2,3,0,1,2,high/vhigh
+high,high,5more,2,big,low,unacc,Não Aceitável,2,2,3,0,2,0,high/vhigh
+high,high,5more,2,big,med,unacc,Não Aceitável,2,2,3,0,2,1,high/vhigh
+high,high,5more,2,big,high,unacc,Não Aceitável,2,2,3,0,2,2,high/vhigh
+high,high,5more,4,small,low,unacc,Não Aceitável,2,2,3,1,0,0,high/vhigh
+high,high,5more,4,small,med,unacc,Não Aceitável,2,2,3,1,0,1,high/vhigh
+high,high,5more,4,small,high,acc,Aceitável,2,2,3,1,0,2,high/vhigh
+high,high,5more,4,med,low,unacc,Não Aceitável,2,2,3,1,1,0,high/vhigh
+high,high,5more,4,med,med,acc,Aceitável,2,2,3,1,1,1,high/vhigh
+high,high,5more,4,med,high,acc,Aceitável,2,2,3,1,1,2,high/vhigh
+high,high,5more,4,big,low,unacc,Não Aceitável,2,2,3,1,2,0,high/vhigh
+high,high,5more,4,big,med,acc,Aceitável,2,2,3,1,2,1,high/vhigh
+high,high,5more,4,big,high,acc,Aceitável,2,2,3,1,2,2,high/vhigh
+high,high,5more,more,small,low,unacc,Não Aceitável,2,2,3,2,0,0,high/vhigh
+high,high,5more,more,small,med,unacc,Não Aceitável,2,2,3,2,0,1,high/vhigh
+high,high,5more,more,small,high,acc,Aceitável,2,2,3,2,0,2,high/vhigh
+high,high,5more,more,med,low,unacc,Não Aceitável,2,2,3,2,1,0,high/vhigh
+high,high,5more,more,med,med,acc,Aceitável,2,2,3,2,1,1,high/vhigh
+high,high,5more,more,med,high,acc,Aceitável,2,2,3,2,1,2,high/vhigh
+high,high,5more,more,big,low,unacc,Não Aceitável,2,2,3,2,2,0,high/vhigh
+high,high,5more,more,big,med,acc,Aceitável,2,2,3,2,2,1,high/vhigh
+high,high,5more,more,big,high,acc,Aceitável,2,2,3,2,2,2,high/vhigh
+high,med,2,2,small,low,unacc,Não Aceitável,2,1,0,0,0,0,high/vhigh
+high,med,2,2,small,med,unacc,Não Aceitável,2,1,0,0,0,1,high/vhigh
+high,med,2,2,small,high,unacc,Não Aceitável,2,1,0,0,0,2,high/vhigh
+high,med,2,2,med,low,unacc,Não Aceitável,2,1,0,0,1,0,high/vhigh
+high,med,2,2,med,med,unacc,Não Aceitável,2,1,0,0,1,1,high/vhigh
+high,med,2,2,med,high,unacc,Não Aceitável,2,1,0,0,1,2,high/vhigh
+high,med,2,2,big,low,unacc,Não Aceitável,2,1,0,0,2,0,high/vhigh
+high,med,2,2,big,med,unacc,Não Aceitável,2,1,0,0,2,1,high/vhigh
+high,med,2,2,big,high,unacc,Não Aceitável,2,1,0,0,2,2,high/vhigh
+high,med,2,4,small,low,unacc,Não Aceitável,2,1,0,1,0,0,high/vhigh
+high,med,2,4,small,med,unacc,Não Aceitável,2,1,0,1,0,1,high/vhigh
+high,med,2,4,small,high,acc,Aceitável,2,1,0,1,0,2,high/vhigh
+high,med,2,4,med,low,unacc,Não Aceitável,2,1,0,1,1,0,high/vhigh
+high,med,2,4,med,med,unacc,Não Aceitável,2,1,0,1,1,1,high/vhigh
+high,med,2,4,med,high,acc,Aceitável,2,1,0,1,1,2,high/vhigh
+high,med,2,4,big,low,unacc,Não Aceitável,2,1,0,1,2,0,high/vhigh
+high,med,2,4,big,med,acc,Aceitável,2,1,0,1,2,1,high/vhigh
+high,med,2,4,big,high,acc,Aceitável,2,1,0,1,2,2,high/vhigh
+high,med,2,more,small,low,unacc,Não Aceitável,2,1,0,2,0,0,high/vhigh
+high,med,2,more,small,med,unacc,Não Aceitável,2,1,0,2,0,1,high/vhigh
+high,med,2,more,small,high,unacc,Não Aceitável,2,1,0,2,0,2,high/vhigh
+high,med,2,more,med,low,unacc,Não Aceitável,2,1,0,2,1,0,high/vhigh
+high,med,2,more,med,med,unacc,Não Aceitável,2,1,0,2,1,1,high/vhigh
+high,med,2,more,med,high,acc,Aceitável,2,1,0,2,1,2,high/vhigh
+high,med,2,more,big,low,unacc,Não Aceitável,2,1,0,2,2,0,high/vhigh
+high,med,2,more,big,med,acc,Aceitável,2,1,0,2,2,1,high/vhigh
+high,med,2,more,big,high,acc,Aceitável,2,1,0,2,2,2,high/vhigh
+high,med,3,2,small,low,unacc,Não Aceitável,2,1,1,0,0,0,high/vhigh
+high,med,3,2,small,med,unacc,Não Aceitável,2,1,1,0,0,1,high/vhigh
+high,med,3,2,small,high,unacc,Não Aceitável,2,1,1,0,0,2,high/vhigh
+high,med,3,2,med,low,unacc,Não Aceitável,2,1,1,0,1,0,high/vhigh
+high,med,3,2,med,med,unacc,Não Aceitável,2,1,1,0,1,1,high/vhigh
+high,med,3,2,med,high,unacc,Não Aceitável,2,1,1,0,1,2,high/vhigh
+high,med,3,2,big,low,unacc,Não Aceitável,2,1,1,0,2,0,high/vhigh
+high,med,3,2,big,med,unacc,Não Aceitável,2,1,1,0,2,1,high/vhigh
+high,med,3,2,big,high,unacc,Não Aceitável,2,1,1,0,2,2,high/vhigh
+high,med,3,4,small,low,unacc,Não Aceitável,2,1,1,1,0,0,high/vhigh
+high,med,3,4,small,med,unacc,Não Aceitável,2,1,1,1,0,1,high/vhigh
+high,med,3,4,small,high,acc,Aceitável,2,1,1,1,0,2,high/vhigh
+high,med,3,4,med,low,unacc,Não Aceitável,2,1,1,1,1,0,high/vhigh
+high,med,3,4,med,med,unacc,Não Aceitável,2,1,1,1,1,1,high/vhigh
+high,med,3,4,med,high,acc,Aceitável,2,1,1,1,1,2,high/vhigh
+high,med,3,4,big,low,unacc,Não Aceitável,2,1,1,1,2,0,high/vhigh
+high,med,3,4,big,med,acc,Aceitável,2,1,1,1,2,1,high/vhigh
+high,med,3,4,big,high,acc,Aceitável,2,1,1,1,2,2,high/vhigh
+high,med,3,more,small,low,unacc,Não Aceitável,2,1,1,2,0,0,high/vhigh
+high,med,3,more,small,med,unacc,Não Aceitável,2,1,1,2,0,1,high/vhigh
+high,med,3,more,small,high,acc,Aceitável,2,1,1,2,0,2,high/vhigh
+high,med,3,more,med,low,unacc,Não Aceitável,2,1,1,2,1,0,high/vhigh
+high,med,3,more,med,med,acc,Aceitável,2,1,1,2,1,1,high/vhigh
+high,med,3,more,med,high,acc,Aceitável,2,1,1,2,1,2,high/vhigh
+high,med,3,more,big,low,unacc,Não Aceitável,2,1,1,2,2,0,high/vhigh
+high,med,3,more,big,med,acc,Aceitável,2,1,1,2,2,1,high/vhigh
+high,med,3,more,big,high,acc,Aceitável,2,1,1,2,2,2,high/vhigh
+high,med,4,2,small,low,unacc,Não Aceitável,2,1,2,0,0,0,high/vhigh
+high,med,4,2,small,med,unacc,Não Aceitável,2,1,2,0,0,1,high/vhigh
+high,med,4,2,small,high,unacc,Não Aceitável,2,1,2,0,0,2,high/vhigh
+high,med,4,2,med,low,unacc,Não Aceitável,2,1,2,0,1,0,high/vhigh
+high,med,4,2,med,med,unacc,Não Aceitável,2,1,2,0,1,1,high/vhigh
+high,med,4,2,med,high,unacc,Não Aceitável,2,1,2,0,1,2,high/vhigh
+high,med,4,2,big,low,unacc,Não Aceitável,2,1,2,0,2,0,high/vhigh
+high,med,4,2,big,med,unacc,Não Aceitável,2,1,2,0,2,1,high/vhigh
+high,med,4,2,big,high,unacc,Não Aceitável,2,1,2,0,2,2,high/vhigh
+high,med,4,4,small,low,unacc,Não Aceitável,2,1,2,1,0,0,high/vhigh
+high,med,4,4,small,med,unacc,Não Aceitável,2,1,2,1,0,1,high/vhigh
+high,med,4,4,small,high,acc,Aceitável,2,1,2,1,0,2,high/vhigh
+high,med,4,4,med,low,unacc,Não Aceitável,2,1,2,1,1,0,high/vhigh
+high,med,4,4,med,med,acc,Aceitável,2,1,2,1,1,1,high/vhigh
+high,med,4,4,med,high,acc,Aceitável,2,1,2,1,1,2,high/vhigh
+high,med,4,4,big,low,unacc,Não Aceitável,2,1,2,1,2,0,high/vhigh
+high,med,4,4,big,med,acc,Aceitável,2,1,2,1,2,1,high/vhigh
+high,med,4,4,big,high,acc,Aceitável,2,1,2,1,2,2,high/vhigh
+high,med,4,more,small,low,unacc,Não Aceitável,2,1,2,2,0,0,high/vhigh
+high,med,4,more,small,med,unacc,Não Aceitável,2,1,2,2,0,1,high/vhigh
+high,med,4,more,small,high,acc,Aceitável,2,1,2,2,0,2,high/vhigh
+high,med,4,more,med,low,unacc,Não Aceitável,2,1,2,2,1,0,high/vhigh
+high,med,4,more,med,med,acc,Aceitável,2,1,2,2,1,1,high/vhigh
+high,med,4,more,med,high,acc,Aceitável,2,1,2,2,1,2,high/vhigh
+high,med,4,more,big,low,unacc,Não Aceitável,2,1,2,2,2,0,high/vhigh
+high,med,4,more,big,med,acc,Aceitável,2,1,2,2,2,1,high/vhigh
+high,med,4,more,big,high,acc,Aceitável,2,1,2,2,2,2,high/vhigh
+high,med,5more,2,small,low,unacc,Não Aceitável,2,1,3,0,0,0,high/vhigh
+high,med,5more,2,small,med,unacc,Não Aceitável,2,1,3,0,0,1,high/vhigh
+high,med,5more,2,small,high,unacc,Não Aceitável,2,1,3,0,0,2,high/vhigh
+high,med,5more,2,med,low,unacc,Não Aceitável,2,1,3,0,1,0,high/vhigh
+high,med,5more,2,med,med,unacc,Não Aceitável,2,1,3,0,1,1,high/vhigh
+high,med,5more,2,med,high,unacc,Não Aceitável,2,1,3,0,1,2,high/vhigh
+high,med,5more,2,big,low,unacc,Não Aceitável,2,1,3,0,2,0,high/vhigh
+high,med,5more,2,big,med,unacc,Não Aceitável,2,1,3,0,2,1,high/vhigh
+high,med,5more,2,big,high,unacc,Não Aceitável,2,1,3,0,2,2,high/vhigh
+high,med,5more,4,small,low,unacc,Não Aceitável,2,1,3,1,0,0,high/vhigh
+high,med,5more,4,small,med,unacc,Não Aceitável,2,1,3,1,0,1,high/vhigh
+high,med,5more,4,small,high,acc,Aceitável,2,1,3,1,0,2,high/vhigh
+high,med,5more,4,med,low,unacc,Não Aceitável,2,1,3,1,1,0,high/vhigh
+high,med,5more,4,med,med,acc,Aceitável,2,1,3,1,1,1,high/vhigh
+high,med,5more,4,med,high,acc,Aceitável,2,1,3,1,1,2,high/vhigh
+high,med,5more,4,big,low,unacc,Não Aceitável,2,1,3,1,2,0,high/vhigh
+high,med,5more,4,big,med,acc,Aceitável,2,1,3,1,2,1,high/vhigh
+high,med,5more,4,big,high,acc,Aceitável,2,1,3,1,2,2,high/vhigh
+high,med,5more,more,small,low,unacc,Não Aceitável,2,1,3,2,0,0,high/vhigh
+high,med,5more,more,small,med,unacc,Não Aceitável,2,1,3,2,0,1,high/vhigh
+high,med,5more,more,small,high,acc,Aceitável,2,1,3,2,0,2,high/vhigh
+high,med,5more,more,med,low,unacc,Não Aceitável,2,1,3,2,1,0,high/vhigh
+high,med,5more,more,med,med,acc,Aceitável,2,1,3,2,1,1,high/vhigh
+high,med,5more,more,med,high,acc,Aceitável,2,1,3,2,1,2,high/vhigh
+high,med,5more,more,big,low,unacc,Não Aceitável,2,1,3,2,2,0,high/vhigh
+high,med,5more,more,big,med,acc,Aceitável,2,1,3,2,2,1,high/vhigh
+high,med,5more,more,big,high,acc,Aceitável,2,1,3,2,2,2,high/vhigh
+high,low,2,2,small,low,unacc,Não Aceitável,2,0,0,0,0,0,high/vhigh
+high,low,2,2,small,med,unacc,Não Aceitável,2,0,0,0,0,1,high/vhigh
+high,low,2,2,small,high,unacc,Não Aceitável,2,0,0,0,0,2,high/vhigh
+high,low,2,2,med,low,unacc,Não Aceitável,2,0,0,0,1,0,high/vhigh
+high,low,2,2,med,med,unacc,Não Aceitável,2,0,0,0,1,1,high/vhigh
+high,low,2,2,med,high,unacc,Não Aceitável,2,0,0,0,1,2,high/vhigh
+high,low,2,2,big,low,unacc,Não Aceitável,2,0,0,0,2,0,high/vhigh
+high,low,2,2,big,med,unacc,Não Aceitável,2,0,0,0,2,1,high/vhigh
+high,low,2,2,big,high,unacc,Não Aceitável,2,0,0,0,2,2,high/vhigh
+high,low,2,4,small,low,unacc,Não Aceitável,2,0,0,1,0,0,high/vhigh
+high,low,2,4,small,med,unacc,Não Aceitável,2,0,0,1,0,1,high/vhigh
+high,low,2,4,small,high,acc,Aceitável,2,0,0,1,0,2,high/vhigh
+high,low,2,4,med,low,unacc,Não Aceitável,2,0,0,1,1,0,high/vhigh
+high,low,2,4,med,med,unacc,Não Aceitável,2,0,0,1,1,1,high/vhigh
+high,low,2,4,med,high,acc,Aceitável,2,0,0,1,1,2,high/vhigh
+high,low,2,4,big,low,unacc,Não Aceitável,2,0,0,1,2,0,high/vhigh
+high,low,2,4,big,med,acc,Aceitável,2,0,0,1,2,1,high/vhigh
+high,low,2,4,big,high,acc,Aceitável,2,0,0,1,2,2,high/vhigh
+high,low,2,more,small,low,unacc,Não Aceitável,2,0,0,2,0,0,high/vhigh
+high,low,2,more,small,med,unacc,Não Aceitável,2,0,0,2,0,1,high/vhigh
+high,low,2,more,small,high,unacc,Não Aceitável,2,0,0,2,0,2,high/vhigh
+high,low,2,more,med,low,unacc,Não Aceitável,2,0,0,2,1,0,high/vhigh
+high,low,2,more,med,med,unacc,Não Aceitável,2,0,0,2,1,1,high/vhigh
+high,low,2,more,med,high,acc,Aceitável,2,0,0,2,1,2,high/vhigh
+high,low,2,more,big,low,unacc,Não Aceitável,2,0,0,2,2,0,high/vhigh
+high,low,2,more,big,med,acc,Aceitável,2,0,0,2,2,1,high/vhigh
+high,low,2,more,big,high,acc,Aceitável,2,0,0,2,2,2,high/vhigh
+high,low,3,2,small,low,unacc,Não Aceitável,2,0,1,0,0,0,high/vhigh
+high,low,3,2,small,med,unacc,Não Aceitável,2,0,1,0,0,1,high/vhigh
+high,low,3,2,small,high,unacc,Não Aceitável,2,0,1,0,0,2,high/vhigh
+high,low,3,2,med,low,unacc,Não Aceitável,2,0,1,0,1,0,high/vhigh
+high,low,3,2,med,med,unacc,Não Aceitável,2,0,1,0,1,1,high/vhigh
+high,low,3,2,med,high,unacc,Não Aceitável,2,0,1,0,1,2,high/vhigh
+high,low,3,2,big,low,unacc,Não Aceitável,2,0,1,0,2,0,high/vhigh
+high,low,3,2,big,med,unacc,Não Aceitável,2,0,1,0,2,1,high/vhigh
+high,low,3,2,big,high,unacc,Não Aceitável,2,0,1,0,2,2,high/vhigh
+high,low,3,4,small,low,unacc,Não Aceitável,2,0,1,1,0,0,high/vhigh
+high,low,3,4,small,med,unacc,Não Aceitável,2,0,1,1,0,1,high/vhigh
+high,low,3,4,small,high,acc,Aceitável,2,0,1,1,0,2,high/vhigh
+high,low,3,4,med,low,unacc,Não Aceitável,2,0,1,1,1,0,high/vhigh
+high,low,3,4,med,med,unacc,Não Aceitável,2,0,1,1,1,1,high/vhigh
+high,low,3,4,med,high,acc,Aceitável,2,0,1,1,1,2,high/vhigh
+high,low,3,4,big,low,unacc,Não Aceitável,2,0,1,1,2,0,high/vhigh
+high,low,3,4,big,med,acc,Aceitável,2,0,1,1,2,1,high/vhigh
+high,low,3,4,big,high,acc,Aceitável,2,0,1,1,2,2,high/vhigh
+high,low,3,more,small,low,unacc,Não Aceitável,2,0,1,2,0,0,high/vhigh
+high,low,3,more,small,med,unacc,Não Aceitável,2,0,1,2,0,1,high/vhigh
+high,low,3,more,small,high,acc,Aceitável,2,0,1,2,0,2,high/vhigh
+high,low,3,more,med,low,unacc,Não Aceitável,2,0,1,2,1,0,high/vhigh
+high,low,3,more,med,med,acc,Aceitável,2,0,1,2,1,1,high/vhigh
+high,low,3,more,med,high,acc,Aceitável,2,0,1,2,1,2,high/vhigh
+high,low,3,more,big,low,unacc,Não Aceitável,2,0,1,2,2,0,high/vhigh
+high,low,3,more,big,med,acc,Aceitável,2,0,1,2,2,1,high/vhigh
+high,low,3,more,big,high,acc,Aceitável,2,0,1,2,2,2,high/vhigh
+high,low,4,2,small,low,unacc,Não Aceitável,2,0,2,0,0,0,high/vhigh
+high,low,4,2,small,med,unacc,Não Aceitável,2,0,2,0,0,1,high/vhigh
+high,low,4,2,small,high,unacc,Não Aceitável,2,0,2,0,0,2,high/vhigh
+high,low,4,2,med,low,unacc,Não Aceitável,2,0,2,0,1,0,high/vhigh
+high,low,4,2,med,med,unacc,Não Aceitável,2,0,2,0,1,1,high/vhigh
+high,low,4,2,med,high,unacc,Não Aceitável,2,0,2,0,1,2,high/vhigh
+high,low,4,2,big,low,unacc,Não Aceitável,2,0,2,0,2,0,high/vhigh
+high,low,4,2,big,med,unacc,Não Aceitável,2,0,2,0,2,1,high/vhigh
+high,low,4,2,big,high,unacc,Não Aceitável,2,0,2,0,2,2,high/vhigh
+high,low,4,4,small,low,unacc,Não Aceitável,2,0,2,1,0,0,high/vhigh
+high,low,4,4,small,med,unacc,Não Aceitável,2,0,2,1,0,1,high/vhigh
+high,low,4,4,small,high,acc,Aceitável,2,0,2,1,0,2,high/vhigh
+high,low,4,4,med,low,unacc,Não Aceitável,2,0,2,1,1,0,high/vhigh
+high,low,4,4,med,med,acc,Aceitável,2,0,2,1,1,1,high/vhigh
+high,low,4,4,med,high,acc,Aceitável,2,0,2,1,1,2,high/vhigh
+high,low,4,4,big,low,unacc,Não Aceitável,2,0,2,1,2,0,high/vhigh
+high,low,4,4,big,med,acc,Aceitável,2,0,2,1,2,1,high/vhigh
+high,low,4,4,big,high,acc,Aceitável,2,0,2,1,2,2,high/vhigh
+high,low,4,more,small,low,unacc,Não Aceitável,2,0,2,2,0,0,high/vhigh
+high,low,4,more,small,med,unacc,Não Aceitável,2,0,2,2,0,1,high/vhigh
+high,low,4,more,small,high,acc,Aceitável,2,0,2,2,0,2,high/vhigh
+high,low,4,more,med,low,unacc,Não Aceitável,2,0,2,2,1,0,high/vhigh
+high,low,4,more,med,med,acc,Aceitável,2,0,2,2,1,1,high/vhigh
+high,low,4,more,med,high,acc,Aceitável,2,0,2,2,1,2,high/vhigh
+high,low,4,more,big,low,unacc,Não Aceitável,2,0,2,2,2,0,high/vhigh
+high,low,4,more,big,med,acc,Aceitável,2,0,2,2,2,1,high/vhigh
+high,low,4,more,big,high,acc,Aceitável,2,0,2,2,2,2,high/vhigh
+high,low,5more,2,small,low,unacc,Não Aceitável,2,0,3,0,0,0,high/vhigh
+high,low,5more,2,small,med,unacc,Não Aceitável,2,0,3,0,0,1,high/vhigh
+high,low,5more,2,small,high,unacc,Não Aceitável,2,0,3,0,0,2,high/vhigh
+high,low,5more,2,med,low,unacc,Não Aceitável,2,0,3,0,1,0,high/vhigh
+high,low,5more,2,med,med,unacc,Não Aceitável,2,0,3,0,1,1,high/vhigh
+high,low,5more,2,med,high,unacc,Não Aceitável,2,0,3,0,1,2,high/vhigh
+high,low,5more,2,big,low,unacc,Não Aceitável,2,0,3,0,2,0,high/vhigh
+high,low,5more,2,big,med,unacc,Não Aceitável,2,0,3,0,2,1,high/vhigh
+high,low,5more,2,big,high,unacc,Não Aceitável,2,0,3,0,2,2,high/vhigh
+high,low,5more,4,small,low,unacc,Não Aceitável,2,0,3,1,0,0,high/vhigh
+high,low,5more,4,small,med,unacc,Não Aceitável,2,0,3,1,0,1,high/vhigh
+high,low,5more,4,small,high,acc,Aceitável,2,0,3,1,0,2,high/vhigh
+high,low,5more,4,med,low,unacc,Não Aceitável,2,0,3,1,1,0,high/vhigh
+high,low,5more,4,med,med,acc,Aceitável,2,0,3,1,1,1,high/vhigh
+high,low,5more,4,med,high,acc,Aceitável,2,0,3,1,1,2,high/vhigh
+high,low,5more,4,big,low,unacc,Não Aceitável,2,0,3,1,2,0,high/vhigh
+high,low,5more,4,big,med,acc,Aceitável,2,0,3,1,2,1,high/vhigh
+high,low,5more,4,big,high,acc,Aceitável,2,0,3,1,2,2,high/vhigh
+high,low,5more,more,small,low,unacc,Não Aceitável,2,0,3,2,0,0,high/vhigh
+high,low,5more,more,small,med,unacc,Não Aceitável,2,0,3,2,0,1,high/vhigh
+high,low,5more,more,small,high,acc,Aceitável,2,0,3,2,0,2,high/vhigh
+high,low,5more,more,med,low,unacc,Não Aceitável,2,0,3,2,1,0,high/vhigh
+high,low,5more,more,med,med,acc,Aceitável,2,0,3,2,1,1,high/vhigh
+high,low,5more,more,med,high,acc,Aceitável,2,0,3,2,1,2,high/vhigh
+high,low,5more,more,big,low,unacc,Não Aceitável,2,0,3,2,2,0,high/vhigh
+high,low,5more,more,big,med,acc,Aceitável,2,0,3,2,2,1,high/vhigh
+high,low,5more,more,big,high,acc,Aceitável,2,0,3,2,2,2,high/vhigh
+med,vhigh,2,2,small,low,unacc,Não Aceitável,1,3,0,0,0,0,med
+med,vhigh,2,2,small,med,unacc,Não Aceitável,1,3,0,0,0,1,med
+med,vhigh,2,2,small,high,unacc,Não Aceitável,1,3,0,0,0,2,med
+med,vhigh,2,2,med,low,unacc,Não Aceitável,1,3,0,0,1,0,med
+med,vhigh,2,2,med,med,unacc,Não Aceitável,1,3,0,0,1,1,med
+med,vhigh,2,2,med,high,unacc,Não Aceitável,1,3,0,0,1,2,med
+med,vhigh,2,2,big,low,unacc,Não Aceitável,1,3,0,0,2,0,med
+med,vhigh,2,2,big,med,unacc,Não Aceitável,1,3,0,0,2,1,med
+med,vhigh,2,2,big,high,unacc,Não Aceitável,1,3,0,0,2,2,med
+med,vhigh,2,4,small,low,unacc,Não Aceitável,1,3,0,1,0,0,med
+med,vhigh,2,4,small,med,unacc,Não Aceitável,1,3,0,1,0,1,med
+med,vhigh,2,4,small,high,acc,Aceitável,1,3,0,1,0,2,med
+med,vhigh,2,4,med,low,unacc,Não Aceitável,1,3,0,1,1,0,med
+med,vhigh,2,4,med,med,unacc,Não Aceitável,1,3,0,1,1,1,med
+med,vhigh,2,4,med,high,acc,Aceitável,1,3,0,1,1,2,med
+med,vhigh,2,4,big,low,unacc,Não Aceitável,1,3,0,1,2,0,med
+med,vhigh,2,4,big,med,acc,Aceitável,1,3,0,1,2,1,med
+med,vhigh,2,4,big,high,acc,Aceitável,1,3,0,1,2,2,med
+med,vhigh,2,more,small,low,unacc,Não Aceitável,1,3,0,2,0,0,med
+med,vhigh,2,more,small,med,unacc,Não Aceitável,1,3,0,2,0,1,med
+med,vhigh,2,more,small,high,unacc,Não Aceitável,1,3,0,2,0,2,med
+med,vhigh,2,more,med,low,unacc,Não Aceitável,1,3,0,2,1,0,med
+med,vhigh,2,more,med,med,unacc,Não Aceitável,1,3,0,2,1,1,med
+med,vhigh,2,more,med,high,acc,Aceitável,1,3,0,2,1,2,med
+med,vhigh,2,more,big,low,unacc,Não Aceitável,1,3,0,2,2,0,med
+med,vhigh,2,more,big,med,acc,Aceitável,1,3,0,2,2,1,med
+med,vhigh,2,more,big,high,acc,Aceitável,1,3,0,2,2,2,med
+med,vhigh,3,2,small,low,unacc,Não Aceitável,1,3,1,0,0,0,med
+med,vhigh,3,2,small,med,unacc,Não Aceitável,1,3,1,0,0,1,med
+med,vhigh,3,2,small,high,unacc,Não Aceitável,1,3,1,0,0,2,med
+med,vhigh,3,2,med,low,unacc,Não Aceitável,1,3,1,0,1,0,med
+med,vhigh,3,2,med,med,unacc,Não Aceitável,1,3,1,0,1,1,med
+med,vhigh,3,2,med,high,unacc,Não Aceitável,1,3,1,0,1,2,med
+med,vhigh,3,2,big,low,unacc,Não Aceitável,1,3,1,0,2,0,med
+med,vhigh,3,2,big,med,unacc,Não Aceitável,1,3,1,0,2,1,med
+med,vhigh,3,2,big,high,unacc,Não Aceitável,1,3,1,0,2,2,med
+med,vhigh,3,4,small,low,unacc,Não Aceitável,1,3,1,1,0,0,med
+med,vhigh,3,4,small,med,unacc,Não Aceitável,1,3,1,1,0,1,med
+med,vhigh,3,4,small,high,acc,Aceitável,1,3,1,1,0,2,med
+med,vhigh,3,4,med,low,unacc,Não Aceitável,1,3,1,1,1,0,med
+med,vhigh,3,4,med,med,unacc,Não Aceitável,1,3,1,1,1,1,med
+med,vhigh,3,4,med,high,acc,Aceitável,1,3,1,1,1,2,med
+med,vhigh,3,4,big,low,unacc,Não Aceitável,1,3,1,1,2,0,med
+med,vhigh,3,4,big,med,acc,Aceitável,1,3,1,1,2,1,med
+med,vhigh,3,4,big,high,acc,Aceitável,1,3,1,1,2,2,med
+med,vhigh,3,more,small,low,unacc,Não Aceitável,1,3,1,2,0,0,med
+med,vhigh,3,more,small,med,unacc,Não Aceitável,1,3,1,2,0,1,med
+med,vhigh,3,more,small,high,acc,Aceitável,1,3,1,2,0,2,med
+med,vhigh,3,more,med,low,unacc,Não Aceitável,1,3,1,2,1,0,med
+med,vhigh,3,more,med,med,acc,Aceitável,1,3,1,2,1,1,med
+med,vhigh,3,more,med,high,acc,Aceitável,1,3,1,2,1,2,med
+med,vhigh,3,more,big,low,unacc,Não Aceitável,1,3,1,2,2,0,med
+med,vhigh,3,more,big,med,acc,Aceitável,1,3,1,2,2,1,med
+med,vhigh,3,more,big,high,acc,Aceitável,1,3,1,2,2,2,med
+med,vhigh,4,2,small,low,unacc,Não Aceitável,1,3,2,0,0,0,med
+med,vhigh,4,2,small,med,unacc,Não Aceitável,1,3,2,0,0,1,med
+med,vhigh,4,2,small,high,unacc,Não Aceitável,1,3,2,0,0,2,med
+med,vhigh,4,2,med,low,unacc,Não Aceitável,1,3,2,0,1,0,med
+med,vhigh,4,2,med,med,unacc,Não Aceitável,1,3,2,0,1,1,med
+med,vhigh,4,2,med,high,unacc,Não Aceitável,1,3,2,0,1,2,med
+med,vhigh,4,2,big,low,unacc,Não Aceitável,1,3,2,0,2,0,med
+med,vhigh,4,2,big,med,unacc,Não Aceitável,1,3,2,0,2,1,med
+med,vhigh,4,2,big,high,unacc,Não Aceitável,1,3,2,0,2,2,med
+med,vhigh,4,4,small,low,unacc,Não Aceitável,1,3,2,1,0,0,med
+med,vhigh,4,4,small,med,unacc,Não Aceitável,1,3,2,1,0,1,med
+med,vhigh,4,4,small,high,acc,Aceitável,1,3,2,1,0,2,med
+med,vhigh,4,4,med,low,unacc,Não Aceitável,1,3,2,1,1,0,med
+med,vhigh,4,4,med,med,acc,Aceitável,1,3,2,1,1,1,med
+med,vhigh,4,4,med,high,acc,Aceitável,1,3,2,1,1,2,med
+med,vhigh,4,4,big,low,unacc,Não Aceitável,1,3,2,1,2,0,med
+med,vhigh,4,4,big,med,acc,Aceitável,1,3,2,1,2,1,med
+med,vhigh,4,4,big,high,acc,Aceitável,1,3,2,1,2,2,med
+med,vhigh,4,more,small,low,unacc,Não Aceitável,1,3,2,2,0,0,med
+med,vhigh,4,more,small,med,unacc,Não Aceitável,1,3,2,2,0,1,med
+med,vhigh,4,more,small,high,acc,Aceitável,1,3,2,2,0,2,med
+med,vhigh,4,more,med,low,unacc,Não Aceitável,1,3,2,2,1,0,med
+med,vhigh,4,more,med,med,acc,Aceitável,1,3,2,2,1,1,med
+med,vhigh,4,more,med,high,acc,Aceitável,1,3,2,2,1,2,med
+med,vhigh,4,more,big,low,unacc,Não Aceitável,1,3,2,2,2,0,med
+med,vhigh,4,more,big,med,acc,Aceitável,1,3,2,2,2,1,med
+med,vhigh,4,more,big,high,acc,Aceitável,1,3,2,2,2,2,med
+med,vhigh,5more,2,small,low,unacc,Não Aceitável,1,3,3,0,0,0,med
+med,vhigh,5more,2,small,med,unacc,Não Aceitável,1,3,3,0,0,1,med
+med,vhigh,5more,2,small,high,unacc,Não Aceitável,1,3,3,0,0,2,med
+med,vhigh,5more,2,med,low,unacc,Não Aceitável,1,3,3,0,1,0,med
+med,vhigh,5more,2,med,med,unacc,Não Aceitável,1,3,3,0,1,1,med
+med,vhigh,5more,2,med,high,unacc,Não Aceitável,1,3,3,0,1,2,med
+med,vhigh,5more,2,big,low,unacc,Não Aceitável,1,3,3,0,2,0,med
+med,vhigh,5more,2,big,med,unacc,Não Aceitável,1,3,3,0,2,1,med
+med,vhigh,5more,2,big,high,unacc,Não Aceitável,1,3,3,0,2,2,med
+med,vhigh,5more,4,small,low,unacc,Não Aceitável,1,3,3,1,0,0,med
+med,vhigh,5more,4,small,med,unacc,Não Aceitável,1,3,3,1,0,1,med
+med,vhigh,5more,4,small,high,acc,Aceitável,1,3,3,1,0,2,med
+med,vhigh,5more,4,med,low,unacc,Não Aceitável,1,3,3,1,1,0,med
+med,vhigh,5more,4,med,med,acc,Aceitável,1,3,3,1,1,1,med
+med,vhigh,5more,4,med,high,acc,Aceitável,1,3,3,1,1,2,med
+med,vhigh,5more,4,big,low,unacc,Não Aceitável,1,3,3,1,2,0,med
+med,vhigh,5more,4,big,med,acc,Aceitável,1,3,3,1,2,1,med
+med,vhigh,5more,4,big,high,acc,Aceitável,1,3,3,1,2,2,med
+med,vhigh,5more,more,small,low,unacc,Não Aceitável,1,3,3,2,0,0,med
+med,vhigh,5more,more,small,med,unacc,Não Aceitável,1,3,3,2,0,1,med
+med,vhigh,5more,more,small,high,acc,Aceitável,1,3,3,2,0,2,med
+med,vhigh,5more,more,med,low,unacc,Não Aceitável,1,3,3,2,1,0,med
+med,vhigh,5more,more,med,med,acc,Aceitável,1,3,3,2,1,1,med
+med,vhigh,5more,more,med,high,acc,Aceitável,1,3,3,2,1,2,med
+med,vhigh,5more,more,big,low,unacc,Não Aceitável,1,3,3,2,2,0,med
+med,vhigh,5more,more,big,med,acc,Aceitável,1,3,3,2,2,1,med
+med,vhigh,5more,more,big,high,acc,Aceitável,1,3,3,2,2,2,med
+med,high,2,2,small,low,unacc,Não Aceitável,1,2,0,0,0,0,med
+med,high,2,2,small,med,unacc,Não Aceitável,1,2,0,0,0,1,med
+med,high,2,2,small,high,unacc,Não Aceitável,1,2,0,0,0,2,med
+med,high,2,2,med,low,unacc,Não Aceitável,1,2,0,0,1,0,med
+med,high,2,2,med,med,unacc,Não Aceitável,1,2,0,0,1,1,med
+med,high,2,2,med,high,unacc,Não Aceitável,1,2,0,0,1,2,med
+med,high,2,2,big,low,unacc,Não Aceitável,1,2,0,0,2,0,med
+med,high,2,2,big,med,unacc,Não Aceitável,1,2,0,0,2,1,med
+med,high,2,2,big,high,unacc,Não Aceitável,1,2,0,0,2,2,med
+med,high,2,4,small,low,unacc,Não Aceitável,1,2,0,1,0,0,med
+med,high,2,4,small,med,unacc,Não Aceitável,1,2,0,1,0,1,med
+med,high,2,4,small,high,acc,Aceitável,1,2,0,1,0,2,med
+med,high,2,4,med,low,unacc,Não Aceitável,1,2,0,1,1,0,med
+med,high,2,4,med,med,unacc,Não Aceitável,1,2,0,1,1,1,med
+med,high,2,4,med,high,acc,Aceitável,1,2,0,1,1,2,med
+med,high,2,4,big,low,unacc,Não Aceitável,1,2,0,1,2,0,med
+med,high,2,4,big,med,acc,Aceitável,1,2,0,1,2,1,med
+med,high,2,4,big,high,acc,Aceitável,1,2,0,1,2,2,med
+med,high,2,more,small,low,unacc,Não Aceitável,1,2,0,2,0,0,med
+med,high,2,more,small,med,unacc,Não Aceitável,1,2,0,2,0,1,med
+med,high,2,more,small,high,unacc,Não Aceitável,1,2,0,2,0,2,med
+med,high,2,more,med,low,unacc,Não Aceitável,1,2,0,2,1,0,med
+med,high,2,more,med,med,unacc,Não Aceitável,1,2,0,2,1,1,med
+med,high,2,more,med,high,acc,Aceitável,1,2,0,2,1,2,med
+med,high,2,more,big,low,unacc,Não Aceitável,1,2,0,2,2,0,med
+med,high,2,more,big,med,acc,Aceitável,1,2,0,2,2,1,med
+med,high,2,more,big,high,acc,Aceitável,1,2,0,2,2,2,med
+med,high,3,2,small,low,unacc,Não Aceitável,1,2,1,0,0,0,med
+med,high,3,2,small,med,unacc,Não Aceitável,1,2,1,0,0,1,med
+med,high,3,2,small,high,unacc,Não Aceitável,1,2,1,0,0,2,med
+med,high,3,2,med,low,unacc,Não Aceitável,1,2,1,0,1,0,med
+med,high,3,2,med,med,unacc,Não Aceitável,1,2,1,0,1,1,med
+med,high,3,2,med,high,unacc,Não Aceitável,1,2,1,0,1,2,med
+med,high,3,2,big,low,unacc,Não Aceitável,1,2,1,0,2,0,med
+med,high,3,2,big,med,unacc,Não Aceitável,1,2,1,0,2,1,med
+med,high,3,2,big,high,unacc,Não Aceitável,1,2,1,0,2,2,med
+med,high,3,4,small,low,unacc,Não Aceitável,1,2,1,1,0,0,med
+med,high,3,4,small,med,unacc,Não Aceitável,1,2,1,1,0,1,med
+med,high,3,4,small,high,acc,Aceitável,1,2,1,1,0,2,med
+med,high,3,4,med,low,unacc,Não Aceitável,1,2,1,1,1,0,med
+med,high,3,4,med,med,unacc,Não Aceitável,1,2,1,1,1,1,med
+med,high,3,4,med,high,acc,Aceitável,1,2,1,1,1,2,med
+med,high,3,4,big,low,unacc,Não Aceitável,1,2,1,1,2,0,med
+med,high,3,4,big,med,acc,Aceitável,1,2,1,1,2,1,med
+med,high,3,4,big,high,acc,Aceitável,1,2,1,1,2,2,med
+med,high,3,more,small,low,unacc,Não Aceitável,1,2,1,2,0,0,med
+med,high,3,more,small,med,unacc,Não Aceitável,1,2,1,2,0,1,med
+med,high,3,more,small,high,acc,Aceitável,1,2,1,2,0,2,med
+med,high,3,more,med,low,unacc,Não Aceitável,1,2,1,2,1,0,med
+med,high,3,more,med,med,acc,Aceitável,1,2,1,2,1,1,med
+med,high,3,more,med,high,acc,Aceitável,1,2,1,2,1,2,med
+med,high,3,more,big,low,unacc,Não Aceitável,1,2,1,2,2,0,med
+med,high,3,more,big,med,acc,Aceitável,1,2,1,2,2,1,med
+med,high,3,more,big,high,acc,Aceitável,1,2,1,2,2,2,med
+med,high,4,2,small,low,unacc,Não Aceitável,1,2,2,0,0,0,med
+med,high,4,2,small,med,unacc,Não Aceitável,1,2,2,0,0,1,med
+med,high,4,2,small,high,unacc,Não Aceitável,1,2,2,0,0,2,med
+med,high,4,2,med,low,unacc,Não Aceitável,1,2,2,0,1,0,med
+med,high,4,2,med,med,unacc,Não Aceitável,1,2,2,0,1,1,med
+med,high,4,2,med,high,unacc,Não Aceitável,1,2,2,0,1,2,med
+med,high,4,2,big,low,unacc,Não Aceitável,1,2,2,0,2,0,med
+med,high,4,2,big,med,unacc,Não Aceitável,1,2,2,0,2,1,med
+med,high,4,2,big,high,unacc,Não Aceitável,1,2,2,0,2,2,med
+med,high,4,4,small,low,unacc,Não Aceitável,1,2,2,1,0,0,med
+med,high,4,4,small,med,unacc,Não Aceitável,1,2,2,1,0,1,med
+med,high,4,4,small,high,acc,Aceitável,1,2,2,1,0,2,med
+med,high,4,4,med,low,unacc,Não Aceitável,1,2,2,1,1,0,med
+med,high,4,4,med,med,acc,Aceitável,1,2,2,1,1,1,med
+med,high,4,4,med,high,acc,Aceitável,1,2,2,1,1,2,med
+med,high,4,4,big,low,unacc,Não Aceitável,1,2,2,1,2,0,med
+med,high,4,4,big,med,acc,Aceitável,1,2,2,1,2,1,med
+med,high,4,4,big,high,acc,Aceitável,1,2,2,1,2,2,med
+med,high,4,more,small,low,unacc,Não Aceitável,1,2,2,2,0,0,med
+med,high,4,more,small,med,unacc,Não Aceitável,1,2,2,2,0,1,med
+med,high,4,more,small,high,acc,Aceitável,1,2,2,2,0,2,med
+med,high,4,more,med,low,unacc,Não Aceitável,1,2,2,2,1,0,med
+med,high,4,more,med,med,acc,Aceitável,1,2,2,2,1,1,med
+med,high,4,more,med,high,acc,Aceitável,1,2,2,2,1,2,med
+med,high,4,more,big,low,unacc,Não Aceitável,1,2,2,2,2,0,med
+med,high,4,more,big,med,acc,Aceitável,1,2,2,2,2,1,med
+med,high,4,more,big,high,acc,Aceitável,1,2,2,2,2,2,med
+med,high,5more,2,small,low,unacc,Não Aceitável,1,2,3,0,0,0,med
+med,high,5more,2,small,med,unacc,Não Aceitável,1,2,3,0,0,1,med
+med,high,5more,2,small,high,unacc,Não Aceitável,1,2,3,0,0,2,med
+med,high,5more,2,med,low,unacc,Não Aceitável,1,2,3,0,1,0,med
+med,high,5more,2,med,med,unacc,Não Aceitável,1,2,3,0,1,1,med
+med,high,5more,2,med,high,unacc,Não Aceitável,1,2,3,0,1,2,med
+med,high,5more,2,big,low,unacc,Não Aceitável,1,2,3,0,2,0,med
+med,high,5more,2,big,med,unacc,Não Aceitável,1,2,3,0,2,1,med
+med,high,5more,2,big,high,unacc,Não Aceitável,1,2,3,0,2,2,med
+med,high,5more,4,small,low,unacc,Não Aceitável,1,2,3,1,0,0,med
+med,high,5more,4,small,med,unacc,Não Aceitável,1,2,3,1,0,1,med
+med,high,5more,4,small,high,acc,Aceitável,1,2,3,1,0,2,med
+med,high,5more,4,med,low,unacc,Não Aceitável,1,2,3,1,1,0,med
+med,high,5more,4,med,med,acc,Aceitável,1,2,3,1,1,1,med
+med,high,5more,4,med,high,acc,Aceitável,1,2,3,1,1,2,med
+med,high,5more,4,big,low,unacc,Não Aceitável,1,2,3,1,2,0,med
+med,high,5more,4,big,med,acc,Aceitável,1,2,3,1,2,1,med
+med,high,5more,4,big,high,acc,Aceitável,1,2,3,1,2,2,med
+med,high,5more,more,small,low,unacc,Não Aceitável,1,2,3,2,0,0,med
+med,high,5more,more,small,med,unacc,Não Aceitável,1,2,3,2,0,1,med
+med,high,5more,more,small,high,acc,Aceitável,1,2,3,2,0,2,med
+med,high,5more,more,med,low,unacc,Não Aceitável,1,2,3,2,1,0,med
+med,high,5more,more,med,med,acc,Aceitável,1,2,3,2,1,1,med
+med,high,5more,more,med,high,acc,Aceitável,1,2,3,2,1,2,med
+med,high,5more,more,big,low,unacc,Não Aceitável,1,2,3,2,2,0,med
+med,high,5more,more,big,med,acc,Aceitável,1,2,3,2,2,1,med
+med,high,5more,more,big,high,acc,Aceitável,1,2,3,2,2,2,med
+med,med,2,2,small,low,unacc,Não Aceitável,1,1,0,0,0,0,med
+med,med,2,2,small,med,unacc,Não Aceitável,1,1,0,0,0,1,med
+med,med,2,2,small,high,unacc,Não Aceitável,1,1,0,0,0,2,med
+med,med,2,2,med,low,unacc,Não Aceitável,1,1,0,0,1,0,med
+med,med,2,2,med,med,unacc,Não Aceitável,1,1,0,0,1,1,med
+med,med,2,2,med,high,unacc,Não Aceitável,1,1,0,0,1,2,med
+med,med,2,2,big,low,unacc,Não Aceitável,1,1,0,0,2,0,med
+med,med,2,2,big,med,unacc,Não Aceitável,1,1,0,0,2,1,med
+med,med,2,2,big,high,unacc,Não Aceitável,1,1,0,0,2,2,med
+med,med,2,4,small,low,unacc,Não Aceitável,1,1,0,1,0,0,med
+med,med,2,4,small,med,acc,Aceitável,1,1,0,1,0,1,med
+med,med,2,4,small,high,acc,Aceitável,1,1,0,1,0,2,med
+med,med,2,4,med,low,unacc,Não Aceitável,1,1,0,1,1,0,med
+med,med,2,4,med,med,acc,Aceitável,1,1,0,1,1,1,med
+med,med,2,4,med,high,acc,Aceitável,1,1,0,1,1,2,med
+med,med,2,4,big,low,unacc,Não Aceitável,1,1,0,1,2,0,med
+med,med,2,4,big,med,acc,Aceitável,1,1,0,1,2,1,med
+med,med,2,4,big,high,vgood,Aceitável,1,1,0,1,2,2,med
+med,med,2,more,small,low,unacc,Não Aceitável,1,1,0,2,0,0,med
+med,med,2,more,small,med,unacc,Não Aceitável,1,1,0,2,0,1,med
+med,med,2,more,small,high,unacc,Não Aceitável,1,1,0,2,0,2,med
+med,med,2,more,med,low,unacc,Não Aceitável,1,1,0,2,1,0,med
+med,med,2,more,med,med,acc,Aceitável,1,1,0,2,1,1,med
+med,med,2,more,med,high,acc,Aceitável,1,1,0,2,1,2,med
+med,med,2,more,big,low,unacc,Não Aceitável,1,1,0,2,2,0,med
+med,med,2,more,big,med,acc,Aceitável,1,1,0,2,2,1,med
+med,med,2,more,big,high,vgood,Aceitável,1,1,0,2,2,2,med
+med,med,3,2,small,low,unacc,Não Aceitável,1,1,1,0,0,0,med
+med,med,3,2,small,med,unacc,Não Aceitável,1,1,1,0,0,1,med
+med,med,3,2,small,high,unacc,Não Aceitável,1,1,1,0,0,2,med
+med,med,3,2,med,low,unacc,Não Aceitável,1,1,1,0,1,0,med
+med,med,3,2,med,med,unacc,Não Aceitável,1,1,1,0,1,1,med
+med,med,3,2,med,high,unacc,Não Aceitável,1,1,1,0,1,2,med
+med,med,3,2,big,low,unacc,Não Aceitável,1,1,1,0,2,0,med
+med,med,3,2,big,med,unacc,Não Aceitável,1,1,1,0,2,1,med
+med,med,3,2,big,high,unacc,Não Aceitável,1,1,1,0,2,2,med
+med,med,3,4,small,low,unacc,Não Aceitável,1,1,1,1,0,0,med
+med,med,3,4,small,med,acc,Aceitável,1,1,1,1,0,1,med
+med,med,3,4,small,high,acc,Aceitável,1,1,1,1,0,2,med
+med,med,3,4,med,low,unacc,Não Aceitável,1,1,1,1,1,0,med
+med,med,3,4,med,med,acc,Aceitável,1,1,1,1,1,1,med
+med,med,3,4,med,high,acc,Aceitável,1,1,1,1,1,2,med
+med,med,3,4,big,low,unacc,Não Aceitável,1,1,1,1,2,0,med
+med,med,3,4,big,med,acc,Aceitável,1,1,1,1,2,1,med
+med,med,3,4,big,high,vgood,Aceitável,1,1,1,1,2,2,med
+med,med,3,more,small,low,unacc,Não Aceitável,1,1,1,2,0,0,med
+med,med,3,more,small,med,acc,Aceitável,1,1,1,2,0,1,med
+med,med,3,more,small,high,acc,Aceitável,1,1,1,2,0,2,med
+med,med,3,more,med,low,unacc,Não Aceitável,1,1,1,2,1,0,med
+med,med,3,more,med,med,acc,Aceitável,1,1,1,2,1,1,med
+med,med,3,more,med,high,vgood,Aceitável,1,1,1,2,1,2,med
+med,med,3,more,big,low,unacc,Não Aceitável,1,1,1,2,2,0,med
+med,med,3,more,big,med,acc,Aceitável,1,1,1,2,2,1,med
+med,med,3,more,big,high,vgood,Aceitável,1,1,1,2,2,2,med
+med,med,4,2,small,low,unacc,Não Aceitável,1,1,2,0,0,0,med
+med,med,4,2,small,med,unacc,Não Aceitável,1,1,2,0,0,1,med
+med,med,4,2,small,high,unacc,Não Aceitável,1,1,2,0,0,2,med
+med,med,4,2,med,low,unacc,Não Aceitável,1,1,2,0,1,0,med
+med,med,4,2,med,med,unacc,Não Aceitável,1,1,2,0,1,1,med
+med,med,4,2,med,high,unacc,Não Aceitável,1,1,2,0,1,2,med
+med,med,4,2,big,low,unacc,Não Aceitável,1,1,2,0,2,0,med
+med,med,4,2,big,med,unacc,Não Aceitável,1,1,2,0,2,1,med
+med,med,4,2,big,high,unacc,Não Aceitável,1,1,2,0,2,2,med
+med,med,4,4,small,low,unacc,Não Aceitável,1,1,2,1,0,0,med
+med,med,4,4,small,med,acc,Aceitável,1,1,2,1,0,1,med
+med,med,4,4,small,high,acc,Aceitável,1,1,2,1,0,2,med
+med,med,4,4,med,low,unacc,Não Aceitável,1,1,2,1,1,0,med
+med,med,4,4,med,med,acc,Aceitável,1,1,2,1,1,1,med
+med,med,4,4,med,high,vgood,Aceitável,1,1,2,1,1,2,med
+med,med,4,4,big,low,unacc,Não Aceitável,1,1,2,1,2,0,med
+med,med,4,4,big,med,acc,Aceitável,1,1,2,1,2,1,med
+med,med,4,4,big,high,vgood,Aceitável,1,1,2,1,2,2,med
+med,med,4,more,small,low,unacc,Não Aceitável,1,1,2,2,0,0,med
+med,med,4,more,small,med,acc,Aceitável,1,1,2,2,0,1,med
+med,med,4,more,small,high,acc,Aceitável,1,1,2,2,0,2,med
+med,med,4,more,med,low,unacc,Não Aceitável,1,1,2,2,1,0,med
+med,med,4,more,med,med,acc,Aceitável,1,1,2,2,1,1,med
+med,med,4,more,med,high,vgood,Aceitável,1,1,2,2,1,2,med
+med,med,4,more,big,low,unacc,Não Aceitável,1,1,2,2,2,0,med
+med,med,4,more,big,med,acc,Aceitável,1,1,2,2,2,1,med
+med,med,4,more,big,high,vgood,Aceitável,1,1,2,2,2,2,med
+med,med,5more,2,small,low,unacc,Não Aceitável,1,1,3,0,0,0,med
+med,med,5more,2,small,med,unacc,Não Aceitável,1,1,3,0,0,1,med
+med,med,5more,2,small,high,unacc,Não Aceitável,1,1,3,0,0,2,med
+med,med,5more,2,med,low,unacc,Não Aceitável,1,1,3,0,1,0,med
+med,med,5more,2,med,med,unacc,Não Aceitável,1,1,3,0,1,1,med
+med,med,5more,2,med,high,unacc,Não Aceitável,1,1,3,0,1,2,med
+med,med,5more,2,big,low,unacc,Não Aceitável,1,1,3,0,2,0,med
+med,med,5more,2,big,med,unacc,Não Aceitável,1,1,3,0,2,1,med
+med,med,5more,2,big,high,unacc,Não Aceitável,1,1,3,0,2,2,med
+med,med,5more,4,small,low,unacc,Não Aceitável,1,1,3,1,0,0,med
+med,med,5more,4,small,med,acc,Aceitável,1,1,3,1,0,1,med
+med,med,5more,4,small,high,acc,Aceitável,1,1,3,1,0,2,med
+med,med,5more,4,med,low,unacc,Não Aceitável,1,1,3,1,1,0,med
+med,med,5more,4,med,med,acc,Aceitável,1,1,3,1,1,1,med
+med,med,5more,4,med,high,vgood,Aceitável,1,1,3,1,1,2,med
+med,med,5more,4,big,low,unacc,Não Aceitável,1,1,3,1,2,0,med
+med,med,5more,4,big,med,acc,Aceitável,1,1,3,1,2,1,med
+med,med,5more,4,big,high,vgood,Aceitável,1,1,3,1,2,2,med
+med,med,5more,more,small,low,unacc,Não Aceitável,1,1,3,2,0,0,med
+med,med,5more,more,small,med,acc,Aceitável,1,1,3,2,0,1,med
+med,med,5more,more,small,high,acc,Aceitável,1,1,3,2,0,2,med
+med,med,5more,more,med,low,unacc,Não Aceitável,1,1,3,2,1,0,med
+med,med,5more,more,med,med,acc,Aceitável,1,1,3,2,1,1,med
+med,med,5more,more,med,high,vgood,Aceitável,1,1,3,2,1,2,med
+med,med,5more,more,big,low,unacc,Não Aceitável,1,1,3,2,2,0,med
+med,med,5more,more,big,med,acc,Aceitável,1,1,3,2,2,1,med
+med,med,5more,more,big,high,vgood,Aceitável,1,1,3,2,2,2,med
+med,low,2,2,small,low,unacc,Não Aceitável,1,0,0,0,0,0,med
+med,low,2,2,small,med,unacc,Não Aceitável,1,0,0,0,0,1,med
+med,low,2,2,small,high,unacc,Não Aceitável,1,0,0,0,0,2,med
+med,low,2,2,med,low,unacc,Não Aceitável,1,0,0,0,1,0,med
+med,low,2,2,med,med,unacc,Não Aceitável,1,0,0,0,1,1,med
+med,low,2,2,med,high,unacc,Não Aceitável,1,0,0,0,1,2,med
+med,low,2,2,big,low,unacc,Não Aceitável,1,0,0,0,2,0,med
+med,low,2,2,big,med,unacc,Não Aceitável,1,0,0,0,2,1,med
+med,low,2,2,big,high,unacc,Não Aceitável,1,0,0,0,2,2,med
+med,low,2,4,small,low,unacc,Não Aceitável,1,0,0,1,0,0,med
+med,low,2,4,small,med,acc,Aceitável,1,0,0,1,0,1,med
+med,low,2,4,small,high,good,Aceitável,1,0,0,1,0,2,med
+med,low,2,4,med,low,unacc,Não Aceitável,1,0,0,1,1,0,med
+med,low,2,4,med,med,acc,Aceitável,1,0,0,1,1,1,med
+med,low,2,4,med,high,good,Aceitável,1,0,0,1,1,2,med
+med,low,2,4,big,low,unacc,Não Aceitável,1,0,0,1,2,0,med
+med,low,2,4,big,med,good,Aceitável,1,0,0,1,2,1,med
+med,low,2,4,big,high,vgood,Aceitável,1,0,0,1,2,2,med
+med,low,2,more,small,low,unacc,Não Aceitável,1,0,0,2,0,0,med
+med,low,2,more,small,med,unacc,Não Aceitável,1,0,0,2,0,1,med
+med,low,2,more,small,high,unacc,Não Aceitável,1,0,0,2,0,2,med
+med,low,2,more,med,low,unacc,Não Aceitável,1,0,0,2,1,0,med
+med,low,2,more,med,med,acc,Aceitável,1,0,0,2,1,1,med
+med,low,2,more,med,high,good,Aceitável,1,0,0,2,1,2,med
+med,low,2,more,big,low,unacc,Não Aceitável,1,0,0,2,2,0,med
+med,low,2,more,big,med,good,Aceitável,1,0,0,2,2,1,med
+med,low,2,more,big,high,vgood,Aceitável,1,0,0,2,2,2,med
+med,low,3,2,small,low,unacc,Não Aceitável,1,0,1,0,0,0,med
+med,low,3,2,small,med,unacc,Não Aceitável,1,0,1,0,0,1,med
+med,low,3,2,small,high,unacc,Não Aceitável,1,0,1,0,0,2,med
+med,low,3,2,med,low,unacc,Não Aceitável,1,0,1,0,1,0,med
+med,low,3,2,med,med,unacc,Não Aceitável,1,0,1,0,1,1,med
+med,low,3,2,med,high,unacc,Não Aceitável,1,0,1,0,1,2,med
+med,low,3,2,big,low,unacc,Não Aceitável,1,0,1,0,2,0,med
+med,low,3,2,big,med,unacc,Não Aceitável,1,0,1,0,2,1,med
+med,low,3,2,big,high,unacc,Não Aceitável,1,0,1,0,2,2,med
+med,low,3,4,small,low,unacc,Não Aceitável,1,0,1,1,0,0,med
+med,low,3,4,small,med,acc,Aceitável,1,0,1,1,0,1,med
+med,low,3,4,small,high,good,Aceitável,1,0,1,1,0,2,med
+med,low,3,4,med,low,unacc,Não Aceitável,1,0,1,1,1,0,med
+med,low,3,4,med,med,acc,Aceitável,1,0,1,1,1,1,med
+med,low,3,4,med,high,good,Aceitável,1,0,1,1,1,2,med
+med,low,3,4,big,low,unacc,Não Aceitável,1,0,1,1,2,0,med
+med,low,3,4,big,med,good,Aceitável,1,0,1,1,2,1,med
+med,low,3,4,big,high,vgood,Aceitável,1,0,1,1,2,2,med
+med,low,3,more,small,low,unacc,Não Aceitável,1,0,1,2,0,0,med
+med,low,3,more,small,med,acc,Aceitável,1,0,1,2,0,1,med
+med,low,3,more,small,high,good,Aceitável,1,0,1,2,0,2,med
+med,low,3,more,med,low,unacc,Não Aceitável,1,0,1,2,1,0,med
+med,low,3,more,med,med,good,Aceitável,1,0,1,2,1,1,med
+med,low,3,more,med,high,vgood,Aceitável,1,0,1,2,1,2,med
+med,low,3,more,big,low,unacc,Não Aceitável,1,0,1,2,2,0,med
+med,low,3,more,big,med,good,Aceitável,1,0,1,2,2,1,med
+med,low,3,more,big,high,vgood,Aceitável,1,0,1,2,2,2,med
+med,low,4,2,small,low,unacc,Não Aceitável,1,0,2,0,0,0,med
+med,low,4,2,small,med,unacc,Não Aceitável,1,0,2,0,0,1,med
+med,low,4,2,small,high,unacc,Não Aceitável,1,0,2,0,0,2,med
+med,low,4,2,med,low,unacc,Não Aceitável,1,0,2,0,1,0,med
+med,low,4,2,med,med,unacc,Não Aceitável,1,0,2,0,1,1,med
+med,low,4,2,med,high,unacc,Não Aceitável,1,0,2,0,1,2,med
+med,low,4,2,big,low,unacc,Não Aceitável,1,0,2,0,2,0,med
+med,low,4,2,big,med,unacc,Não Aceitável,1,0,2,0,2,1,med
+med,low,4,2,big,high,unacc,Não Aceitável,1,0,2,0,2,2,med
+med,low,4,4,small,low,unacc,Não Aceitável,1,0,2,1,0,0,med
+med,low,4,4,small,med,acc,Aceitável,1,0,2,1,0,1,med
+med,low,4,4,small,high,good,Aceitável,1,0,2,1,0,2,med
+med,low,4,4,med,low,unacc,Não Aceitável,1,0,2,1,1,0,med
+med,low,4,4,med,med,good,Aceitável,1,0,2,1,1,1,med
+med,low,4,4,med,high,vgood,Aceitável,1,0,2,1,1,2,med
+med,low,4,4,big,low,unacc,Não Aceitável,1,0,2,1,2,0,med
+med,low,4,4,big,med,good,Aceitável,1,0,2,1,2,1,med
+med,low,4,4,big,high,vgood,Aceitável,1,0,2,1,2,2,med
+med,low,4,more,small,low,unacc,Não Aceitável,1,0,2,2,0,0,med
+med,low,4,more,small,med,acc,Aceitável,1,0,2,2,0,1,med
+med,low,4,more,small,high,good,Aceitável,1,0,2,2,0,2,med
+med,low,4,more,med,low,unacc,Não Aceitável,1,0,2,2,1,0,med
+med,low,4,more,med,med,good,Aceitável,1,0,2,2,1,1,med
+med,low,4,more,med,high,vgood,Aceitável,1,0,2,2,1,2,med
+med,low,4,more,big,low,unacc,Não Aceitável,1,0,2,2,2,0,med
+med,low,4,more,big,med,good,Aceitável,1,0,2,2,2,1,med
+med,low,4,more,big,high,vgood,Aceitável,1,0,2,2,2,2,med
+med,low,5more,2,small,low,unacc,Não Aceitável,1,0,3,0,0,0,med
+med,low,5more,2,small,med,unacc,Não Aceitável,1,0,3,0,0,1,med
+med,low,5more,2,small,high,unacc,Não Aceitável,1,0,3,0,0,2,med
+med,low,5more,2,med,low,unacc,Não Aceitável,1,0,3,0,1,0,med
+med,low,5more,2,med,med,unacc,Não Aceitável,1,0,3,0,1,1,med
+med,low,5more,2,med,high,unacc,Não Aceitável,1,0,3,0,1,2,med
+med,low,5more,2,big,low,unacc,Não Aceitável,1,0,3,0,2,0,med
+med,low,5more,2,big,med,unacc,Não Aceitável,1,0,3,0,2,1,med
+med,low,5more,2,big,high,unacc,Não Aceitável,1,0,3,0,2,2,med
+med,low,5more,4,small,low,unacc,Não Aceitável,1,0,3,1,0,0,med
+med,low,5more,4,small,med,acc,Aceitável,1,0,3,1,0,1,med
+med,low,5more,4,small,high,good,Aceitável,1,0,3,1,0,2,med
+med,low,5more,4,med,low,unacc,Não Aceitável,1,0,3,1,1,0,med
+med,low,5more,4,med,med,good,Aceitável,1,0,3,1,1,1,med
+med,low,5more,4,med,high,vgood,Aceitável,1,0,3,1,1,2,med
+med,low,5more,4,big,low,unacc,Não Aceitável,1,0,3,1,2,0,med
+med,low,5more,4,big,med,good,Aceitável,1,0,3,1,2,1,med
+med,low,5more,4,big,high,vgood,Aceitável,1,0,3,1,2,2,med
+med,low,5more,more,small,low,unacc,Não Aceitável,1,0,3,2,0,0,med
+med,low,5more,more,small,med,acc,Aceitável,1,0,3,2,0,1,med
+med,low,5more,more,small,high,good,Aceitável,1,0,3,2,0,2,med
+med,low,5more,more,med,low,unacc,Não Aceitável,1,0,3,2,1,0,med
+med,low,5more,more,med,med,good,Aceitável,1,0,3,2,1,1,med
+med,low,5more,more,med,high,vgood,Aceitável,1,0,3,2,1,2,med
+med,low,5more,more,big,low,unacc,Não Aceitável,1,0,3,2,2,0,med
+med,low,5more,more,big,med,good,Aceitável,1,0,3,2,2,1,med
+med,low,5more,more,big,high,vgood,Aceitável,1,0,3,2,2,2,med
+low,vhigh,2,2,small,low,unacc,Não Aceitável,0,3,0,0,0,0,low
+low,vhigh,2,2,small,med,unacc,Não Aceitável,0,3,0,0,0,1,low
+low,vhigh,2,2,small,high,unacc,Não Aceitável,0,3,0,0,0,2,low
+low,vhigh,2,2,med,low,unacc,Não Aceitável,0,3,0,0,1,0,low
+low,vhigh,2,2,med,med,unacc,Não Aceitável,0,3,0,0,1,1,low
+low,vhigh,2,2,med,high,unacc,Não Aceitável,0,3,0,0,1,2,low
+low,vhigh,2,2,big,low,unacc,Não Aceitável,0,3,0,0,2,0,low
+low,vhigh,2,2,big,med,unacc,Não Aceitável,0,3,0,0,2,1,low
+low,vhigh,2,2,big,high,unacc,Não Aceitável,0,3,0,0,2,2,low
+low,vhigh,2,4,small,low,unacc,Não Aceitável,0,3,0,1,0,0,low
+low,vhigh,2,4,small,med,unacc,Não Aceitável,0,3,0,1,0,1,low
+low,vhigh,2,4,small,high,acc,Aceitável,0,3,0,1,0,2,low
+low,vhigh,2,4,med,low,unacc,Não Aceitável,0,3,0,1,1,0,low
+low,vhigh,2,4,med,med,unacc,Não Aceitável,0,3,0,1,1,1,low
+low,vhigh,2,4,med,high,acc,Aceitável,0,3,0,1,1,2,low
+low,vhigh,2,4,big,low,unacc,Não Aceitável,0,3,0,1,2,0,low
+low,vhigh,2,4,big,med,acc,Aceitável,0,3,0,1,2,1,low
+low,vhigh,2,4,big,high,acc,Aceitável,0,3,0,1,2,2,low
+low,vhigh,2,more,small,low,unacc,Não Aceitável,0,3,0,2,0,0,low
+low,vhigh,2,more,small,med,unacc,Não Aceitável,0,3,0,2,0,1,low
+low,vhigh,2,more,small,high,unacc,Não Aceitável,0,3,0,2,0,2,low
+low,vhigh,2,more,med,low,unacc,Não Aceitável,0,3,0,2,1,0,low
+low,vhigh,2,more,med,med,unacc,Não Aceitável,0,3,0,2,1,1,low
+low,vhigh,2,more,med,high,acc,Aceitável,0,3,0,2,1,2,low
+low,vhigh,2,more,big,low,unacc,Não Aceitável,0,3,0,2,2,0,low
+low,vhigh,2,more,big,med,acc,Aceitável,0,3,0,2,2,1,low
+low,vhigh,2,more,big,high,acc,Aceitável,0,3,0,2,2,2,low
+low,vhigh,3,2,small,low,unacc,Não Aceitável,0,3,1,0,0,0,low
+low,vhigh,3,2,small,med,unacc,Não Aceitável,0,3,1,0,0,1,low
+low,vhigh,3,2,small,high,unacc,Não Aceitável,0,3,1,0,0,2,low
+low,vhigh,3,2,med,low,unacc,Não Aceitável,0,3,1,0,1,0,low
+low,vhigh,3,2,med,med,unacc,Não Aceitável,0,3,1,0,1,1,low
+low,vhigh,3,2,med,high,unacc,Não Aceitável,0,3,1,0,1,2,low
+low,vhigh,3,2,big,low,unacc,Não Aceitável,0,3,1,0,2,0,low
+low,vhigh,3,2,big,med,unacc,Não Aceitável,0,3,1,0,2,1,low
+low,vhigh,3,2,big,high,unacc,Não Aceitável,0,3,1,0,2,2,low
+low,vhigh,3,4,small,low,unacc,Não Aceitável,0,3,1,1,0,0,low
+low,vhigh,3,4,small,med,unacc,Não Aceitável,0,3,1,1,0,1,low
+low,vhigh,3,4,small,high,acc,Aceitável,0,3,1,1,0,2,low
+low,vhigh,3,4,med,low,unacc,Não Aceitável,0,3,1,1,1,0,low
+low,vhigh,3,4,med,med,unacc,Não Aceitável,0,3,1,1,1,1,low
+low,vhigh,3,4,med,high,acc,Aceitável,0,3,1,1,1,2,low
+low,vhigh,3,4,big,low,unacc,Não Aceitável,0,3,1,1,2,0,low
+low,vhigh,3,4,big,med,acc,Aceitável,0,3,1,1,2,1,low
+low,vhigh,3,4,big,high,acc,Aceitável,0,3,1,1,2,2,low
+low,vhigh,3,more,small,low,unacc,Não Aceitável,0,3,1,2,0,0,low
+low,vhigh,3,more,small,med,unacc,Não Aceitável,0,3,1,2,0,1,low
+low,vhigh,3,more,small,high,acc,Aceitável,0,3,1,2,0,2,low
+low,vhigh,3,more,med,low,unacc,Não Aceitável,0,3,1,2,1,0,low
+low,vhigh,3,more,med,med,acc,Aceitável,0,3,1,2,1,1,low
+low,vhigh,3,more,med,high,acc,Aceitável,0,3,1,2,1,2,low
+low,vhigh,3,more,big,low,unacc,Não Aceitável,0,3,1,2,2,0,low
+low,vhigh,3,more,big,med,acc,Aceitável,0,3,1,2,2,1,low
+low,vhigh,3,more,big,high,acc,Aceitável,0,3,1,2,2,2,low
+low,vhigh,4,2,small,low,unacc,Não Aceitável,0,3,2,0,0,0,low
+low,vhigh,4,2,small,med,unacc,Não Aceitável,0,3,2,0,0,1,low
+low,vhigh,4,2,small,high,unacc,Não Aceitável,0,3,2,0,0,2,low
+low,vhigh,4,2,med,low,unacc,Não Aceitável,0,3,2,0,1,0,low
+low,vhigh,4,2,med,med,unacc,Não Aceitável,0,3,2,0,1,1,low
+low,vhigh,4,2,med,high,unacc,Não Aceitável,0,3,2,0,1,2,low
+low,vhigh,4,2,big,low,unacc,Não Aceitável,0,3,2,0,2,0,low
+low,vhigh,4,2,big,med,unacc,Não Aceitável,0,3,2,0,2,1,low
+low,vhigh,4,2,big,high,unacc,Não Aceitável,0,3,2,0,2,2,low
+low,vhigh,4,4,small,low,unacc,Não Aceitável,0,3,2,1,0,0,low
+low,vhigh,4,4,small,med,unacc,Não Aceitável,0,3,2,1,0,1,low
+low,vhigh,4,4,small,high,acc,Aceitável,0,3,2,1,0,2,low
+low,vhigh,4,4,med,low,unacc,Não Aceitável,0,3,2,1,1,0,low
+low,vhigh,4,4,med,med,acc,Aceitável,0,3,2,1,1,1,low
+low,vhigh,4,4,med,high,acc,Aceitável,0,3,2,1,1,2,low
+low,vhigh,4,4,big,low,unacc,Não Aceitável,0,3,2,1,2,0,low
+low,vhigh,4,4,big,med,acc,Aceitável,0,3,2,1,2,1,low
+low,vhigh,4,4,big,high,acc,Aceitável,0,3,2,1,2,2,low
+low,vhigh,4,more,small,low,unacc,Não Aceitável,0,3,2,2,0,0,low
+low,vhigh,4,more,small,med,unacc,Não Aceitável,0,3,2,2,0,1,low
+low,vhigh,4,more,small,high,acc,Aceitável,0,3,2,2,0,2,low
+low,vhigh,4,more,med,low,unacc,Não Aceitável,0,3,2,2,1,0,low
+low,vhigh,4,more,med,med,acc,Aceitável,0,3,2,2,1,1,low
+low,vhigh,4,more,med,high,acc,Aceitável,0,3,2,2,1,2,low
+low,vhigh,4,more,big,low,unacc,Não Aceitável,0,3,2,2,2,0,low
+low,vhigh,4,more,big,med,acc,Aceitável,0,3,2,2,2,1,low
+low,vhigh,4,more,big,high,acc,Aceitável,0,3,2,2,2,2,low
+low,vhigh,5more,2,small,low,unacc,Não Aceitável,0,3,3,0,0,0,low
+low,vhigh,5more,2,small,med,unacc,Não Aceitável,0,3,3,0,0,1,low
+low,vhigh,5more,2,small,high,unacc,Não Aceitável,0,3,3,0,0,2,low
+low,vhigh,5more,2,med,low,unacc,Não Aceitável,0,3,3,0,1,0,low
+low,vhigh,5more,2,med,med,unacc,Não Aceitável,0,3,3,0,1,1,low
+low,vhigh,5more,2,med,high,unacc,Não Aceitável,0,3,3,0,1,2,low
+low,vhigh,5more,2,big,low,unacc,Não Aceitável,0,3,3,0,2,0,low
+low,vhigh,5more,2,big,med,unacc,Não Aceitável,0,3,3,0,2,1,low
+low,vhigh,5more,2,big,high,unacc,Não Aceitável,0,3,3,0,2,2,low
+low,vhigh,5more,4,small,low,unacc,Não Aceitável,0,3,3,1,0,0,low
+low,vhigh,5more,4,small,med,unacc,Não Aceitável,0,3,3,1,0,1,low
+low,vhigh,5more,4,small,high,acc,Aceitável,0,3,3,1,0,2,low
+low,vhigh,5more,4,med,low,unacc,Não Aceitável,0,3,3,1,1,0,low
+low,vhigh,5more,4,med,med,acc,Aceitável,0,3,3,1,1,1,low
+low,vhigh,5more,4,med,high,acc,Aceitável,0,3,3,1,1,2,low
+low,vhigh,5more,4,big,low,unacc,Não Aceitável,0,3,3,1,2,0,low
+low,vhigh,5more,4,big,med,acc,Aceitável,0,3,3,1,2,1,low
+low,vhigh,5more,4,big,high,acc,Aceitável,0,3,3,1,2,2,low
+low,vhigh,5more,more,small,low,unacc,Não Aceitável,0,3,3,2,0,0,low
+low,vhigh,5more,more,small,med,unacc,Não Aceitável,0,3,3,2,0,1,low
+low,vhigh,5more,more,small,high,acc,Aceitável,0,3,3,2,0,2,low
+low,vhigh,5more,more,med,low,unacc,Não Aceitável,0,3,3,2,1,0,low
+low,vhigh,5more,more,med,med,acc,Aceitável,0,3,3,2,1,1,low
+low,vhigh,5more,more,med,high,acc,Aceitável,0,3,3,2,1,2,low
+low,vhigh,5more,more,big,low,unacc,Não Aceitável,0,3,3,2,2,0,low
+low,vhigh,5more,more,big,med,acc,Aceitável,0,3,3,2,2,1,low
+low,vhigh,5more,more,big,high,acc,Aceitável,0,3,3,2,2,2,low
+low,high,2,2,small,low,unacc,Não Aceitável,0,2,0,0,0,0,low
+low,high,2,2,small,med,unacc,Não Aceitável,0,2,0,0,0,1,low
+low,high,2,2,small,high,unacc,Não Aceitável,0,2,0,0,0,2,low
+low,high,2,2,med,low,unacc,Não Aceitável,0,2,0,0,1,0,low
+low,high,2,2,med,med,unacc,Não Aceitável,0,2,0,0,1,1,low
+low,high,2,2,med,high,unacc,Não Aceitável,0,2,0,0,1,2,low
+low,high,2,2,big,low,unacc,Não Aceitável,0,2,0,0,2,0,low
+low,high,2,2,big,med,unacc,Não Aceitável,0,2,0,0,2,1,low
+low,high,2,2,big,high,unacc,Não Aceitável,0,2,0,0,2,2,low
+low,high,2,4,small,low,unacc,Não Aceitável,0,2,0,1,0,0,low
+low,high,2,4,small,med,acc,Aceitável,0,2,0,1,0,1,low
+low,high,2,4,small,high,acc,Aceitável,0,2,0,1,0,2,low
+low,high,2,4,med,low,unacc,Não Aceitável,0,2,0,1,1,0,low
+low,high,2,4,med,med,acc,Aceitável,0,2,0,1,1,1,low
+low,high,2,4,med,high,acc,Aceitável,0,2,0,1,1,2,low
+low,high,2,4,big,low,unacc,Não Aceitável,0,2,0,1,2,0,low
+low,high,2,4,big,med,acc,Aceitável,0,2,0,1,2,1,low
+low,high,2,4,big,high,vgood,Aceitável,0,2,0,1,2,2,low
+low,high,2,more,small,low,unacc,Não Aceitável,0,2,0,2,0,0,low
+low,high,2,more,small,med,unacc,Não Aceitável,0,2,0,2,0,1,low
+low,high,2,more,small,high,unacc,Não Aceitável,0,2,0,2,0,2,low
+low,high,2,more,med,low,unacc,Não Aceitável,0,2,0,2,1,0,low
+low,high,2,more,med,med,acc,Aceitável,0,2,0,2,1,1,low
+low,high,2,more,med,high,acc,Aceitável,0,2,0,2,1,2,low
+low,high,2,more,big,low,unacc,Não Aceitável,0,2,0,2,2,0,low
+low,high,2,more,big,med,acc,Aceitável,0,2,0,2,2,1,low
+low,high,2,more,big,high,vgood,Aceitável,0,2,0,2,2,2,low
+low,high,3,2,small,low,unacc,Não Aceitável,0,2,1,0,0,0,low
+low,high,3,2,small,med,unacc,Não Aceitável,0,2,1,0,0,1,low
+low,high,3,2,small,high,unacc,Não Aceitável,0,2,1,0,0,2,low
+low,high,3,2,med,low,unacc,Não Aceitável,0,2,1,0,1,0,low
+low,high,3,2,med,med,unacc,Não Aceitável,0,2,1,0,1,1,low
+low,high,3,2,med,high,unacc,Não Aceitável,0,2,1,0,1,2,low
+low,high,3,2,big,low,unacc,Não Aceitável,0,2,1,0,2,0,low
+low,high,3,2,big,med,unacc,Não Aceitável,0,2,1,0,2,1,low
+low,high,3,2,big,high,unacc,Não Aceitável,0,2,1,0,2,2,low
+low,high,3,4,small,low,unacc,Não Aceitável,0,2,1,1,0,0,low
+low,high,3,4,small,med,acc,Aceitável,0,2,1,1,0,1,low
+low,high,3,4,small,high,acc,Aceitável,0,2,1,1,0,2,low
+low,high,3,4,med,low,unacc,Não Aceitável,0,2,1,1,1,0,low
+low,high,3,4,med,med,acc,Aceitável,0,2,1,1,1,1,low
+low,high,3,4,med,high,acc,Aceitável,0,2,1,1,1,2,low
+low,high,3,4,big,low,unacc,Não Aceitável,0,2,1,1,2,0,low
+low,high,3,4,big,med,acc,Aceitável,0,2,1,1,2,1,low
+low,high,3,4,big,high,vgood,Aceitável,0,2,1,1,2,2,low
+low,high,3,more,small,low,unacc,Não Aceitável,0,2,1,2,0,0,low
+low,high,3,more,small,med,acc,Aceitável,0,2,1,2,0,1,low
+low,high,3,more,small,high,acc,Aceitável,0,2,1,2,0,2,low
+low,high,3,more,med,low,unacc,Não Aceitável,0,2,1,2,1,0,low
+low,high,3,more,med,med,acc,Aceitável,0,2,1,2,1,1,low
+low,high,3,more,med,high,vgood,Aceitável,0,2,1,2,1,2,low
+low,high,3,more,big,low,unacc,Não Aceitável,0,2,1,2,2,0,low
+low,high,3,more,big,med,acc,Aceitável,0,2,1,2,2,1,low
+low,high,3,more,big,high,vgood,Aceitável,0,2,1,2,2,2,low
+low,high,4,2,small,low,unacc,Não Aceitável,0,2,2,0,0,0,low
+low,high,4,2,small,med,unacc,Não Aceitável,0,2,2,0,0,1,low
+low,high,4,2,small,high,unacc,Não Aceitável,0,2,2,0,0,2,low
+low,high,4,2,med,low,unacc,Não Aceitável,0,2,2,0,1,0,low
+low,high,4,2,med,med,unacc,Não Aceitável,0,2,2,0,1,1,low
+low,high,4,2,med,high,unacc,Não Aceitável,0,2,2,0,1,2,low
+low,high,4,2,big,low,unacc,Não Aceitável,0,2,2,0,2,0,low
+low,high,4,2,big,med,unacc,Não Aceitável,0,2,2,0,2,1,low
+low,high,4,2,big,high,unacc,Não Aceitável,0,2,2,0,2,2,low
+low,high,4,4,small,low,unacc,Não Aceitável,0,2,2,1,0,0,low
+low,high,4,4,small,med,acc,Aceitável,0,2,2,1,0,1,low
+low,high,4,4,small,high,acc,Aceitável,0,2,2,1,0,2,low
+low,high,4,4,med,low,unacc,Não Aceitável,0,2,2,1,1,0,low
+low,high,4,4,med,med,acc,Aceitável,0,2,2,1,1,1,low
+low,high,4,4,med,high,vgood,Aceitável,0,2,2,1,1,2,low
+low,high,4,4,big,low,unacc,Não Aceitável,0,2,2,1,2,0,low
+low,high,4,4,big,med,acc,Aceitável,0,2,2,1,2,1,low
+low,high,4,4,big,high,vgood,Aceitável,0,2,2,1,2,2,low
+low,high,4,more,small,low,unacc,Não Aceitável,0,2,2,2,0,0,low
+low,high,4,more,small,med,acc,Aceitável,0,2,2,2,0,1,low
+low,high,4,more,small,high,acc,Aceitável,0,2,2,2,0,2,low
+low,high,4,more,med,low,unacc,Não Aceitável,0,2,2,2,1,0,low
+low,high,4,more,med,med,acc,Aceitável,0,2,2,2,1,1,low
+low,high,4,more,med,high,vgood,Aceitável,0,2,2,2,1,2,low
+low,high,4,more,big,low,unacc,Não Aceitável,0,2,2,2,2,0,low
+low,high,4,more,big,med,acc,Aceitável,0,2,2,2,2,1,low
+low,high,4,more,big,high,vgood,Aceitável,0,2,2,2,2,2,low
+low,high,5more,2,small,low,unacc,Não Aceitável,0,2,3,0,0,0,low
+low,high,5more,2,small,med,unacc,Não Aceitável,0,2,3,0,0,1,low
+low,high,5more,2,small,high,unacc,Não Aceitável,0,2,3,0,0,2,low
+low,high,5more,2,med,low,unacc,Não Aceitável,0,2,3,0,1,0,low
+low,high,5more,2,med,med,unacc,Não Aceitável,0,2,3,0,1,1,low
+low,high,5more,2,med,high,unacc,Não Aceitável,0,2,3,0,1,2,low
+low,high,5more,2,big,low,unacc,Não Aceitável,0,2,3,0,2,0,low
+low,high,5more,2,big,med,unacc,Não Aceitável,0,2,3,0,2,1,low
+low,high,5more,2,big,high,unacc,Não Aceitável,0,2,3,0,2,2,low
+low,high,5more,4,small,low,unacc,Não Aceitável,0,2,3,1,0,0,low
+low,high,5more,4,small,med,acc,Aceitável,0,2,3,1,0,1,low
+low,high,5more,4,small,high,acc,Aceitável,0,2,3,1,0,2,low
+low,high,5more,4,med,low,unacc,Não Aceitável,0,2,3,1,1,0,low
+low,high,5more,4,med,med,acc,Aceitável,0,2,3,1,1,1,low
+low,high,5more,4,med,high,vgood,Aceitável,0,2,3,1,1,2,low
+low,high,5more,4,big,low,unacc,Não Aceitável,0,2,3,1,2,0,low
+low,high,5more,4,big,med,acc,Aceitável,0,2,3,1,2,1,low
+low,high,5more,4,big,high,vgood,Aceitável,0,2,3,1,2,2,low
+low,high,5more,more,small,low,unacc,Não Aceitável,0,2,3,2,0,0,low
+low,high,5more,more,small,med,acc,Aceitável,0,2,3,2,0,1,low
+low,high,5more,more,small,high,acc,Aceitável,0,2,3,2,0,2,low
+low,high,5more,more,med,low,unacc,Não Aceitável,0,2,3,2,1,0,low
+low,high,5more,more,med,med,acc,Aceitável,0,2,3,2,1,1,low
+low,high,5more,more,med,high,vgood,Aceitável,0,2,3,2,1,2,low
+low,high,5more,more,big,low,unacc,Não Aceitável,0,2,3,2,2,0,low
+low,high,5more,more,big,med,acc,Aceitável,0,2,3,2,2,1,low
+low,high,5more,more,big,high,vgood,Aceitável,0,2,3,2,2,2,low
+low,med,2,2,small,low,unacc,Não Aceitável,0,1,0,0,0,0,low
+low,med,2,2,small,med,unacc,Não Aceitável,0,1,0,0,0,1,low
+low,med,2,2,small,high,unacc,Não Aceitável,0,1,0,0,0,2,low
+low,med,2,2,med,low,unacc,Não Aceitável,0,1,0,0,1,0,low
+low,med,2,2,med,med,unacc,Não Aceitável,0,1,0,0,1,1,low
+low,med,2,2,med,high,unacc,Não Aceitável,0,1,0,0,1,2,low
+low,med,2,2,big,low,unacc,Não Aceitável,0,1,0,0,2,0,low
+low,med,2,2,big,med,unacc,Não Aceitável,0,1,0,0,2,1,low
+low,med,2,2,big,high,unacc,Não Aceitável,0,1,0,0,2,2,low
+low,med,2,4,small,low,unacc,Não Aceitável,0,1,0,1,0,0,low
+low,med,2,4,small,med,acc,Aceitável,0,1,0,1,0,1,low
+low,med,2,4,small,high,good,Aceitável,0,1,0,1,0,2,low
+low,med,2,4,med,low,unacc,Não Aceitável,0,1,0,1,1,0,low
+low,med,2,4,med,med,acc,Aceitável,0,1,0,1,1,1,low
+low,med,2,4,med,high,good,Aceitável,0,1,0,1,1,2,low
+low,med,2,4,big,low,unacc,Não Aceitável,0,1,0,1,2,0,low
+low,med,2,4,big,med,good,Aceitável,0,1,0,1,2,1,low
+low,med,2,4,big,high,vgood,Aceitável,0,1,0,1,2,2,low
+low,med,2,more,small,low,unacc,Não Aceitável,0,1,0,2,0,0,low
+low,med,2,more,small,med,unacc,Não Aceitável,0,1,0,2,0,1,low
+low,med,2,more,small,high,unacc,Não Aceitável,0,1,0,2,0,2,low
+low,med,2,more,med,low,unacc,Não Aceitável,0,1,0,2,1,0,low
+low,med,2,more,med,med,acc,Aceitável,0,1,0,2,1,1,low
+low,med,2,more,med,high,good,Aceitável,0,1,0,2,1,2,low
+low,med,2,more,big,low,unacc,Não Aceitável,0,1,0,2,2,0,low
+low,med,2,more,big,med,good,Aceitável,0,1,0,2,2,1,low
+low,med,2,more,big,high,vgood,Aceitável,0,1,0,2,2,2,low
+low,med,3,2,small,low,unacc,Não Aceitável,0,1,1,0,0,0,low
+low,med,3,2,small,med,unacc,Não Aceitável,0,1,1,0,0,1,low
+low,med,3,2,small,high,unacc,Não Aceitável,0,1,1,0,0,2,low
+low,med,3,2,med,low,unacc,Não Aceitável,0,1,1,0,1,0,low
+low,med,3,2,med,med,unacc,Não Aceitável,0,1,1,0,1,1,low
+low,med,3,2,med,high,unacc,Não Aceitável,0,1,1,0,1,2,low
+low,med,3,2,big,low,unacc,Não Aceitável,0,1,1,0,2,0,low
+low,med,3,2,big,med,unacc,Não Aceitável,0,1,1,0,2,1,low
+low,med,3,2,big,high,unacc,Não Aceitável,0,1,1,0,2,2,low
+low,med,3,4,small,low,unacc,Não Aceitável,0,1,1,1,0,0,low
+low,med,3,4,small,med,acc,Aceitável,0,1,1,1,0,1,low
+low,med,3,4,small,high,good,Aceitável,0,1,1,1,0,2,low
+low,med,3,4,med,low,unacc,Não Aceitável,0,1,1,1,1,0,low
+low,med,3,4,med,med,acc,Aceitável,0,1,1,1,1,1,low
+low,med,3,4,med,high,good,Aceitável,0,1,1,1,1,2,low
+low,med,3,4,big,low,unacc,Não Aceitável,0,1,1,1,2,0,low
+low,med,3,4,big,med,good,Aceitável,0,1,1,1,2,1,low
+low,med,3,4,big,high,vgood,Aceitável,0,1,1,1,2,2,low
+low,med,3,more,small,low,unacc,Não Aceitável,0,1,1,2,0,0,low
+low,med,3,more,small,med,acc,Aceitável,0,1,1,2,0,1,low
+low,med,3,more,small,high,good,Aceitável,0,1,1,2,0,2,low
+low,med,3,more,med,low,unacc,Não Aceitável,0,1,1,2,1,0,low
+low,med,3,more,med,med,good,Aceitável,0,1,1,2,1,1,low
+low,med,3,more,med,high,vgood,Aceitável,0,1,1,2,1,2,low
+low,med,3,more,big,low,unacc,Não Aceitável,0,1,1,2,2,0,low
+low,med,3,more,big,med,good,Aceitável,0,1,1,2,2,1,low
+low,med,3,more,big,high,vgood,Aceitável,0,1,1,2,2,2,low
+low,med,4,2,small,low,unacc,Não Aceitável,0,1,2,0,0,0,low
+low,med,4,2,small,med,unacc,Não Aceitável,0,1,2,0,0,1,low
+low,med,4,2,small,high,unacc,Não Aceitável,0,1,2,0,0,2,low
+low,med,4,2,med,low,unacc,Não Aceitável,0,1,2,0,1,0,low
+low,med,4,2,med,med,unacc,Não Aceitável,0,1,2,0,1,1,low
+low,med,4,2,med,high,unacc,Não Aceitável,0,1,2,0,1,2,low
+low,med,4,2,big,low,unacc,Não Aceitável,0,1,2,0,2,0,low
+low,med,4,2,big,med,unacc,Não Aceitável,0,1,2,0,2,1,low
+low,med,4,2,big,high,unacc,Não Aceitável,0,1,2,0,2,2,low
+low,med,4,4,small,low,unacc,Não Aceitável,0,1,2,1,0,0,low
+low,med,4,4,small,med,acc,Aceitável,0,1,2,1,0,1,low
+low,med,4,4,small,high,good,Aceitável,0,1,2,1,0,2,low
+low,med,4,4,med,low,unacc,Não Aceitável,0,1,2,1,1,0,low
+low,med,4,4,med,med,good,Aceitável,0,1,2,1,1,1,low
+low,med,4,4,med,high,vgood,Aceitável,0,1,2,1,1,2,low
+low,med,4,4,big,low,unacc,Não Aceitável,0,1,2,1,2,0,low
+low,med,4,4,big,med,good,Aceitável,0,1,2,1,2,1,low
+low,med,4,4,big,high,vgood,Aceitável,0,1,2,1,2,2,low
+low,med,4,more,small,low,unacc,Não Aceitável,0,1,2,2,0,0,low
+low,med,4,more,small,med,acc,Aceitável,0,1,2,2,0,1,low
+low,med,4,more,small,high,good,Aceitável,0,1,2,2,0,2,low
+low,med,4,more,med,low,unacc,Não Aceitável,0,1,2,2,1,0,low
+low,med,4,more,med,med,good,Aceitável,0,1,2,2,1,1,low
+low,med,4,more,med,high,vgood,Aceitável,0,1,2,2,1,2,low
+low,med,4,more,big,low,unacc,Não Aceitável,0,1,2,2,2,0,low
+low,med,4,more,big,med,good,Aceitável,0,1,2,2,2,1,low
+low,med,4,more,big,high,vgood,Aceitável,0,1,2,2,2,2,low
+low,med,5more,2,small,low,unacc,Não Aceitável,0,1,3,0,0,0,low
+low,med,5more,2,small,med,unacc,Não Aceitável,0,1,3,0,0,1,low
+low,med,5more,2,small,high,unacc,Não Aceitável,0,1,3,0,0,2,low
+low,med,5more,2,med,low,unacc,Não Aceitável,0,1,3,0,1,0,low
+low,med,5more,2,med,med,unacc,Não Aceitável,0,1,3,0,1,1,low
+low,med,5more,2,med,high,unacc,Não Aceitável,0,1,3,0,1,2,low
+low,med,5more,2,big,low,unacc,Não Aceitável,0,1,3,0,2,0,low
+low,med,5more,2,big,med,unacc,Não Aceitável,0,1,3,0,2,1,low
+low,med,5more,2,big,high,unacc,Não Aceitável,0,1,3,0,2,2,low
+low,med,5more,4,small,low,unacc,Não Aceitável,0,1,3,1,0,0,low
+low,med,5more,4,small,med,acc,Aceitável,0,1,3,1,0,1,low
+low,med,5more,4,small,high,good,Aceitável,0,1,3,1,0,2,low
+low,med,5more,4,med,low,unacc,Não Aceitável,0,1,3,1,1,0,low
+low,med,5more,4,med,med,good,Aceitável,0,1,3,1,1,1,low
+low,med,5more,4,med,high,vgood,Aceitável,0,1,3,1,1,2,low
+low,med,5more,4,big,low,unacc,Não Aceitável,0,1,3,1,2,0,low
+low,med,5more,4,big,med,good,Aceitável,0,1,3,1,2,1,low
+low,med,5more,4,big,high,vgood,Aceitável,0,1,3,1,2,2,low
+low,med,5more,more,small,low,unacc,Não Aceitável,0,1,3,2,0,0,low
+low,med,5more,more,small,med,acc,Aceitável,0,1,3,2,0,1,low
+low,med,5more,more,small,high,good,Aceitável,0,1,3,2,0,2,low
+low,med,5more,more,med,low,unacc,Não Aceitável,0,1,3,2,1,0,low
+low,med,5more,more,med,med,good,Aceitável,0,1,3,2,1,1,low
+low,med,5more,more,med,high,vgood,Aceitável,0,1,3,2,1,2,low
+low,med,5more,more,big,low,unacc,Não Aceitável,0,1,3,2,2,0,low
+low,med,5more,more,big,med,good,Aceitável,0,1,3,2,2,1,low
+low,med,5more,more,big,high,vgood,Aceitável,0,1,3,2,2,2,low
+low,low,2,2,small,low,unacc,Não Aceitável,0,0,0,0,0,0,low
+low,low,2,2,small,med,unacc,Não Aceitável,0,0,0,0,0,1,low
+low,low,2,2,small,high,unacc,Não Aceitável,0,0,0,0,0,2,low
+low,low,2,2,med,low,unacc,Não Aceitável,0,0,0,0,1,0,low
+low,low,2,2,med,med,unacc,Não Aceitável,0,0,0,0,1,1,low
+low,low,2,2,med,high,unacc,Não Aceitável,0,0,0,0,1,2,low
+low,low,2,2,big,low,unacc,Não Aceitável,0,0,0,0,2,0,low
+low,low,2,2,big,med,unacc,Não Aceitável,0,0,0,0,2,1,low
+low,low,2,2,big,high,unacc,Não Aceitável,0,0,0,0,2,2,low
+low,low,2,4,small,low,unacc,Não Aceitável,0,0,0,1,0,0,low
+low,low,2,4,small,med,acc,Aceitável,0,0,0,1,0,1,low
+low,low,2,4,small,high,good,Aceitável,0,0,0,1,0,2,low
+low,low,2,4,med,low,unacc,Não Aceitável,0,0,0,1,1,0,low
+low,low,2,4,med,med,acc,Aceitável,0,0,0,1,1,1,low
+low,low,2,4,med,high,good,Aceitável,0,0,0,1,1,2,low
+low,low,2,4,big,low,unacc,Não Aceitável,0,0,0,1,2,0,low
+low,low,2,4,big,med,good,Aceitável,0,0,0,1,2,1,low
+low,low,2,4,big,high,vgood,Aceitável,0,0,0,1,2,2,low
+low,low,2,more,small,low,unacc,Não Aceitável,0,0,0,2,0,0,low
+low,low,2,more,small,med,unacc,Não Aceitável,0,0,0,2,0,1,low
+low,low,2,more,small,high,unacc,Não Aceitável,0,0,0,2,0,2,low
+low,low,2,more,med,low,unacc,Não Aceitável,0,0,0,2,1,0,low
+low,low,2,more,med,med,acc,Aceitável,0,0,0,2,1,1,low
+low,low,2,more,med,high,good,Aceitável,0,0,0,2,1,2,low
+low,low,2,more,big,low,unacc,Não Aceitável,0,0,0,2,2,0,low
+low,low,2,more,big,med,good,Aceitável,0,0,0,2,2,1,low
+low,low,2,more,big,high,vgood,Aceitável,0,0,0,2,2,2,low
+low,low,3,2,small,low,unacc,Não Aceitável,0,0,1,0,0,0,low
+low,low,3,2,small,med,unacc,Não Aceitável,0,0,1,0,0,1,low
+low,low,3,2,small,high,unacc,Não Aceitável,0,0,1,0,0,2,low
+low,low,3,2,med,low,unacc,Não Aceitável,0,0,1,0,1,0,low
+low,low,3,2,med,med,unacc,Não Aceitável,0,0,1,0,1,1,low
+low,low,3,2,med,high,unacc,Não Aceitável,0,0,1,0,1,2,low
+low,low,3,2,big,low,unacc,Não Aceitável,0,0,1,0,2,0,low
+low,low,3,2,big,med,unacc,Não Aceitável,0,0,1,0,2,1,low
+low,low,3,2,big,high,unacc,Não Aceitável,0,0,1,0,2,2,low
+low,low,3,4,small,low,unacc,Não Aceitável,0,0,1,1,0,0,low
+low,low,3,4,small,med,acc,Aceitável,0,0,1,1,0,1,low
+low,low,3,4,small,high,good,Aceitável,0,0,1,1,0,2,low
+low,low,3,4,med,low,unacc,Não Aceitável,0,0,1,1,1,0,low
+low,low,3,4,med,med,acc,Aceitável,0,0,1,1,1,1,low
+low,low,3,4,med,high,good,Aceitável,0,0,1,1,1,2,low
+low,low,3,4,big,low,unacc,Não Aceitável,0,0,1,1,2,0,low
+low,low,3,4,big,med,good,Aceitável,0,0,1,1,2,1,low
+low,low,3,4,big,high,vgood,Aceitável,0,0,1,1,2,2,low
+low,low,3,more,small,low,unacc,Não Aceitável,0,0,1,2,0,0,low
+low,low,3,more,small,med,acc,Aceitável,0,0,1,2,0,1,low
+low,low,3,more,small,high,good,Aceitável,0,0,1,2,0,2,low
+low,low,3,more,med,low,unacc,Não Aceitável,0,0,1,2,1,0,low
+low,low,3,more,med,med,good,Aceitável,0,0,1,2,1,1,low
+low,low,3,more,med,high,vgood,Aceitável,0,0,1,2,1,2,low
+low,low,3,more,big,low,unacc,Não Aceitável,0,0,1,2,2,0,low
+low,low,3,more,big,med,good,Aceitável,0,0,1,2,2,1,low
+low,low,3,more,big,high,vgood,Aceitável,0,0,1,2,2,2,low
+low,low,4,2,small,low,unacc,Não Aceitável,0,0,2,0,0,0,low
+low,low,4,2,small,med,unacc,Não Aceitável,0,0,2,0,0,1,low
+low,low,4,2,small,high,unacc,Não Aceitável,0,0,2,0,0,2,low
+low,low,4,2,med,low,unacc,Não Aceitável,0,0,2,0,1,0,low
+low,low,4,2,med,med,unacc,Não Aceitável,0,0,2,0,1,1,low
+low,low,4,2,med,high,unacc,Não Aceitável,0,0,2,0,1,2,low
+low,low,4,2,big,low,unacc,Não Aceitável,0,0,2,0,2,0,low
+low,low,4,2,big,med,unacc,Não Aceitável,0,0,2,0,2,1,low
+low,low,4,2,big,high,unacc,Não Aceitável,0,0,2,0,2,2,low
+low,low,4,4,small,low,unacc,Não Aceitável,0,0,2,1,0,0,low
+low,low,4,4,small,med,acc,Aceitável,0,0,2,1,0,1,low
+low,low,4,4,small,high,good,Aceitável,0,0,2,1,0,2,low
+low,low,4,4,med,low,unacc,Não Aceitável,0,0,2,1,1,0,low
+low,low,4,4,med,med,good,Aceitável,0,0,2,1,1,1,low
+low,low,4,4,med,high,vgood,Aceitável,0,0,2,1,1,2,low
+low,low,4,4,big,low,unacc,Não Aceitável,0,0,2,1,2,0,low
+low,low,4,4,big,med,good,Aceitável,0,0,2,1,2,1,low
+low,low,4,4,big,high,vgood,Aceitável,0,0,2,1,2,2,low
+low,low,4,more,small,low,unacc,Não Aceitável,0,0,2,2,0,0,low
+low,low,4,more,small,med,acc,Aceitável,0,0,2,2,0,1,low
+low,low,4,more,small,high,good,Aceitável,0,0,2,2,0,2,low
+low,low,4,more,med,low,unacc,Não Aceitável,0,0,2,2,1,0,low
+low,low,4,more,med,med,good,Aceitável,0,0,2,2,1,1,low
+low,low,4,more,med,high,vgood,Aceitável,0,0,2,2,1,2,low
+low,low,4,more,big,low,unacc,Não Aceitável,0,0,2,2,2,0,low
+low,low,4,more,big,med,good,Aceitável,0,0,2,2,2,1,low
+low,low,4,more,big,high,vgood,Aceitável,0,0,2,2,2,2,low
+low,low,5more,2,small,low,unacc,Não Aceitável,0,0,3,0,0,0,low
+low,low,5more,2,small,med,unacc,Não Aceitável,0,0,3,0,0,1,low
+low,low,5more,2,small,high,unacc,Não Aceitável,0,0,3,0,0,2,low
+low,low,5more,2,med,low,unacc,Não Aceitável,0,0,3,0,1,0,low
+low,low,5more,2,med,med,unacc,Não Aceitável,0,0,3,0,1,1,low
+low,low,5more,2,med,high,unacc,Não Aceitável,0,0,3,0,1,2,low
+low,low,5more,2,big,low,unacc,Não Aceitável,0,0,3,0,2,0,low
+low,low,5more,2,big,med,unacc,Não Aceitável,0,0,3,0,2,1,low
+low,low,5more,2,big,high,unacc,Não Aceitável,0,0,3,0,2,2,low
+low,low,5more,4,small,low,unacc,Não Aceitável,0,0,3,1,0,0,low
+low,low,5more,4,small,med,acc,Aceitável,0,0,3,1,0,1,low
+low,low,5more,4,small,high,good,Aceitável,0,0,3,1,0,2,low
+low,low,5more,4,med,low,unacc,Não Aceitável,0,0,3,1,1,0,low
+low,low,5more,4,med,med,good,Aceitável,0,0,3,1,1,1,low
+low,low,5more,4,med,high,vgood,Aceitável,0,0,3,1,1,2,low
+low,low,5more,4,big,low,unacc,Não Aceitável,0,0,3,1,2,0,low
+low,low,5more,4,big,med,good,Aceitável,0,0,3,1,2,1,low
+low,low,5more,4,big,high,vgood,Aceitável,0,0,3,1,2,2,low
+low,low,5more,more,small,low,unacc,Não Aceitável,0,0,3,2,0,0,low
+low,low,5more,more,small,med,acc,Aceitável,0,0,3,2,0,1,low
+low,low,5more,more,small,high,good,Aceitável,0,0,3,2,0,2,low
+low,low,5more,more,med,low,unacc,Não Aceitável,0,0,3,2,1,0,low
+low,low,5more,more,med,med,good,Aceitável,0,0,3,2,1,1,low
+low,low,5more,more,med,high,vgood,Aceitável,0,0,3,2,1,2,low
+low,low,5more,more,big,low,unacc,Não Aceitável,0,0,3,2,2,0,low
+low,low,5more,more,big,med,good,Aceitável,0,0,3,2,2,1,low
+low,low,5more,more,big,high,vgood,Aceitável,0,0,3,2,2,2,low
