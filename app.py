@@ -1,78 +1,99 @@
-import pandas as pd
+import plotly.express as px
 import streamlit as st
 
 from src.data_loader import load_data
 
 st.set_page_config(
-    page_title="Avaliação de Correlação entre Variáveis Quantitativas do Heart Disease Dataset",
+    page_title="Avaliação de Carros — Correlação e Distribuição (Car Evaluation)",
     layout="wide",
 )
 
-st.title("Avaliação de Correlação entre Variáveis Quantitativas do Heart Disease Dataset")
+st.title("Avaliação de Carros — Correlação e Distribuição das Variáveis Ordinais")
 
 df = load_data()
 
-# Variáveis quantitativas do estudo (mesma lista VARS_QUANT do notebook de EDA)
-VARS_QUANT = ["age", "trestbps", "chol", "thalach", "oldpeak"]
+# Variáveis ordinais do estudo, com as categorias em ordem crescente
+# (mesma ORDEM_CATEGORIAS do notebook de EDA)
+ORDEM_CATEGORIAS = {
+    "buying": ["low", "med", "high", "vhigh"],
+    "maint": ["low", "med", "high", "vhigh"],
+    "doors": ["2", "3", "4", "5more"],
+    "persons": ["2", "4", "more"],
+    "lug_boot": ["small", "med", "big"],
+    "safety": ["low", "med", "high"],
+}
+VARS_ORDINAIS_COD = [f"{col}_cod" for col in ORDEM_CATEGORIAS]
 
-# Sidebar: filtros (variáveis + intervalo)
+# Sidebar: filtros
 with st.sidebar:
     st.header("Filtros")
 
     variaveis = st.multiselect(
-        "Variáveis Quantitativas",
-        options=VARS_QUANT,
-        default=VARS_QUANT,
-        help="Selecione as variáveis quantitativas que deseja analisar no dashboard.",
+        "Variáveis (codificação ordinal)",
+        options=VARS_ORDINAIS_COD,
+        default=VARS_ORDINAIS_COD,
+        help="Selecione as variáveis ordinais codificadas que deseja analisar no dashboard.",
     )
 
     separar_por_classe = st.toggle(
-        "Distinguir por Classe",
+        "Distinguir por Avaliação",
         value=False,
-        help="Colore a distribuição pela classe (doenca_cardiaca: Normal ou Cardíaco).",
+        help="Colore a distribuição pela avaliação do carro (Aceitável ou Não Aceitável).",
     )
 
-    # Um slider de intervalo para cada variável selecionada
+    # Um select_slider de intervalo de categorias para cada variável selecionada
     intervalos = {}
-    for var in variaveis:
-        if pd.api.types.is_integer_dtype(df[var]):
-            minimo, maximo, passo = int(df[var].min()), int(df[var].max()), 1
-        else:
-            minimo, maximo, passo = float(df[var].min()), float(df[var].max()), 0.1
-        intervalos[var] = st.slider(
-            f"Intervalo de {var}",
-            min_value=minimo,
-            max_value=maximo,
-            value=(minimo, maximo),
-            step=passo,
-            key=f"intervalo_{var}",
-        )
+    for col, ordem in ORDEM_CATEGORIAS.items():
+        if f"{col}_cod" in variaveis:
+            intervalos[col] = st.select_slider(
+                f"Intervalo de {col}",
+                options=ordem,
+                value=(ordem[0], ordem[-1]),
+                key=f"intervalo_{col}",
+            )
 
-# Mantém só os pacientes dentro de todos os intervalos escolhidos
+# Mantém só os carros dentro de todas as faixas de categorias escolhidas
 df_filtrado = df
-for var, (inicio, fim) in intervalos.items():
-    df_filtrado = df_filtrado[df_filtrado[var].between(inicio, fim)]
+for col, (inicio, fim) in intervalos.items():
+    ordem = ORDEM_CATEGORIAS[col]
+    faixa = ordem[ordem.index(inicio) : ordem.index(fim) + 1]
+    df_filtrado = df_filtrado[df_filtrado[col].isin(faixa)]
 
-st.caption(f"{len(df_filtrado)} de {len(df)} pacientes dentro dos intervalos escolhidos.")
+st.caption(f"{len(df_filtrado)} de {len(df)} carros dentro das faixas escolhidas.")
 
-# Dashboard 1: correlação (heatmap) à esquerda, distribuição (histograma) à direita
-col_correlacao, col_distribuicao = st.columns([1, 1.5])
+# Dashboard 1: Correlação (topo) e Distribuição (abaixo), ambos em largura total
+st.subheader("Correlação")
 
-with col_correlacao:
-    st.subheader("Correlação")
+if len(variaveis) < 2:
+    st.warning("Selecione pelo menos 2 variáveis para calcular a correlação.")
+else:
+    # Spearman: adequado para variáveis ordinais (ver notebook de EDA)
+    corr = df_filtrado[variaveis].corr(method="spearman")
+    fig_corr = px.imshow(
+        corr,
+        text_auto=".2f",
+        color_continuous_scale="RdBu",
+        zmin=-1,
+        zmax=1,
+        aspect="auto",
+    )
+    st.plotly_chart(fig_corr, use_container_width=True)
 
-    if len(variaveis) < 2:
-        st.warning("Selecione pelo menos 2 variáveis para calcular a correlação.")
-    else:
-        # TODO: matriz de correlação das variáveis selecionadas (df_filtrado[variaveis].corr())
-        # TODO: heatmap (plotly px.imshow) e exibir com st.plotly_chart
-        pass
+st.subheader("Distribuição")
 
-with col_distribuicao:
-    st.subheader("Distribuição")
+if not variaveis:
+    st.warning("Selecione pelo menos 1 variável para ver a distribuição.")
+else:
+    variavel_dist = st.selectbox("Variável", options=variaveis)
+    coluna_original = variavel_dist.removesuffix("_cod")
 
-    # TODO: st.selectbox para escolher a variável do histograma
-    # TODO: histograma (plotly px.histogram) e exibir com st.plotly_chart
-    #       se separar_por_classe: color="doenca_cardiaca"
+    # Variáveis categóricas: distribuição = gráfico de barras de frequência
+    fig_dist = px.histogram(
+        df_filtrado,
+        x=coluna_original,
+        color="avaliacao" if separar_por_classe else None,
+        category_orders={coluna_original: ORDEM_CATEGORIAS[coluna_original]},
+    )
+    st.plotly_chart(fig_dist, use_container_width=True)
 
 # TODO: Dashboard 2 — KPIs (Aula 22)
