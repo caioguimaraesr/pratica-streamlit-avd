@@ -17,9 +17,12 @@ df = load_data()
 # avaliacao_cod derivado no data_loader. Nenhuma coluna qualitativa entra.
 VARS_QUANTITATIVAS = df.select_dtypes(include="number").columns.tolist()
 
-# Série única: a cor não codifica nada, só precisa de contraste sobre o fundo
-# (>= 3:1 no tema claro e no escuro)
-COR_BARRA = "#d95926"
+# Cores da distribuição por avaliação do carro — clara para o desfecho bom,
+# escura para o ruim, com contraste suficiente nos dois temas (claro/escuro)
+CORES_AVALIACAO = {
+    "Aceitável": "#f2a65a",
+    "Não Aceitável": "#9e2a2b",
+}
 
 # Sidebar: filtros
 with st.sidebar:
@@ -113,20 +116,42 @@ st.subheader("Distribuição")
 if not variaveis:
     st.warning("Selecione pelo menos 1 variável para ver a distribuição.")
 else:
+    # Os seis atributos são uniformes por construção (o dataset é um
+    # fatorial completo: toda combinação de categorias aparece o mesmo
+    # número de vezes). Colorir por avaliação é o que revela um padrão real
+    # — ex.: safety_cod=0 nunca é aceitável.
+    st.caption(
+        "Os atributos do carro têm a mesma contagem em cada nível (dataset "
+        "fatorial completo); o padrão aparece na composição por avaliação."
+    )
+
     # Um gráfico de distribuição para cada variável quantitativa, numa grade
     # de duas colunas. Formato longo + facet: o Altair repete o mesmo gráfico
     # para cada variável.
-    dist_longo = df_filtrado[variaveis].melt(var_name="variavel", value_name="valor")
+    dist_longo = df_filtrado[variaveis + ["avaliacao"]].melt(
+        id_vars="avaliacao", var_name="variavel", value_name="valor"
+    )
 
     grafico_dist = (
         alt.Chart(dist_longo)
-        .mark_bar(color=COR_BARRA)
+        .mark_bar(opacity=0.75)
         .encode(
             # Os códigos são inteiros com poucos níveis: uma barra por código
             x=alt.X("valor:O", title=None),
-            y=alt.Y("count():Q", title="Carros"),
+            # stack=None sobrepõe as duas classes (em vez de empilhar), para
+            # comparar as alturas diretamente, como no gráfico de referência
+            y=alt.Y("count():Q", title="Carros", stack=None),
+            color=alt.Color(
+                "avaliacao:N",
+                title="Avaliação",
+                scale=alt.Scale(
+                    domain=list(CORES_AVALIACAO),
+                    range=list(CORES_AVALIACAO.values()),
+                ),
+            ),
             tooltip=[
                 alt.Tooltip("valor:O", title="Código"),
+                alt.Tooltip("avaliacao:N", title="Avaliação"),
                 alt.Tooltip("count():Q", title="Carros"),
             ],
         )
@@ -140,7 +165,8 @@ else:
         grafico_dist,
         width="content",
         alt="Grade de gráficos de barras com a distribuição de frequência de "
-        "cada variável quantitativa.",
+        "cada variável quantitativa, sobrepondo a contagem de carros "
+        "aceitáveis e não aceitáveis.",
     )
 
 # TODO: Dashboard 2 — KPIs (Aula 22)
