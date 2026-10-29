@@ -21,11 +21,12 @@ VARS_QUANTITATIVAS = df.select_dtypes(include="number").columns.tolist()
 # como widgets de segmentação no Dashboard 2.
 ATRIBUTOS_CATEGORICOS = ["buying", "maint", "doors", "persons", "lug_boot", "safety"]
 
-# Cores da distribuição por avaliação do carro — clara para o desfecho bom,
-# escura para o ruim, com contraste suficiente nos dois temas (claro/escuro)
+# Cores da distribuição por avaliação do carro — os mesmos azuis do
+# primaryColor do tema (claro/escuro), clara para o desfecho bom e escura
+# para o ruim, com contraste suficiente nos dois temas
 CORES_AVALIACAO = {
-    "Aceitável": "#f2a65a",
-    "Não Aceitável": "#9e2a2b",
+    "Aceitável": "#5fa8d3",
+    "Não Aceitável": "#1f4e6b",
 }
 
 # Sidebar: filtros
