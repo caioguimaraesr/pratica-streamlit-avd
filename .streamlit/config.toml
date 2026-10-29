@@ -1,20 +1,24 @@
-# Configuração do Streamlit. Descomente e ajuste conforme o projeto avançar.
-# O tema pode ser trocado pelo menu ⋮ → Settings → Choose app theme.
+# Identidade visual do app. O tema pode ser trocado pelo menu ⋮ → Settings → Choose app theme.
+# Azul-aço como cor de destaque: não compete com o laranja/vermelho que os
+# gráficos de distribuição já usam para "Aceitável"/"Não Aceitável".
 
 [theme]
-paddingTop = "0.5rem"     # espaço abaixo da barra do topo (valor entre aspas)
-# font = "sans serif"     # "sans serif", "serif" ou "monospace"
+paddingTop = "0.5rem"     # espaço abaixo da barra do topo
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+baseRadius = "0.5rem"
+buttonRadius = "0.5rem"
+showWidgetBorder = true
 
 [theme.light]
-primaryColor = "#ff4b4b"            # cor de destaque (widgets, links)
+primaryColor = "#2f6690"            # cor de destaque (widgets, links)
 backgroundColor = "#ffffff"         # fundo da página
-secondaryBackgroundColor = "#f0f2f6"  # fundo da sidebar e de widgets
-textColor = "#31333f"               # cor do texto
-borderColor = "#d5dae5"
+secondaryBackgroundColor = "#eef2f6"  # fundo da sidebar e de widgets
+textColor = "#1f2a33"               # cor do texto
+borderColor = "#d7dee5"
 
 [theme.dark]
-primaryColor = "#ff4b4b"
-backgroundColor = "#0e1117"
-secondaryBackgroundColor = "#262730"
-textColor = "#fafafa"
-borderColor = "#41444e"
+primaryColor = "#5fa8d3"
+backgroundColor = "#11161b"
+secondaryBackgroundColor = "#1b232b"
+textColor = "#e8edf2"
+borderColor = "#2d3942"
