@@ -1,7 +1,8 @@
+
 import altair as alt
 import streamlit as st
 
-from src.data_loader import ORDEM_AVALIACAO, load_data
+from src.data_loader import load_data
 
 st.set_page_config(
     page_title="Avaliação de Carros — Correlação e Distribuição (Car Evaluation)",
@@ -184,138 +185,60 @@ with tab_dashboard1:
         )
 
 with tab_dashboard2:
-    st.subheader("KPIs de aceitabilidade")
-
-    col_atributo, col_niveis = st.columns(2)
-    with col_atributo:
-        atributo_kpi = st.selectbox(
-            "Agrupar por",
-            options=ATRIBUTOS_CATEGORICOS,
-            help="Atributo do carro usado para segmentar as métricas abaixo.",
-        )
-    with col_niveis:
-        niveis_disponiveis = sorted(df[atributo_kpi].unique().tolist())
-        niveis_selecionados = st.multiselect(
-            f"Níveis de {atributo_kpi}",
-            options=niveis_disponiveis,
-            default=niveis_disponiveis,
-            help="Níveis do atributo escolhido que entram no segmento comparado.",
-        )
-
-    df_segmento = (
-        df[df[atributo_kpi].isin(niveis_selecionados)]
-        if niveis_selecionados
-        else df.iloc[0:0]
+    from src.kpi_charts import (
+        ATRIBUTOS, barras_aceitacao, distribuicao_avaliacoes, mapa_aceitacao,
     )
-    total_geral = len(df)
 
-    taxa_geral = (df["avaliacao"] == "Aceitável").mean() * 100
-    pct_vgood_geral = (df["avaliacao_4"] == "vgood").mean() * 100
-
-    # Atributo mais associado à avaliação: maior |correlação de Spearman| com
-    # avaliacao_cod, reaproveitando a mesma lógica do Dashboard 1.
-    cod_cols = [c for c in VARS_QUANTITATIVAS if c != "avaliacao_cod"]
-    corr_avaliacao = df[cod_cols + ["avaliacao_cod"]].corr(method="spearman")["avaliacao_cod"].drop("avaliacao_cod")
-    atributo_top = corr_avaliacao.abs().idxmax()
-    valor_top = corr_avaliacao[atributo_top]
-
-    # Reserva o espaço dos cartões de KPI ACIMA do gráfico (a ordem visual não
-    # segue a ordem de execução: o clique no gráfico, lido mais abaixo, pode
-    # refinar esses números).
-    metricas_container = st.container()
-
-    st.subheader("Carros por nível e distribuição da avaliação")
+    st.subheader("Aceitação dos veículos")
     st.caption(
-        "Clique numa barra do gráfico à esquerda para refinar as métricas acima "
-        "e destacar a distribuição da avaliação à direita."
+        "Compare custo, segurança e capacidade. Os filtros abaixo e os intervalos "
+        "da barra lateral se aplicam a todos os indicadores e gráficos desta aba."
+    )
+    df_segmento = df_filtrado.copy()
+    with st.expander("Filtrar características", expanded=True):
+        for linha in (ATRIBUTOS_CATEGORICOS[:3], ATRIBUTOS_CATEGORICOS[3:]):
+            for coluna, atributo in zip(st.columns(3), linha):
+                titulo, rotulos = ATRIBUTOS[atributo]
+                disponiveis = [nivel for nivel in rotulos if nivel in df[atributo].astype(str).unique()]
+                selecionados = coluna.multiselect(
+                    titulo, options=disponiveis, default=disponiveis,
+                    format_func=rotulos.get, key=f"kpi_{atributo}",
+                    help="Remover todas as opções deixa a seleção vazia.",
+                )
+                df_segmento = df_segmento[df_segmento[atributo].astype(str).isin(selecionados)]
+
+    total = len(df_segmento)
+    taxa_geral = df["avaliacao"].eq("Aceitável").mean() * 100
+    taxa = df_segmento["avaliacao"].eq("Aceitável").mean() * 100 if total else None
+    melhores = df_segmento["avaliacao_4"].isin(["good", "vgood"]).mean() * 100 if total else None
+    m1, m2, m3, m4 = st.columns(4, border=True)
+    m1.metric("Configurações selecionadas", f"{total:,}".replace(",", "."), help=f"Base completa: {len(df)} configurações.")
+    m2.metric("Taxa de aceitação", f"{taxa:.1f}%" if total else "—", help="Aceitáveis divididos pelo total selecionado. Inclui acc, good e vgood.")
+    m3.metric("Bom ou muito bom", f"{melhores:.1f}%" if total else "—", help="Avaliações good e vgood divididas pelo total selecionado.")
+    m4.metric("Diferença para a base", f"{taxa - taxa_geral:+.1f} p.p." if total else "—", help="Taxa selecionada menos a taxa de aceitação da base completa, sem filtros.")
+    st.caption(
+        f"Referência fixa: {taxa_geral:.1f}% de aceitação na base completa. "
+        "Cada taxa dos gráficos usa o total do próprio grupo. Passe o mouse para ver as contagens."
     )
 
-    df_metricas = df_segmento
-
-    if df_segmento.empty:
-        st.warning("Nenhum carro no segmento escolhido. Ajuste os níveis selecionados.")
+    if not total:
+        st.warning("Nenhuma configuração atende aos filtros. Selecione níveis ou amplie os intervalos laterais.")
     else:
-        # Seleção por clique: liga os dois gráficos (Altair) e, via on_select,
-        # chega até o Python para refinar as métricas (ver ALTAIR-CROSSFILTER.md).
-        clique = alt.selection_point(name="clique", fields=[atributo_kpi])
-
-        grafico_niveis = (
-            alt.Chart(df_segmento)
-            .mark_bar()
-            .encode(
-                x=alt.X(f"{atributo_kpi}:N", sort=niveis_selecionados, title=atributo_kpi),
-                y=alt.Y("count():Q", title="Carros"),
-                opacity=alt.condition(clique, alt.value(1), alt.value(0.35)),
-                tooltip=[
-                    alt.Tooltip(f"{atributo_kpi}:N", title=atributo_kpi),
-                    alt.Tooltip("count():Q", title="Carros"),
-                ],
-            )
-            .add_params(clique)
-            .properties(title="Carros por nível selecionado", width=320, height=260)
-        )
-
-        grafico_avaliacao = (
-            alt.Chart(df_segmento)
-            .mark_bar()
-            .encode(
-                x=alt.X("avaliacao_4:N", sort=ORDEM_AVALIACAO, title="Avaliação"),
-                y=alt.Y("count():Q", title="Carros"),
-                tooltip=[
-                    alt.Tooltip("avaliacao_4:N", title="Avaliação"),
-                    alt.Tooltip("count():Q", title="Carros"),
-                ],
-            )
-            .transform_filter(clique)
-            .properties(title="Distribuição da avaliação no nível clicado", width=320, height=260)
-        )
-
-        evento = st.altair_chart(
-            grafico_niveis | grafico_avaliacao,
-            key=f"crossfilter_dashboard2_{atributo_kpi}",
-            on_select="rerun",
-            width="stretch",
-            alt="Gráfico de barras com a contagem de carros por nível do atributo escolhido, "
-            "ao lado da distribuição da avaliação filtrada pelo nível clicado.",
-        )
-
-        itens_clicados = evento.selection.get("clique", [])
-        niveis_clicados = [item[atributo_kpi] for item in itens_clicados]
-        if niveis_clicados:
-            df_metricas = df_segmento[df_segmento[atributo_kpi].isin(niveis_clicados)]
-
-    with metricas_container:
-        total_metricas = len(df_metricas)
-
-        m1, m2, m3, m4, m5 = st.columns(5, border=True)
-        m1.metric(
-            "Carros selecionados",
-            f"{total_metricas}",
-            help=f"De {total_geral} carros no total. Reflete os níveis escolhidos e o clique no gráfico abaixo.",
-        )
-        m2.metric("Aceitabilidade geral", f"{taxa_geral:.0f}%")
-
-        if total_metricas:
-            taxa_metricas = (df_metricas["avaliacao"] == "Aceitável").mean() * 100
-            pct_vgood_metricas = (df_metricas["avaliacao_4"] == "vgood").mean() * 100
-            m3.metric(
-                "Aceitabilidade selecionada",
-                f"{taxa_metricas:.0f}%",
-                delta=f"{taxa_metricas - taxa_geral:+.0f} p.p.",
-                delta_description="vs. aceitabilidade geral",
-            )
-            m4.metric(
-                "Carros 'vgood' selecionados",
-                f"{pct_vgood_metricas:.0f}%",
-                delta=f"{pct_vgood_metricas - pct_vgood_geral:+.0f} p.p.",
-                delta_description="vs. % 'vgood' geral",
-            )
-        else:
-            m3.metric("Aceitabilidade selecionada", "—")
-            m4.metric("Carros 'vgood' selecionados", "—")
-
-        m5.metric(
-            "Atributo mais associado à avaliação",
-            atributo_top.removesuffix("_cod"),
-            help=f"Maior |correlação de Spearman| com a avaliação: {valor_top:.2f}.",
-        )
+        esquerda, direita = st.columns(2)
+        with esquerda, st.container(border=True):
+            st.subheader("Aceitação por segurança")
+            st.altair_chart(barras_aceitacao(df_segmento, "safety"), width="stretch", alt="Taxa de aceitação por nível de segurança.")
+        with direita, st.container(border=True):
+            st.subheader("Compra e manutenção")
+            st.altair_chart(mapa_aceitacao(df_segmento, "buying", "maint"), width="stretch", alt="Taxa de aceitação por combinação de custo de compra e manutenção.")
+        esquerda, direita = st.columns(2)
+        with esquerda, st.container(border=True):
+            st.subheader("Capacidade e porta-malas")
+            st.altair_chart(mapa_aceitacao(df_segmento, "persons", "lug_boot"), width="stretch", alt="Taxa de aceitação por capacidade e tamanho do porta-malas.")
+        with direita, st.container(border=True):
+            st.subheader("Distribuição das avaliações")
+            st.altair_chart(distribuicao_avaliacoes(df_segmento), width="stretch", alt="Quantidade e percentual das quatro classes de avaliação na seleção.")
+        with st.container(border=True):
+            st.subheader("Aceitação por número de portas")
+            st.altair_chart(barras_aceitacao(df_segmento, "doors"), width="stretch", alt="Taxa de aceitação por número de portas.")
+        st.caption("Células ausentes nos mapas indicam combinações sem registros após os filtros; 0% indica um grupo existente sem configurações aceitáveis.")
