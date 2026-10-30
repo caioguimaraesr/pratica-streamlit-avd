@@ -3,6 +3,7 @@ import altair as alt
 import streamlit as st
 
 from src.data_loader import load_data
+from src.kpi_charts import ATRIBUTOS, NOTAS
 
 st.set_page_config(
     page_title="Avaliação de Carros — Correlação e Distribuição (Car Evaluation)",
@@ -30,14 +31,26 @@ CORES_AVALIACAO = {
     "Não Aceitável": "#1f4e6b",
 }
 
+# Rótulos de apresentação; os cálculos continuam usando os códigos ordinais.
+NOMES = {f"{campo}_cod": titulo for campo, (titulo, _) in ATRIBUTOS.items()}
+NOMES["avaliacao_cod"] = "Avaliação do veículo"
+NIVEIS = {}
+for campo, (_, rotulos) in ATRIBUTOS.items():
+    pares = df[[campo, f"{campo}_cod"]].drop_duplicates().sort_values(f"{campo}_cod")
+    NIVEIS[f"{campo}_cod"] = {
+        int(codigo): rotulos[str(valor)] for valor, codigo in pares.itertuples(index=False, name=None)
+    }
+NIVEIS["avaliacao_cod"] = dict(enumerate(NOTAS.values()))
+
 # Sidebar: filtros
 with st.sidebar:
     st.header("Filtros")
 
     variaveis = st.multiselect(
-        "Variáveis quantitativas",
+        "Variáveis para analisar",
         options=VARS_QUANTITATIVAS,
         default=VARS_QUANTITATIVAS,
+        format_func=lambda nome: NOMES.get(nome, nome),
         help="Selecione as variáveis quantitativas que deseja analisar no dashboard.",
     )
 
@@ -48,11 +61,12 @@ with st.sidebar:
     for variavel in variaveis:
         minimo, maximo = int(df[variavel].min()), int(df[variavel].max())
         intervalos[variavel] = st.slider(
-            f"Intervalo de {variavel}",
+            f"Intervalo de {NOMES.get(variavel, variavel)}",
             min_value=minimo,
             max_value=maximo,
             value=(minimo, maximo),
             key=f"intervalo_{variavel}",
+            help=" · ".join(f"{codigo} = {nome}" for codigo, nome in NIVEIS.get(variavel, {}).items()),
         )
 
 # Mantém só os carros dentro de todas as faixas escolhidas
@@ -65,125 +79,101 @@ tab_dashboard1, tab_dashboard2 = st.tabs(
 )
 
 with tab_dashboard1:
-    st.caption(f"{len(df_filtrado)} de {len(df)} carros dentro das faixas escolhidas.")
+    st.caption(f"Analisando {len(df_filtrado):,} de {len(df):,} configurações de veículos, conforme os filtros laterais.".replace(",", "."))
 
-    # Dashboard 1: Correlação (topo) e Distribuição (abaixo), ambos em largura total
     st.subheader("Correlação")
+    st.markdown("**Quais características variam juntas?** Cada célula compara duas variáveis usando a correlação de Spearman.")
+    st.caption(
+        "De −1 a +1: valores positivos indicam que os níveis tendem a subir juntos; "
+        "negativos indicam sentidos opostos. Próximo de zero significa pouca associação "
+        "monotônica, mas não exclui outras relações. Correlação não demonstra causa."
+    )
+    with st.expander("Como ler os níveis e as cores"):
+        st.markdown(
+            "**Azul (+):** níveis maiores de uma variável acompanham níveis maiores da outra. "
+            "**Vermelho (−):** níveis maiores de uma acompanham níveis menores da outra. "
+            "Quanto mais intensa a cor, maior a associação em módulo."
+        )
+        st.markdown(
+            "Nos custos, subir de nível significa ficar **mais caro**; na segurança, "
+            "significa passar de **baixa para alta**; na avaliação, de **não aceitável para muito bom**. "
+            "Os números são códigos ordenados, sem unidade monetária."
+        )
+        for variavel in variaveis:
+            st.caption(f"{NOMES.get(variavel, variavel)}: " + " → ".join(NIVEIS.get(variavel, {}).values()))
 
     if df_filtrado.empty:
-        st.warning("Nenhum carro dentro das faixas escolhidas. Amplie os intervalos para ver a correlação.")
+        st.warning("Nenhuma configuração atende aos filtros. Amplie os intervalos para ver a correlação.")
     elif len(variaveis) < 2:
         st.warning("Selecione pelo menos 2 variáveis para calcular a correlação.")
     else:
-        # Spearman: adequado para variáveis ordinais (ver notebook de EDA)
         corr = df_filtrado[variaveis].corr(method="spearman")
-
-        # Formato longo, que é o que o Altair consome
-        corr_longo = corr.reset_index(names="linha").melt(
-            id_vars="linha", var_name="coluna", value_name="rho"
-        )
-        # Correlação exatamente zero às vezes sai como -1e-17 e o rótulo vira
-        # "-0.00"; o + 0.0 normaliza o zero negativo
+        corr_longo = corr.reset_index(names="linha").melt(id_vars="linha", var_name="coluna", value_name="rho")
         corr_longo["rho"] = corr_longo["rho"].round(10) + 0.0
-
-        # A matriz é simétrica: fica só o triângulo superior (sem a diagonal, que
-        # é sempre 1.0), para não repetir cada par duas vezes
         posicao = {variavel: i for i, variavel in enumerate(variaveis)}
-        corr_longo = corr_longo[
-            corr_longo["linha"].map(posicao) < corr_longo["coluna"].map(posicao)
-        ]
-
+        corr_longo = corr_longo[corr_longo["linha"].map(posicao) < corr_longo["coluna"].map(posicao)].copy()
+        corr_longo["rotulo"] = corr_longo["rho"].map(lambda valor: "N/D" if valor != valor else f"{valor:+.2f}" if valor else "0.00")
+        corr_longo["linha"] = corr_longo["linha"].map(NOMES)
+        corr_longo["coluna"] = corr_longo["coluna"].map(NOMES)
+        ordem = [NOMES.get(v, v) for v in variaveis]
         base = alt.Chart(corr_longo).encode(
-            x=alt.X("coluna:N", sort=variaveis, title=None, axis=alt.Axis(labelAngle=0)),
-            y=alt.Y("linha:N", sort=variaveis, title=None),
+            x=alt.X("coluna:N", sort=ordem, title=None, axis=alt.Axis(labelAngle=-20, labelFontSize=13, labelLimit=200)),
+            y=alt.Y("linha:N", sort=ordem, title=None, axis=alt.Axis(labelFontSize=13, labelLimit=200)),
+            tooltip=[alt.Tooltip("linha:N", title="Característica"), alt.Tooltip("coluna:N", title="Comparada com"), alt.Tooltip("rotulo:N", title="Spearman")],
         )
-        mapa = base.mark_rect().encode(
-            color=alt.Color(
-                "rho:Q",
-                scale=alt.Scale(scheme="redblue", domain=[-1, 1]),
-                title="Spearman",
-            ),
-            tooltip=[
-                alt.Tooltip("linha:N", title="Variável"),
-                alt.Tooltip("coluna:N", title="Variável"),
-                alt.Tooltip("rho:Q", title="Spearman", format=".3f"),
-            ],
-        )
-        # Rótulo em branco onde o fundo é escuro (as pontas da escala)
-        rotulos = base.mark_text(fontSize=13).encode(
-            text=alt.Text("rho:Q", format=".2f"),
+        mapa = base.mark_rect(stroke="#d7dee5", strokeWidth=1).encode(
             color=alt.condition(
-                "abs(datum.rho) > 0.5", alt.value("white"), alt.value("black")
-            ),
+                "isValid(datum.rho)",
+                alt.Color("rho:Q", scale=alt.Scale(scheme="redblue", domain=[-1, 1]), title="Correlação (−1 a +1)", legend=alt.Legend(orient="bottom", values=[-1, -0.5, 0, 0.5, 1])),
+                alt.value("#eef2f6"),
+            )
         )
-
-        st.altair_chart(
-            (mapa + rotulos).properties(height=70 * (len(variaveis) - 1)),
-            width="stretch",
-            alt="Matriz de correlação de Spearman entre as variáveis quantitativas, "
-            "com apenas o triângulo superior preenchido.",
+        rotulos = base.mark_text(fontSize=16, fontWeight="bold").encode(
+            text="rotulo:N",
+            color=alt.condition("isValid(datum.rho) && abs(datum.rho) > 0.5", alt.value("white"), alt.value("#1f2a33")),
         )
+        st.altair_chart((mapa + rotulos).properties(height=max(220, 65 * (len(variaveis) - 1))), width="stretch", alt="Matriz triangular de correlação, com nomes das características e coeficientes em cada célula.")
+        st.caption("Mostramos cada par uma única vez: a outra metade e a diagonal foram omitidas. N/D = não calculável, por exemplo quando uma variável fica constante após os filtros.")
+        validas = corr_longo.dropna(subset=["rho"])
+        if not validas.empty:
+            destaque = validas.loc[validas["rho"].abs().idxmax()]
+            if abs(destaque["rho"]) >= 0.01:
+                sentido = "no mesmo sentido" if destaque["rho"] > 0 else "em sentidos opostos"
+                st.info(f"Neste recorte, a maior associação em módulo é entre {destaque['linha']} e {destaque['coluna']} (ρ = {destaque['rho']:+.2f}): os níveis tendem a variar {sentido}.")
+            else:
+                st.info("Neste recorte, todas as correlações calculáveis estão próximas de zero.")
+        st.caption("Na base completa, as características foram combinadas de forma sistemática. Por isso, correlações próximas de zero entre atributos são esperadas; observe também as relações com a avaliação.")
 
     st.subheader("Distribuição")
+    st.markdown("**Quantas configurações existem em cada nível e como são avaliadas?** Compare as duas barras de cada categoria.")
+    st.caption("Azul claro = aceitável (inclui bom e muito bom). Azul escuro = não aceitável. A altura e o número sobre a barra mostram a quantidade; o tooltip informa a participação dentro do nível.")
 
     if df_filtrado.empty:
-        st.warning("Nenhum carro dentro das faixas escolhidas. Amplie os intervalos para ver a distribuição.")
+        st.warning("Nenhuma configuração atende aos filtros. Amplie os intervalos para ver a distribuição.")
     elif not variaveis:
         st.warning("Selecione pelo menos 1 variável para ver a distribuição.")
     else:
-        # Os seis atributos são uniformes por construção (o dataset é um
-        # fatorial completo: toda combinação de categorias aparece o mesmo
-        # número de vezes). Colorir por avaliação é o que revela um padrão real
-        # — ex.: safety_cod=0 nunca é aceitável.
-        st.caption(
-            "Os atributos do carro têm a mesma contagem em cada nível (dataset "
-            "fatorial completo); o padrão aparece na composição por avaliação."
-        )
-
-        # Um gráfico de distribuição para cada variável quantitativa, numa grade
-        # de duas colunas. Formato longo + facet: o Altair repete o mesmo gráfico
-        # para cada variável.
-        dist_longo = df_filtrado[variaveis + ["avaliacao"]].melt(
-            id_vars="avaliacao", var_name="variavel", value_name="valor"
-        )
-
-        grafico_dist = (
-            alt.Chart(dist_longo)
-            .mark_bar(opacity=0.75)
-            .encode(
-                # Os códigos são inteiros com poucos níveis: uma barra por código
-                x=alt.X("valor:O", title=None),
-                # stack=None sobrepõe as duas classes (em vez de empilhar), para
-                # comparar as alturas diretamente, como no gráfico de referência
-                y=alt.Y("count():Q", title="Carros", stack=None),
-                color=alt.Color(
-                    "avaliacao:N",
-                    title="Avaliação",
-                    scale=alt.Scale(
-                        domain=list(CORES_AVALIACAO),
-                        range=list(CORES_AVALIACAO.values()),
-                    ),
-                ),
-                tooltip=[
-                    alt.Tooltip("valor:O", title="Código"),
-                    alt.Tooltip("avaliacao:N", title="Avaliação"),
-                    alt.Tooltip("count():Q", title="Carros"),
-                ],
-            )
-            .properties(width=430, height=200)
-            .facet(alt.Facet("variavel:N", title=None, sort=variaveis), columns=2)
-            # Cada variável tem a sua própria faixa de códigos e a sua contagem
-            .resolve_scale(x="independent", y="independent")
-        )
-
-        st.altair_chart(
-            grafico_dist,
-            width="content",
-            alt="Grade de gráficos de barras com a distribuição de frequência de "
-            "cada variável quantitativa, sobrepondo a contagem de carros "
-            "aceitáveis e não aceitáveis.",
-        )
-
+        # Grade de duas colunas, com barras agrupadas para evitar ocultar valores.
+        for inicio in range(0, len(variaveis), 2):
+            for coluna, variavel in zip(st.columns(2), variaveis[inicio:inicio + 2]):
+                with coluna, st.container(border=True):
+                    st.markdown(f"**{NOMES.get(variavel, variavel)}**")
+                    resumo = df_filtrado.groupby([variavel, "avaliacao"]).size().unstack(fill_value=0).reindex(columns=list(CORES_AVALIACAO), fill_value=0).stack().reset_index(name="quantidade")
+                    resumo["total_nivel"] = resumo.groupby(variavel)["quantidade"].transform("sum")
+                    resumo["percentual"] = resumo["quantidade"] / resumo["total_nivel"]
+                    resumo["nivel"] = resumo[variavel].map(NIVEIS[variavel])
+                    base = alt.Chart(resumo).encode(
+                        x=alt.X("nivel:N", title=None, sort=list(NIVEIS[variavel].values()), axis=alt.Axis(labelAngle=0, labelFontSize=12, labelLimit=140)),
+                        xOffset=alt.XOffset("avaliacao:N", sort=list(CORES_AVALIACAO)),
+                        y=alt.Y("quantidade:Q", title="Configurações", scale=alt.Scale(domain=[0, int(resumo["quantidade"].max() * 1.18) + 1]), axis=alt.Axis(tickMinStep=1)),
+                        tooltip=[alt.Tooltip("nivel:N", title="Nível"), alt.Tooltip("avaliacao:N", title="Avaliação"), alt.Tooltip("quantidade:Q", title="Configurações"), alt.Tooltip("percentual:Q", title="Dentro deste nível", format=".1%"), alt.Tooltip("total_nivel:Q", title="Total do nível")],
+                    )
+                    barras = base.mark_bar().encode(color=alt.Color("avaliacao:N", title=None, scale=alt.Scale(domain=list(CORES_AVALIACAO), range=list(CORES_AVALIACAO.values())), legend=alt.Legend(orient="bottom")))
+                    numeros = base.mark_text(dy=-8, fontSize=12).encode(text=alt.Text("quantidade:Q", format=".0f"))
+                    st.altair_chart((barras + numeros).properties(height=260), width="stretch", alt=f"Distribuição de {NOMES[variavel]}, com contagens de configurações aceitáveis e não aceitáveis por nível.")
+                    if variavel == "avaliacao_cod":
+                        st.caption("Aqui, as quatro notas foram agrupadas nas duas classes: aceitável reúne aceitável, bom e muito bom. Este gráfico mostra a composição do resultado.")
+        st.caption("Os gráficos têm escalas verticais próprias: compare os números ao comparar painéis. Na base completa, os atributos têm totais iguais por nível; os filtros podem alterar esse equilíbrio.")
 with tab_dashboard2:
     from src.kpi_charts import (
         ATRIBUTOS, barras_aceitacao, distribuicao_avaliacoes, mapa_aceitacao,
